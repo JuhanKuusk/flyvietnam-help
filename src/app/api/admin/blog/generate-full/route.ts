@@ -26,6 +26,10 @@ async function verifyAdmin() {
 }
 
 async function generateWithGemini(prompt: string, config: { temperature?: number; maxOutputTokens?: number } = {}) {
+  if (!GEMINI_API_KEY) {
+    throw new Error('GEMINI_API_KEY not configured')
+  }
+
   const response = await fetch(
     `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`,
     {
@@ -44,7 +48,9 @@ async function generateWithGemini(prompt: string, config: { temperature?: number
   )
 
   if (!response.ok) {
-    throw new Error('Gemini API error')
+    const errorText = await response.text()
+    console.error('Gemini API error:', response.status, errorText)
+    throw new Error(`Gemini API error: ${response.status}`)
   }
 
   const data = await response.json()
@@ -207,8 +213,9 @@ Focus on providing genuine value to travelers visiting Vietnam.`, { temperature:
     })
   } catch (error) {
     console.error('Error generating full post:', error)
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error'
     return NextResponse.json(
-      { error: 'Failed to generate content. Please try again.' },
+      { error: `Failed to generate content: ${errorMessage}` },
       { status: 500 }
     )
   }
