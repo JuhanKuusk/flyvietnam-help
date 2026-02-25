@@ -53,7 +53,38 @@ export type TourActivity =
   | "off-road"
   | "luxury"
   | "educational"
-  | "vespa-tour";
+  | "vespa-tour"
+  | "night-tour"
+  | "market-tour"
+  | "farm-visit"
+  | "museum"
+  | "festival"
+  | "temple"
+  | "craft"
+  | "art"
+  | "music"
+  | "family"
+  | "canyoning"
+  | "waterfall"
+  | "wine"
+  | "coffee"
+  | "relaxation"
+  | "island-hopping"
+  | "diving"
+  | "water-sports"
+  | "kitesurfing"
+  | "sand-dunes"
+  | "jeep"
+  | "rafting"
+  | "train"
+  | "wellness"
+  | "yoga"
+  | "meditation"
+  | "volunteering"
+  | "teaching"
+  | "birdwatching"
+  | "hiking"
+  | "workshop";
 
 // Start cities where tours depart from
 export type StartCity =
@@ -66,7 +97,8 @@ export type StartCity =
   | "Sapa"
   | "Can Tho"
   | "Hai Phong"
-  | "Phu Quoc";
+  | "Phu Quoc"
+  | "Da Lat";
 
 // Destination regions/areas visited
 export type Destination =
@@ -114,7 +146,14 @@ export type Destination =
   | "Tan Phong Island"
   | "Ba Be"
   | "Long Tan"
-  | "Nui Dat";
+  | "Nui Dat"
+  | "Dien Bien Phu"
+  | "Mui Ne"
+  | "Bac Ha"
+  | "Cuc Phuong"
+  | "Bat Trang"
+  | "Rural Villages"
+  | "Cat Ba";
 
 export interface Tour {
   id: string;
