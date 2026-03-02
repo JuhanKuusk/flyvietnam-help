@@ -402,19 +402,19 @@ const PASSPORT_TYPES = [
 
 // Vietnam International Airports (for e-visa entry/exit)
 const VIETNAM_AIRPORTS = [
-  { code: "SGN", name: "Tan Son Nhat Int. Airport (Ho Chi Minh City)" },
-  { code: "HAN", name: "Noi Bai Int. Airport (Hanoi)" },
-  { code: "DAD", name: "Da Nang Int. Airport" },
-  { code: "CXR", name: "Cam Ranh Int. Airport (Nha Trang)" },
-  { code: "PQC", name: "Phu Quoc Int. Airport" },
-  { code: "HPH", name: "Cat Bi Int. Airport (Hai Phong)" },
-  { code: "VCA", name: "Can Tho Int. Airport" },
-  { code: "HUI", name: "Phu Bai Int. Airport (Hue)" },
-  { code: "VDO", name: "Van Don Int. Airport" },
-  { code: "THD", name: "Tho Xuan Int. Airport" },
-  { code: "VDH", name: "Dong Hoi Int. Airport" },
-  { code: "UIH", name: "Phu Cat Int. Airport" },
-  { code: "DLI", name: "Lien Khuong Int. Airport (Da Lat)" },
+  { code: "SGN", name: "Tan Son Nhat Int. Airport (Ho Chi Minh City)", city: "Ho Chi Minh City" },
+  { code: "HAN", name: "Noi Bai Int. Airport (Hanoi)", city: "Hanoi" },
+  { code: "DAD", name: "Da Nang Int. Airport", city: "Da Nang" },
+  { code: "CXR", name: "Cam Ranh Int. Airport (Nha Trang)", city: "Nha Trang" },
+  { code: "PQC", name: "Phu Quoc Int. Airport", city: "Phu Quoc" },
+  { code: "HPH", name: "Cat Bi Int. Airport (Hai Phong)", city: "Hai Phong" },
+  { code: "VCA", name: "Can Tho Int. Airport", city: "Can Tho" },
+  { code: "HUI", name: "Phu Bai Int. Airport (Hue)", city: "Hue" },
+  { code: "VDO", name: "Van Don Int. Airport", city: "Van Don" },
+  { code: "THD", name: "Tho Xuan Int. Airport", city: "Thanh Hoa" },
+  { code: "VDH", name: "Dong Hoi Int. Airport", city: "Dong Hoi" },
+  { code: "UIH", name: "Phu Cat Int. Airport", city: "Quy Nhon" },
+  { code: "DLI", name: "Lien Khuong Int. Airport (Da Lat)", city: "Da Lat" },
 ];
 
 // Vietnam Cities/Provinces
@@ -2354,7 +2354,11 @@ function ApplyForm() {
                 >
                   <option value="">{t.travelDetails?.selectAirport || "Select airport..."}</option>
                   {VIETNAM_AIRPORTS.map((airport) => (
-                    <option key={airport.code} value={airport.code}>{airport.name}</option>
+                    <option key={airport.code} value={airport.code}>
+                      {(t as Record<string, Record<string, string>>).airports?.[airport.code]
+                        ? `${(t as Record<string, Record<string, string>>).airports[airport.code]} (${airport.city} - ${airport.code})`
+                        : airport.name}
+                    </option>
                   ))}
                 </select>
               </div>
@@ -2371,7 +2375,11 @@ function ApplyForm() {
                 >
                   <option value="">{t.travelDetails?.selectAirport || "Select airport..."}</option>
                   {VIETNAM_AIRPORTS.map((airport) => (
-                    <option key={airport.code} value={airport.code}>{airport.name}</option>
+                    <option key={airport.code} value={airport.code}>
+                      {(t as Record<string, Record<string, string>>).airports?.[airport.code]
+                        ? `${(t as Record<string, Record<string, string>>).airports[airport.code]} (${airport.city} - ${airport.code})`
+                        : airport.name}
+                    </option>
                   ))}
                 </select>
               </div>
