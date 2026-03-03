@@ -853,6 +853,8 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Ninh Binh"],
     activities: ["boat-trip", "cultural", "photography", "nature"],
+  
+    imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6426b51acc412.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6426b51acc40d.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6426b51acc413.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6426b51acc410.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6426b51acc411.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/651a43ab358a8.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/651a43ab358aa.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657ae0797bb0c.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/651a43ab358ab.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/651a43ab358ac.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/651a43ab358ad.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/651a43ab358ae.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/651a43ab358af.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/654a0872431ce.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/65322ee0991e1.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/6426b7adca4e6.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/63e065f910aac.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/653622ae34d43.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
   },
   {
     id: "sapa-trekking",
@@ -1030,6 +1032,24 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Ho Chi Minh City",
     destinations: ["Mekong Delta", "Ben Tre"],
     activities: ["homestay", "cooking-class", "cycling", "cultural"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Ho Chi Minh - Ben Tre",
+        description: "",
+        activities: [],
+        meals: [],
+      },
+      {
+        day: 2,
+        title: "Ben Tre - Tra Vinh City - Ho Chi Minh City",
+        description: "",
+        activities: [],
+        meals: [],
+      }
+    ],
+    imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454aaa47b043.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454aaa47b041.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652755cf545dc.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454aaa47b03e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454aaa47b042.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454aaa47b040.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6527556e03dc6.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6527556e03dc3.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/6454aaa47b042.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/6454aaa47b040.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/644b8d7cabfff.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/65323234bd4e4.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/652cff8a4ada4.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/652cfe08e7a0f.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
   },
   {
     id: "mekong-ben-tre-eco",
@@ -1130,6 +1150,8 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Ho Chi Minh City",
     destinations: ["Cu Chi"],
     activities: ["cultural", "nature"],
+  
+    imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc5928ecf2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc59c79893.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc5928ecf1.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc5928ecee.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc5928ecf3.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc59c79890.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc59c79894.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc59c79895.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/6899ac30ef38d.png","https://d122axpxm39woi.cloudfront.net/images/tours/origin/67adc59c79893.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/67aeccb544099.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
   },
 
   // Central Vietnam Tours
@@ -1234,6 +1256,45 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Da Nang",
     destinations: ["Da Nang", "Hoi An"],
     activities: ["beach", "cultural", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Da Nang Arrival - Da Nang",
+        description: "Morning\n\nBestPrice tour guide will warmly welcome you at Da Nang International Airport, and then transfer you to your hotel in Da Nang. Check in at your hotel and relax before the fascinating food tour in the evening. Evening\n\nDeparture Time: 17:00\n\nDuration: 2.5 hours\n\nDistance: 3 km\n\nYour evening begins in the heart of Da Nang near the Dragon Bridge, where your friendly local guide will meet you and introduce the city’s vibrant food scene. After a quick orientation, set off on foot to discover Da Nang’s hidden food gems - from bustling street stalls to cozy local eateries that few tourists e...",
+        activities: [],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "Ba Na Hills Full-Day Tour",
+        description: "Morning\n\nAfter breakfast, our tour guide will pick you up from the hotel and transfer you to Ba Na Hills, one of the best amusement parks in Vietnam. Check-in at the Suoi Mo Cable Car Station and transfer to Marseille Station. Visit Golden Bridge, also known as the \"Hands of God.\" Marvel at its impressive architectural design and breathtaking views of the surrounding landscape. Immerse yourself in the romantic ambiance of Le Jardin D'Amour to explore the beautifully landscaped gardens and enjoy the serene atmosphere. Optionally, visit the Debay Wine Cellar (an additional fee may apply) to indu...",
+        activities: [],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Da Nang - Hue City Full Day",
+        description: "07:00 – 07:30 Our car and guide will pick you up at your hotel in Hoi An. Guests in Da Nang will be collected between 08:00 – 08:30. Begin the scenic drive to Hue along one of the most stunning coastal routes in the world – the Hai Van Pass. This winding road offers dramatic mountain views on one side and sweeping ocean vistas on the other. 11:00 Visit the impressive Khai Dinh Tomb, the final resting place of Emperor Khai Dinh",
+        activities: [],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 4,
+        title: "Da Nang – Coconut Forest – Hoi An Full Day Tour",
+        description: "Morning\n\n07:00 – 07:30 Our driver and tour guide will pick you up from your hotel or designated meeting point to begin an exciting day of exploration. Your first destination is the Son Tra Peninsula, also known as Monkey Mountain by American troops. Rising 693 meters above sea level, this lush national park offers breathtaking panoramic views of the sea and Da Nang city. Here, you will visit Linh Ung Pagoda, home to the tallest Lady Buddha statue in Southeast Asia. The 67-meter-high statue stands gracefully atop a lotus-shaped platform and is adorned with 21 miniature Buddha figures – a truly ...",
+        activities: [],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 5,
+        title: "Da Nang Departure",
+        description: "Enjoy breakfast at the hotel. Then you will have free time until the transfer to the airport for your flight home. End of the tour. We hope to see you on our next journey!",
+        activities: [],
+        meals: ["Breakfast"],
+      }
+    ],
+    imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/678f556ca6cce.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68f7543133f4c.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68f7543133f4a.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/660fac4a9a1f3.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/667b89f243f4d.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/660fac4a9a1ee.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/667b8a03a9ecd.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68c29f2bd0920.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68c29f2bd0923.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68c29f563b424.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68c29f563b426.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68c29f563b427.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68c29f2bd0924.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68c29f2bd0925.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68c29f8411567.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68c29f841156a.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68c29f841156b.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68c29f841156c.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/69411fe46314b.png","https://d122axpxm39woi.cloudfront.net/images/tours/origin/68f7543133f4a.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/660fac4a9a1f3.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/660fac4a9a1f2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/68c29f563b424.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/68c29f2bd0920.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/68c29f2bd0925.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/68c29f8411567.jpg","https://d122axpxm39woi.cloudfront.net/images/hotels/544_306/67f9df1d18d79.jpg","https://d122axpxm39woi.cloudfront.net/images/hotels/544_306/67f63d1969acb.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/699d4fa27bce9.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/674d6e0d40918.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/678f55c5cd687.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/674d6bd917832.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/6408034aa23e0.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
   },
 
   // Sapa & Northern Vietnam
@@ -1336,6 +1397,31 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Pu Luong", "Mai Chau"],
     activities: ["trekking", "homestay", "nature", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Hanoi - Mai Chau - Pu Luong",
+        description: "Morning\n\nStart your adventure with a comfortable hotel pickup in Hanoi, setting off on a scenic drive to the charming valley of Mai Chau. En route, pause at the iconic Thung Khe Pass, where sweeping views of misty mountains and deep valleys make it one of Vietnam’s most photogenic spots. Upon arrival in Mai Chau, enjoy a flavorful traditional lunch crafted with ingredients that reflect the yin-yang principles of Asian cuisine, offering both balance and nourishment. Hop on a bicycle to discover the tranquil beauty of Mai Chau. Ride through rice fields and beneath towering limestone mountains, w...",
+        activities: [],
+        meals: ["Lunch"],
+      },
+      {
+        day: 2,
+        title: "Pu Luong Full Day Tour",
+        description: "Morning\n\nBegin your day with a hearty breakfast surrounded by the tranquil sounds of nature before setting off to explore Pu Luong. Your first stop is the remote village of Kho Muong, where you’ll have the opportunity to engage with friendly locals and gain insight into their distinct cultural traditions and daily life. After that, venture into Doi Cave - the largest cave in Pu Luong - where impressive limestone formations, dating back 250 million years, reveal the ancient geological history of the region. Afternoon\n\nAfter a flavorful lunch featuring authentic local dishes, continue your adven...",
+        activities: [],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 3,
+        title: "Pu Luong - Hanoi",
+        description: "Morning\n\nAfter breakfast, begin your final day with a visit to Pho Doan Market (available on Tuesday, Thursday, and Sunday mornings), a lively gathering spot for local ethnic minorities. Here, you’ll witness the vibrant exchange of goods, colorful textiles, fresh produce, and traditional crafts, offering a fascinating glimpse into the region’s cultural life. Continue your journey on jungle paths and through lush rice terraces as you make your way to Hieu Waterfall, one of Pu Luong’s most picturesque natural wonders. The cascading waters, surrounded by dense greenery and rural charm, make it a ...",
+        activities: [],
+        meals: ["Breakfast","Lunch"],
+      }
+    ],
+    imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68245cd764e79.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68245ce27d1c6.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68245ce27d1c7.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68245ce27d1c8.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68245ce27d1c4.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68245cd764e7e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68245cd764e7f.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68245cd764e7c.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/68245cd764e7d.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/689aa2a44306a.png","https://d122axpxm39woi.cloudfront.net/images/tours/origin/68245ce27d1c6.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/68245cd764e7f.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/68245cd764e7d.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/6824604dd50bb.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/5ef6a7ed3796e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/68343776bcf69.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/657fc8f8b206f.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
   },
   {
     id: "hanoi-halong-4d",
@@ -1798,6 +1884,66 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hoi An", "Da Nang", "Mekong Delta"],
     activities: ["cruise", "beach", "cultural", "nature"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Hanoi Arrival - Food Tour",
+        description: "As soon as your family arrives at Noi Bai Airport, there will be a guide waiting for you, ready to lead you to your hotel in the city center. Evening\n\nAt 17:30, your local guide will meet you in front of Shinhan Bank at 14 Le Thai To Street, located near Hoan Kiem Lake. From there, begin your guided food adventure on foot through the bustling, lantern-lit streets of the Hanoi Old Quarter, where the scents and sounds of local life invite you to indulge. Your walk will take you to hidden alleyways and popular local eateries to sample Hanoi’s most iconic dishes. You may begin with a warm bowl of ...",
+        activities: [],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "Hanoi - Half-day City Tour - Bat Trang Pottery Village",
+        description: "Morning\n\nAt 08:00, the tour leader will take you up from your hotel. Your excursion will begin with a visit to the Temple of Literature, Vietnam's first university with well-maintained classic Vietnamese architecture. Visit the Ho Chi Minh Mausoleum, a revered and well-known location with immense historical significance among the Vietnamese people. NOTE: You can only view the Ho Chi Minh Mausoleum from outside. The mausoleum is closed Mon and Fri & from Jun - Aug",
+        activities: [],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Hanoi - Halong Bay - Overnight On Cruise",
+        description: "Morning\n\nIn the morning, guests gather at the hotel restaurant to embark on a captivating culinary breakfast before moving to Halong Bay. Around 08:00 - 08:30, you will be transferred in the approximately 2.5-hour drive to the UNESCO Natural World Heritage. Upon arrival at the cruise port, your cruise journey officially kicks off with a warm welcome from the staff along with a welcome beverage. As the cruise leisurely sails along the bay, a delicious lunch will be served on board after the itinerary and safety briefing are informed to all of the passengers. Afternoon\n\nHalong Bay provides many ...",
+        activities: [],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Halong - Hanoi - Flight To Danang",
+        description: "Morning\n\nBegin your day by rising early and enhancing your well-being through an early Tai Chi session on the sundeck (Alternatively, a Yoga/Vovinam class will be conducted based on the cruise itinerary). Indulge in a breakfast featuring pastries, tea, and coffee before embarking on the day's activities . Depending on the cruise’s itinerary, we would have some activities around Halong Bay such as: cave visiting or boat rowing. Return to the cruise for a delectable brunch, savoring the scenic rock islands during the journey back to the port before disembarking around 11:30. Afternoon \n\nYou will...",
+        activities: [],
+        meals: ["Breakfast","Brunch"],
+      },
+      {
+        day: 5,
+        title: "Hoi An Half-day Tour",
+        description: "Morning\n\nYou’ll begin your visit at Hoi An Market, a lively spot that always buzzes with activity and offers a truly memorable shopping experience filled with vibrant sights, sounds, and aromas. Just nearby is the Fujian Assembly Hall, a colorful blend of ornate gates, dragon sculptures, and intricate rooftops. Here, you’ll learn about ancestor worship, see the family altar, and observe locals making their offerings. Continue on to some of Hoi An’s remarkably preserved ancient houses, such as Phung Hung Ancient House or Tan Ky Ancient House, both standing strong after more than 200 years of we...",
+        activities: [],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 6,
+        title: "Tra Que Herbal Village",
+        description: "Morning\n\nStart your day with breakfast at the hotel before embarking on today's highlight: a visit to Tra Que Herbal Village, a must-see destination at the outskirts of Hoi An. Following the meal, your family will cycle to Tra Que Village, immersing yourselves in the picturesque rural surroundings along the way. Upon reaching the village, get ready to embrace the local lifestyle to the fullest. You get to explore the farms and observe the daily activities of the amiable villagers, gaining valuable insights into their agricultural practices. This is a great opportunity for kids to try hands-on ...",
+        activities: [],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Ba Na Hill Full Day",
+        description: "Morning\n\nOur guide and driver will pick you up directly from your hotel. Set off on a scenic drive toward the stunning Ba Na Hills, a hilltop resort famous for its cool climate and French-inspired architecture. Upon arrival, check in at the Suoi Mo Cable Car Station and board one of the world’s longest non-stop cable cars. As you ascend, take in sweeping views of lush mountains, dense forests, and cascading waterfalls. Your first stop is Marseille Station, the gateway to Ba Na’s iconic sights",
+        activities: [],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 8,
+        title: "Hoi An - Da Nang Departure",
+        description: "After breakfast at your hotel in Hoi An, enjoy some free time to relax, explore the ancient town at your own pace, or shop for last-minute souvenirs. Depending on your flight schedule, our driver will pick you up from your hotel and transfer you to Da Nang International Airport. End of services—wishing you a safe and pleasant journey onward!",
+        activities: [],
+        meals: ["Breakfast"],
+      }
+    ],
+    imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/670ccfbae0eee.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce246.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/666679204a6b0.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce247.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6666795765301.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce243.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/666679663f413.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce24a.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8df.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/66667942abfe5.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce249.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/666679334e76c.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8e1.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8e0.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce244.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8e2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8e3.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce245.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8e4.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8e5.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6666797b6b4f9.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce23d.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce240.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce241.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce242.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8d8.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8da.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8db.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8dd.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8de.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6666798c7454e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8dc.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/66667a8a28b57.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/689996d236a86.png","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedba2ce246.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedba2ce247.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedb5c7e8df.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedb5c7e8e1.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedb5c7e8e0.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedb5c7e8e3.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedb5c7e8e2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedb5c7e8e4.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedba2ce23d.jpg","https://d122axpxm39woi.cloudfront.net/images/cruises/544_306/deluxe-balcony-twin-suite-640e9b4f7ff76.jpg","https://d122axpxm39woi.cloudfront.net/images/hotels/544_306/67f4957d809b7.jpg","https://d122axpxm39woi.cloudfront.net/images/hotels/544_306/67f4cc5b03fdb.jpg","https://d122axpxm39woi.cloudfront.net/images/hotels/544_306/67f62ff262a36.jpg","https://d122axpxm39woi.cloudfront.net/images/hotels/544_306/67f9c51d7c431.jpg","https://d122axpxm39woi.cloudfront.net/images/hotels/544_306/67f4854c62d3f.jpg","https://d122axpxm39woi.cloudfront.net/images/cruises/544_306/deluxe-double-cabin-641bd8ee3d6e7.jpg","https://d122axpxm39woi.cloudfront.net/images/cruises/544_306/656ff7f5c82fa.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/62cbd7c656bdb.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/66cd3253befac.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/670ccee11bb2e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/670ccf8570556.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/689c462deb03f.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
   },
   {
     id: "vietnam-beach-family-14d",
@@ -1823,6 +1969,66 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Da Nang", "Phu Quoc"],
     activities: ["beach", "cruise", "snorkeling", "nature"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Hanoi Arrival - Food Tour",
+        description: "As soon as your family arrives at Noi Bai Airport, there will be a guide waiting for you, ready to lead you to your hotel in the city center. Evening\n\nAt 17:30, your local guide will meet you in front of Shinhan Bank at 14 Le Thai To Street, located near Hoan Kiem Lake. From there, begin your guided food adventure on foot through the bustling, lantern-lit streets of the Hanoi Old Quarter, where the scents and sounds of local life invite you to indulge. Your walk will take you to hidden alleyways and popular local eateries to sample Hanoi’s most iconic dishes. You may begin with a warm bowl of ...",
+        activities: [],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "Hanoi - Half-day City Tour - Bat Trang Pottery Village",
+        description: "Morning\n\nAt 08:00, the tour leader will take you up from your hotel. Your excursion will begin with a visit to the Temple of Literature, Vietnam's first university with well-maintained classic Vietnamese architecture. Visit the Ho Chi Minh Mausoleum, a revered and well-known location with immense historical significance among the Vietnamese people. NOTE: You can only view the Ho Chi Minh Mausoleum from outside. The mausoleum is closed Mon and Fri & from Jun - Aug",
+        activities: [],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Hanoi - Halong Bay - Overnight On Cruise",
+        description: "Morning\n\nIn the morning, guests gather at the hotel restaurant to embark on a captivating culinary breakfast before moving to Halong Bay. Around 08:00 - 08:30, you will be transferred in the approximately 2.5-hour drive to the UNESCO Natural World Heritage. Upon arrival at the cruise port, your cruise journey officially kicks off with a warm welcome from the staff along with a welcome beverage. As the cruise leisurely sails along the bay, a delicious lunch will be served on board after the itinerary and safety briefing are informed to all of the passengers. Afternoon\n\nHalong Bay provides many ...",
+        activities: [],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Halong - Hanoi - Flight To Danang",
+        description: "Morning\n\nBegin your day by rising early and enhancing your well-being through an early Tai Chi session on the sundeck (Alternatively, a Yoga/Vovinam class will be conducted based on the cruise itinerary). Indulge in a breakfast featuring pastries, tea, and coffee before embarking on the day's activities . Depending on the cruise’s itinerary, we would have some activities around Halong Bay such as: cave visiting or boat rowing. Return to the cruise for a delectable brunch, savoring the scenic rock islands during the journey back to the port before disembarking around 11:30. Afternoon \n\nYou will...",
+        activities: [],
+        meals: ["Breakfast","Brunch"],
+      },
+      {
+        day: 5,
+        title: "Hoi An Half-day Tour",
+        description: "Morning\n\nYou’ll begin your visit at Hoi An Market, a lively spot that always buzzes with activity and offers a truly memorable shopping experience filled with vibrant sights, sounds, and aromas. Just nearby is the Fujian Assembly Hall, a colorful blend of ornate gates, dragon sculptures, and intricate rooftops. Here, you’ll learn about ancestor worship, see the family altar, and observe locals making their offerings. Continue on to some of Hoi An’s remarkably preserved ancient houses, such as Phung Hung Ancient House or Tan Ky Ancient House, both standing strong after more than 200 years of we...",
+        activities: [],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 6,
+        title: "Tra Que Herbal Village",
+        description: "Morning\n\nStart your day with breakfast at the hotel before embarking on today's highlight: a visit to Tra Que Herbal Village, a must-see destination at the outskirts of Hoi An. Following the meal, your family will cycle to Tra Que Village, immersing yourselves in the picturesque rural surroundings along the way. Upon reaching the village, get ready to embrace the local lifestyle to the fullest. You get to explore the farms and observe the daily activities of the amiable villagers, gaining valuable insights into their agricultural practices. This is a great opportunity for kids to try hands-on ...",
+        activities: [],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Ba Na Hill Full Day",
+        description: "Morning\n\nOur guide and driver will pick you up directly from your hotel. Set off on a scenic drive toward the stunning Ba Na Hills, a hilltop resort famous for its cool climate and French-inspired architecture. Upon arrival, check in at the Suoi Mo Cable Car Station and board one of the world’s longest non-stop cable cars. As you ascend, take in sweeping views of lush mountains, dense forests, and cascading waterfalls. Your first stop is Marseille Station, the gateway to Ba Na’s iconic sights",
+        activities: [],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 8,
+        title: "Hoi An - Da Nang Departure",
+        description: "After breakfast at your hotel in Hoi An, enjoy some free time to relax, explore the ancient town at your own pace, or shop for last-minute souvenirs. Depending on your flight schedule, our driver will pick you up from your hotel and transfer you to Da Nang International Airport. End of services—wishing you a safe and pleasant journey onward!",
+        activities: [],
+        meals: ["Breakfast"],
+      }
+    ],
+    imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/670ccfbae0eee.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce246.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/666679204a6b0.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce247.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6666795765301.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce243.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/666679663f413.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce24a.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8df.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/66667942abfe5.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce249.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/666679334e76c.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8e1.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8e0.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce244.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8e2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8e3.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce245.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8e4.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8e5.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6666797b6b4f9.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce23d.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce240.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce241.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedba2ce242.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8d8.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8da.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8db.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8dd.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8de.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6666798c7454e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65eedb5c7e8dc.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/66667a8a28b57.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/689996d236a86.png","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedba2ce246.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedba2ce247.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedb5c7e8df.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedb5c7e8e1.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedb5c7e8e0.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedb5c7e8e3.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedb5c7e8e2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedb5c7e8e4.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/65eedba2ce23d.jpg","https://d122axpxm39woi.cloudfront.net/images/cruises/544_306/deluxe-balcony-twin-suite-640e9b4f7ff76.jpg","https://d122axpxm39woi.cloudfront.net/images/hotels/544_306/67f4957d809b7.jpg","https://d122axpxm39woi.cloudfront.net/images/hotels/544_306/67f4cc5b03fdb.jpg","https://d122axpxm39woi.cloudfront.net/images/hotels/544_306/67f62ff262a36.jpg","https://d122axpxm39woi.cloudfront.net/images/hotels/544_306/67f9c51d7c431.jpg","https://d122axpxm39woi.cloudfront.net/images/hotels/544_306/67f4854c62d3f.jpg","https://d122axpxm39woi.cloudfront.net/images/cruises/544_306/deluxe-double-cabin-641bd8ee3d6e7.jpg","https://d122axpxm39woi.cloudfront.net/images/cruises/544_306/656ff7f5c82fa.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/62cbd7c656bdb.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/66cd3253befac.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/670ccee11bb2e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/670ccf8570556.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/689c462deb03f.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
   },
   {
     id: "vietnam-luxury-10d",
@@ -3522,6 +3728,8 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Hanoi"],
     activities: ["food-tour", "walking-tour", "cultural"],
+  
+    imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc8f8b206f.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc8f8b206d.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc8f8b206e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc8f8b2070.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc9069163e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc90691641.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc90691642.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc90691643.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc8f8b206a.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65895a5e11c2e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65895a5e11c30.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/641832bee3a4c.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/68ef22b7b45b7.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/68ef22b7b45b9.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/6824604dd50bb.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/5ef6a7ed3796e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/68343776bcf69.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/64182ecc7dba4.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
   },
   {
     id: "mekong-delta-day-trip",
@@ -3557,6 +3765,8 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Ho Chi Minh City",
     destinations: ["Ben Tre", "Mekong Delta"],
     activities: ["boat-tour", "cultural", "nature"],
+  
+    imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454a74f3a6a4.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454a74f3a6a2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454a74f3a6a5.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454a74f3a6a6.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652e60d6c2b18.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454a74f3a6a8.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454a74f3a6a9.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454a74f3a6aa.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652e60d6c2b14.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652e60d6c2b19.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652e60d6c2b1b.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/6621d429ea6b2.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/6621d4864a4d4.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/65b1e86a6765c.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/6454aaa47b043.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/644b8d7cabfff.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/65323234bd4e4.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/652cff8a4ada4.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
   },
   {
     id: "cu-chi-speedboat-tour",
@@ -3592,6 +3802,8 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Ho Chi Minh City",
     destinations: ["Cu Chi"],
     activities: ["speedboat", "historical", "cultural"],
+  
+    imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/cu-chi-64289c24ad834.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652f2df2caf84.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652f2df2caf83.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/cu-chi-tunnel-64289c224c7ee.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652f2df2caf80.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/cu-chi-tunnels-64289c26b36e1.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/cu-chi-visit-64289c2913d38.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652f2df2caf85.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/shooting-range-cu-chi-64289c2b54abf.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/642cd11f7f37f.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/6426b90687841.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/652dfa080dcfc.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/652e0e2271f75.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
   },
   {
     id: "saigon-dinner-cruise",
@@ -3617,6 +3829,8 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Ho Chi Minh City",
     destinations: ["Ho Chi Minh City"],
     activities: ["cruise", "dining", "entertainment"],
+  
+    imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/64269eef03b54.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/64269eef03b52.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/64269eef03b58.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/64269eef03b55.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/64269eef03b56.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/64269eef03b57.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652e5fd8f243b.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/650015ca66c43.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/67232e4b65385.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/692eb6d919f96.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
   },
   {
     id: "hoi-an-memories-show",
@@ -3642,6 +3856,8 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hoi An",
     destinations: ["Hoi An"],
     activities: ["cultural", "entertainment", "photography"],
+  
+    imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6420a46e57425.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6420a46e57422.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6420a46e57426.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6420a46e57427.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6420a46e57428.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/6420a46e57428.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/6347da723f303.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/6347da5656c74.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/6347da9a8aba9.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/663465088a37e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f260bbfda2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f2756ed251.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f28c7a230e.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
   },
   {
     id: "hoi-an-basket-boat",
@@ -3667,6 +3883,8 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hoi An",
     destinations: ["Hoi An"],
     activities: ["boat-tour", "nature", "cultural"],
+  
+    imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/663465088a37e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/663465088a37d.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/663465088a37a.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6420a6519026d.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/663465139930e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6634651399312.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6420a6519026f.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/663465088a37f.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6634651399311.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6634651399310.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/64128bb85c8d5.jpeg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/64128bdcc4012.jpeg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/64128dd2e1eae.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/64128dd2e1eb1.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/6420a46e57425.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f260bbfda2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f2756ed251.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f28c7a230e.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
   },
   {
     id: "hoi-an-walking-tour",
@@ -3692,6 +3910,8 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hoi An",
     destinations: ["Hoi An"],
     activities: ["walking-tour", "cultural", "photography"],
+  
+    imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfda2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfda1.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfda6.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfda4.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfda5.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfda7.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfda3.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfd9e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/641f260bbfda7.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/6420a46e57425.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/663465088a37e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f2756ed251.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f28c7a230e.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
   },
 
   // SAPA TOURS (BestPriceTravel)
