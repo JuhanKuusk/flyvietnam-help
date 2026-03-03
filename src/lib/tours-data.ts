@@ -735,6 +735,23 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay"],
     activities: ["cruise", "kayaking", "cave-exploration"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Embarkation & Cruise",
+        description: "Begin your Halong Bay cruise adventure with embarkation and scenic cruising.",
+        activities: ["Welcome aboard and check-in","Enjoy welcome lunch while cruising","Visit stunning limestone caves","Kayaking through hidden lagoons","Watch sunset from sundeck","Delicious seafood dinner"],
+        meals: ["Lunch","Dinner"],
+      },
+      {
+        day: 2,
+        title: "Sunrise & Disembarkation",
+        description: "Wake up to stunning views of Halong Bay before disembarking.",
+        activities: ["Early morning Tai Chi on deck","Watch sunrise over the bay","Enjoy breakfast buffet","Visit floating fishing village","Check out and transfer back"],
+        meals: ["Breakfast","Brunch"],
+      }
+    ],
   },
   {
     id: "halong-luxury-cruise",
@@ -768,6 +785,23 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay"],
     activities: ["cruise", "kayaking", "cave-exploration", "beach"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Embarkation & Cruise",
+        description: "Begin your Halong Bay cruise adventure with embarkation and scenic cruising.",
+        activities: ["Welcome aboard and check-in","Enjoy welcome lunch while cruising","Visit stunning limestone caves","Kayaking through hidden lagoons","Watch sunset from sundeck","Delicious seafood dinner"],
+        meals: ["Lunch","Dinner"],
+      },
+      {
+        day: 2,
+        title: "Sunrise & Disembarkation",
+        description: "Wake up to stunning views of Halong Bay before disembarking.",
+        activities: ["Early morning Tai Chi on deck","Watch sunrise over the bay","Enjoy breakfast buffet","Visit floating fishing village","Check out and transfer back"],
+        meals: ["Breakfast","Brunch"],
+      }
+    ],
   },
   {
     id: "lan-ha-2d1n",
@@ -801,6 +835,23 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Lan Ha Bay"],
     activities: ["cruise", "kayaking", "beach", "nature"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Embarkation & Cruise",
+        description: "Begin your Lan Ha Bay cruise adventure with embarkation and scenic cruising.",
+        activities: ["Welcome aboard and check-in","Enjoy welcome lunch while cruising","Visit stunning limestone caves","Kayaking through hidden lagoons","Watch sunset from sundeck","Delicious seafood dinner"],
+        meals: ["Lunch","Dinner"],
+      },
+      {
+        day: 2,
+        title: "Sunrise & Disembarkation",
+        description: "Wake up to stunning views of Lan Ha Bay before disembarking.",
+        activities: ["Early morning Tai Chi on deck","Watch sunrise over the bay","Enjoy breakfast buffet","Visit floating fishing village","Check out and transfer back"],
+        meals: ["Breakfast","Brunch"],
+      }
+    ],
   },
   {
     id: "bai-tu-long-2d1n",
@@ -826,6 +877,23 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Bai Tu Long Bay"],
     activities: ["cruise", "kayaking", "cave-exploration"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Embarkation & Cruise",
+        description: "Begin your Bai Tu Long Bay cruise adventure with embarkation and scenic cruising.",
+        activities: ["Welcome aboard and check-in","Enjoy welcome lunch while cruising","Visit stunning limestone caves","Kayaking through hidden lagoons","Watch sunset from sundeck","Delicious seafood dinner"],
+        meals: ["Lunch","Dinner"],
+      },
+      {
+        day: 2,
+        title: "Sunrise & Disembarkation",
+        description: "Wake up to stunning views of Bai Tu Long Bay before disembarking.",
+        activities: ["Early morning Tai Chi on deck","Watch sunrise over the bay","Enjoy breakfast buffet","Visit floating fishing village","Check out and transfer back"],
+        meals: ["Breakfast","Brunch"],
+      }
+    ],
   },
 
   // Day Trips from Hanoi
@@ -855,6 +923,16 @@ export const FEATURED_TOURS: Tour[] = [
     activities: ["boat-trip", "cultural", "photography", "nature"],
   
     imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6426b51acc412.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6426b51acc40d.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6426b51acc413.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6426b51acc410.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6426b51acc411.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/651a43ab358a8.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/651a43ab358aa.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657ae0797bb0c.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/651a43ab358ab.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/651a43ab358ac.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/651a43ab358ad.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/651a43ab358ae.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/651a43ab358af.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/654a0872431ce.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/65322ee0991e1.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/6426b7adca4e6.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/63e065f910aac.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/653622ae34d43.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Ninh Binh Day Trip",
+        description: "Explore the stunning landscapes of Ninh Binh, known as \"Halong Bay on Land\".",
+        activities: ["Morning pickup from Hanoi","Visit Hoa Lu ancient capital","Boat ride through Tam Coc caves","Cycle through rice paddies","Visit Bich Dong Pagoda","Return to Hanoi"],
+        meals: ["Lunch"],
+      }
+    ],
   },
   {
     id: "sapa-trekking",
@@ -880,6 +958,23 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Sapa"],
     activities: ["trekking", "homestay", "cultural", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Light Trek",
+        description: "Day 1 of your Sapa trekking adventure.",
+        activities: ["Transfer to trekking base","Meet local guide","Light afternoon trek through villages","Visit ethnic minority communities","Homestay dinner with local family"],
+        meals: ["Lunch","Dinner"],
+      },
+      {
+        day: 2,
+        title: "Full Day Trek",
+        description: "Day 2 of your Sapa trekking adventure.",
+        activities: ["Early breakfast","Trek through rice terraces","Visit remote villages","Lunch with local family","Return trek to base"],
+        meals: ["Breakfast","Lunch"],
+      }
+    ],
   },
   {
     id: "hanoi-2days",
@@ -905,6 +1000,23 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Ninh Binh"],
     activities: ["city-tour", "cultural", "food-tour"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "City Highlights",
+        description: "Explore the highlights of Hanoi.",
+        activities: ["Hotel pickup","Visit major landmarks","Explore Old Quarter","Traditional lunch","Afternoon temple visits"],
+        meals: ["Lunch"],
+      },
+      {
+        day: 2,
+        title: "Cultural Immersion",
+        description: "Explore the highlights of Hanoi.",
+        activities: ["Morning market visit","Cooking class experience","Museum exploration","Evening street food tour"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      }
+    ],
   },
   {
     id: "hanoi-3days",
@@ -930,6 +1042,23 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Ninh Binh"],
     activities: ["city-tour", "cultural", "food-tour", "cooking-class"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "City Highlights",
+        description: "Explore the highlights of Hanoi.",
+        activities: ["Hotel pickup","Visit major landmarks","Explore Old Quarter","Traditional lunch","Afternoon temple visits"],
+        meals: ["Lunch"],
+      },
+      {
+        day: 2,
+        title: "Cultural Immersion",
+        description: "Explore the highlights of Hanoi.",
+        activities: ["Morning market visit","Cooking class experience","Museum exploration","Evening street food tour"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      }
+    ],
   },
   {
     id: "hanoi-4days",
@@ -955,6 +1084,23 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Ninh Binh"],
     activities: ["city-tour", "cultural", "boat-trip", "nature"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "City Highlights",
+        description: "Explore the highlights of Hanoi.",
+        activities: ["Hotel pickup","Visit major landmarks","Explore Old Quarter","Traditional lunch","Afternoon temple visits"],
+        meals: ["Lunch"],
+      },
+      {
+        day: 2,
+        title: "Cultural Immersion",
+        description: "Explore the highlights of Hanoi.",
+        activities: ["Morning market visit","Cooking class experience","Museum exploration","Evening street food tour"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      }
+    ],
   },
 
   // Mekong Delta Day Trips
@@ -982,6 +1128,16 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Ho Chi Minh City",
     destinations: ["Mekong Delta", "Can Tho", "Ben Tre"],
     activities: ["boat-trip", "cycling", "cultural", "homestay"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Mekong Delta Exploration",
+        description: "Discover the waterways and local life of Mekong Delta.",
+        activities: ["Boat trip through canals","Visit floating markets","Explore coconut candy workshops","Sample tropical fruits","Traditional music performance"],
+        meals: ["Lunch"],
+      }
+    ],
   },
   {
     id: "mekong-3days",
@@ -1007,6 +1163,16 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Ho Chi Minh City",
     destinations: ["Mekong Delta", "Can Tho", "Ben Tre"],
     activities: ["boat-trip", "cultural", "nature"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Mekong Delta Exploration",
+        description: "Discover the waterways and local life of Mekong Delta.",
+        activities: ["Boat trip through canals","Visit floating markets","Explore coconut candy workshops","Sample tropical fruits","Traditional music performance"],
+        meals: ["Lunch"],
+      }
+    ],
   },
   {
     id: "mekong-homestay",
@@ -1075,6 +1241,16 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Ho Chi Minh City",
     destinations: ["Mekong Delta", "Ben Tre"],
     activities: ["boat-trip", "nature", "cultural"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Mekong Delta Exploration",
+        description: "Discover the waterways and local life of Ben Tre.",
+        activities: ["Boat trip through canals","Visit floating markets","Explore coconut candy workshops","Sample tropical fruits","Traditional music performance"],
+        meals: ["Lunch"],
+      }
+    ],
   },
   {
     id: "mekong-cycling-2d",
@@ -1100,6 +1276,23 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Ho Chi Minh City",
     destinations: ["Mekong Delta"],
     activities: ["cycling", "cultural", "homestay"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Mekong Delta journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "Departure",
+        description: "Day 2 of your Mekong Delta journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "ben-tre-day",
@@ -1125,6 +1318,16 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Ho Chi Minh City",
     destinations: ["Mekong Delta", "Ben Tre"],
     activities: ["boat-trip", "cultural", "nature"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Mekong Delta Exploration",
+        description: "Discover the waterways and local life of Ben Tre.",
+        activities: ["Boat trip through canals","Visit floating markets","Explore coconut candy workshops","Sample tropical fruits","Traditional music performance"],
+        meals: ["Lunch"],
+      }
+    ],
   },
   {
     id: "cu-chi-half-day",
@@ -1152,6 +1355,16 @@ export const FEATURED_TOURS: Tour[] = [
     activities: ["cultural", "nature"],
   
     imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc5928ecf2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc59c79893.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc5928ecf1.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc5928ecee.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc5928ecf3.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc59c79890.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc59c79894.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/67adc59c79895.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/6899ac30ef38d.png","https://d122axpxm39woi.cloudfront.net/images/tours/origin/67adc59c79893.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/67aeccb544099.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Cu Chi Tunnels Exploration",
+        description: "Discover the incredible underground tunnel network used during the Vietnam War.",
+        activities: ["Hotel pickup in Ho Chi Minh City","Drive to Cu Chi district","Watch documentary film","Explore tunnel sections","See war remnants and traps","Optional shooting range","Return to city"],
+        meals: ["Snacks"],
+      }
+    ],
   },
 
   // Central Vietnam Tours
@@ -1322,6 +1535,23 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Sapa",
     destinations: ["Sapa"],
     activities: ["trekking", "homestay", "cultural", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Light Trek",
+        description: "Day 1 of your Sapa trekking adventure.",
+        activities: ["Transfer to trekking base","Meet local guide","Light afternoon trek through villages","Visit ethnic minority communities","Homestay dinner with local family"],
+        meals: ["Lunch","Dinner"],
+      },
+      {
+        day: 2,
+        title: "Full Day Trek",
+        description: "Day 2 of your Sapa trekking adventure.",
+        activities: ["Early breakfast","Trek through rice terraces","Visit remote villages","Lunch with local family","Return trek to base"],
+        meals: ["Breakfast","Lunch"],
+      }
+    ],
   },
   {
     id: "sapa-off-beaten",
@@ -1347,6 +1577,30 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Sapa",
     destinations: ["Sapa"],
     activities: ["trekking", "homestay", "cultural", "nature"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Light Trek",
+        description: "Day 1 of your Sapa trekking adventure.",
+        activities: ["Transfer to trekking base","Meet local guide","Light afternoon trek through villages","Visit ethnic minority communities","Homestay dinner with local family"],
+        meals: ["Lunch","Dinner"],
+      },
+      {
+        day: 2,
+        title: "Full Day Trek",
+        description: "Day 2 of your Sapa trekking adventure.",
+        activities: ["Early breakfast","Trek through rice terraces","Visit remote villages","Lunch with local family","Return trek to base"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Full Day Trek",
+        description: "Day 3 of your Sapa trekking adventure.",
+        activities: ["Early breakfast","Trek through rice terraces","Visit remote villages","Lunch with local family","Return trek to base"],
+        meals: ["Breakfast","Lunch"],
+      }
+    ],
   },
   {
     id: "northern-vietnam-5d",
@@ -1372,6 +1626,44 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Sapa", "Halong Bay", "Ninh Binh"],
     activities: ["cruise", "trekking", "cultural", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Northern Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Northern Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Northern Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Northern Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Departure",
+        description: "Day 5 of your Northern Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "pu-luong-trek",
@@ -1447,6 +1739,37 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Ninh Binh"],
     activities: ["cruise", "cultural", "city-tour", "kayaking"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Hanoi & Halong journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Hanoi & Halong journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Hanoi & Halong journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Departure",
+        description: "Day 4 of your Hanoi & Halong journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "hanoi-halong-3d2n",
@@ -1472,6 +1795,30 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay"],
     activities: ["cruise", "cultural", "city-tour"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Hanoi & Halong journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Hanoi & Halong journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Departure",
+        description: "Day 3 of your Hanoi & Halong journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
 
   // Phu Quoc Island
@@ -1499,6 +1846,23 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Ho Chi Minh City",
     destinations: ["Phu Quoc"],
     activities: ["beach", "snorkeling", "nature"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Beach Arrival",
+        description: "Enjoy the beautiful beaches of Phu Quoc.",
+        activities: ["Airport transfer","Resort check-in","Beach relaxation","Sunset cocktails"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "Island Discovery",
+        description: "Enjoy the beautiful beaches of Phu Quoc.",
+        activities: ["Snorkeling trip","Beach hopping","Fresh seafood lunch","Water sports"],
+        meals: ["Breakfast","Lunch"],
+      }
+    ],
   },
   {
     id: "phu-quoc-diving-4d",
@@ -1524,6 +1888,23 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Ho Chi Minh City",
     destinations: ["Phu Quoc"],
     activities: ["snorkeling", "beach", "nature"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Beach Arrival",
+        description: "Enjoy the beautiful beaches of Phu Quoc.",
+        activities: ["Airport transfer","Resort check-in","Beach relaxation","Sunset cocktails"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "Island Discovery",
+        description: "Enjoy the beautiful beaches of Phu Quoc.",
+        activities: ["Snorkeling trip","Beach hopping","Fresh seafood lunch","Water sports"],
+        meals: ["Breakfast","Lunch"],
+      }
+    ],
   },
   {
     id: "hcm-mekong-4d",
@@ -1549,6 +1930,37 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Ho Chi Minh City",
     destinations: ["Mekong Delta", "Cu Chi", "Can Tho"],
     activities: ["city-tour", "cultural", "boat-trip", "homestay"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Ho Chi Minh & Mekong journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Ho Chi Minh & Mekong journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Ho Chi Minh & Mekong journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Departure",
+        description: "Day 4 of your Ho Chi Minh & Mekong journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
 
   // =====================================================
@@ -1579,6 +1991,51 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hoi An", "Ninh Binh"],
     activities: ["cruise", "cultural", "photography", "city-tour"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Departure",
+        description: "Day 6 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "northern-vietnam-7d",
@@ -1604,6 +2061,58 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Sapa", "Halong Bay", "Ninh Binh"],
     activities: ["cruise", "trekking", "cultural", "photography", "homestay"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Northern Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Northern Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Northern Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Northern Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Northern Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Northern Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Departure",
+        description: "Day 7 of your Northern Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "vietnam-intro-8d",
@@ -1629,6 +2138,65 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hue", "Hoi An", "Ninh Binh"],
     activities: ["cruise", "cultural", "city-tour", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "scenic-vietnam-10d",
@@ -1654,6 +2222,79 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hue", "Hoi An", "Da Nang", "Mekong Delta"],
     activities: ["cruise", "cultural", "beach", "photography", "boat-trip"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "Departure",
+        description: "Day 10 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "vietnam-11-days",
@@ -1679,6 +2320,86 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Sapa", "Halong Bay", "Hue", "Hoi An", "Mekong Delta"],
     activities: ["cruise", "trekking", "cultural", "homestay", "boat-trip"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "City Exploration",
+        description: "Day 10 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 11,
+        title: "Departure",
+        description: "Day 11 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "vietnam-12-days",
@@ -1704,6 +2425,93 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Sapa", "Halong Bay", "Hue", "Hoi An", "Da Nang", "Mekong Delta"],
     activities: ["cruise", "trekking", "cultural", "cooking-class", "cycling"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "City Exploration",
+        description: "Day 10 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 11,
+        title: "Scenic Journey",
+        description: "Day 11 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 12,
+        title: "Departure",
+        description: "Day 12 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "vietnam-insight-14d",
@@ -1729,6 +2537,107 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Sapa", "Halong Bay", "Hue", "Hoi An", "Mekong Delta", "Pu Luong"],
     activities: ["cruise", "trekking", "cultural", "homestay", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "City Exploration",
+        description: "Day 10 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 11,
+        title: "Scenic Journey",
+        description: "Day 11 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 12,
+        title: "Nature & Adventure",
+        description: "Day 12 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 13,
+        title: "Cultural Discovery",
+        description: "Day 13 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 14,
+        title: "Departure",
+        description: "Day 14 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "amazing-vietnam-15d",
@@ -1754,6 +2663,114 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hue", "Hoi An", "Phu Quoc", "Mekong Delta"],
     activities: ["cruise", "cultural", "beach", "photography", "nature"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "City Exploration",
+        description: "Day 10 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 11,
+        title: "Scenic Journey",
+        description: "Day 11 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 12,
+        title: "Nature & Adventure",
+        description: "Day 12 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 13,
+        title: "Cultural Discovery",
+        description: "Day 13 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 14,
+        title: "Local Experience",
+        description: "Day 14 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 15,
+        title: "Departure",
+        description: "Day 15 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "vietnam-cambodia-15d",
@@ -1779,6 +2796,114 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hue", "Hoi An", "Cambodia", "Mekong Delta"],
     activities: ["cruise", "cultural", "temple-visit", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam & Cambodia journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam & Cambodia journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam & Cambodia journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam & Cambodia journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam & Cambodia journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam & Cambodia journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam & Cambodia journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam & Cambodia journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam & Cambodia journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "City Exploration",
+        description: "Day 10 of your Vietnam & Cambodia journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 11,
+        title: "Scenic Journey",
+        description: "Day 11 of your Vietnam & Cambodia journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 12,
+        title: "Nature & Adventure",
+        description: "Day 12 of your Vietnam & Cambodia journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 13,
+        title: "Cultural Discovery",
+        description: "Day 13 of your Vietnam & Cambodia journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 14,
+        title: "Local Experience",
+        description: "Day 14 of your Vietnam & Cambodia journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 15,
+        title: "Departure",
+        description: "Day 15 of your Vietnam & Cambodia journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "vietnam-cambodia-18d",
@@ -1804,6 +2929,135 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hue", "Hoi An", "Cambodia", "Mekong Delta"],
     activities: ["cruise", "cultural", "temple-visit", "boat-trip"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam & Cambodia journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam & Cambodia journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam & Cambodia journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam & Cambodia journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam & Cambodia journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam & Cambodia journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam & Cambodia journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam & Cambodia journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam & Cambodia journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "City Exploration",
+        description: "Day 10 of your Vietnam & Cambodia journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 11,
+        title: "Scenic Journey",
+        description: "Day 11 of your Vietnam & Cambodia journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 12,
+        title: "Nature & Adventure",
+        description: "Day 12 of your Vietnam & Cambodia journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 13,
+        title: "Cultural Discovery",
+        description: "Day 13 of your Vietnam & Cambodia journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 14,
+        title: "Local Experience",
+        description: "Day 14 of your Vietnam & Cambodia journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 15,
+        title: "Beach & Relaxation",
+        description: "Day 15 of your Vietnam & Cambodia journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 16,
+        title: "Departure",
+        description: "Day 16 of your Vietnam & Cambodia journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 17,
+        title: "Arrival & Welcome",
+        description: "Day 17 of your Vietnam & Cambodia journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 18,
+        title: "Departure",
+        description: "Day 18 of your Vietnam & Cambodia journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "discover-vietnam-20d",
@@ -1829,6 +3083,149 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Sapa", "Halong Bay", "Hue", "Hoi An", "Mekong Delta", "Phu Quoc"],
     activities: ["cruise", "trekking", "cultural", "beach", "homestay", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "City Exploration",
+        description: "Day 10 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 11,
+        title: "Scenic Journey",
+        description: "Day 11 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 12,
+        title: "Nature & Adventure",
+        description: "Day 12 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 13,
+        title: "Cultural Discovery",
+        description: "Day 13 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 14,
+        title: "Local Experience",
+        description: "Day 14 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 15,
+        title: "Beach & Relaxation",
+        description: "Day 15 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 16,
+        title: "Departure",
+        description: "Day 16 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 17,
+        title: "Arrival & Welcome",
+        description: "Day 17 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 18,
+        title: "City Exploration",
+        description: "Day 18 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 19,
+        title: "Scenic Journey",
+        description: "Day 19 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 20,
+        title: "Departure",
+        description: "Day 20 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "vietnam-cambodia-21d",
@@ -1854,6 +3251,156 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hue", "Hoi An", "Cambodia", "Mekong Delta"],
     activities: ["cruise", "cultural", "temple-visit", "boat-trip", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam & Cambodia journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam & Cambodia journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam & Cambodia journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam & Cambodia journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam & Cambodia journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam & Cambodia journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam & Cambodia journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam & Cambodia journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam & Cambodia journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "City Exploration",
+        description: "Day 10 of your Vietnam & Cambodia journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 11,
+        title: "Scenic Journey",
+        description: "Day 11 of your Vietnam & Cambodia journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 12,
+        title: "Nature & Adventure",
+        description: "Day 12 of your Vietnam & Cambodia journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 13,
+        title: "Cultural Discovery",
+        description: "Day 13 of your Vietnam & Cambodia journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 14,
+        title: "Local Experience",
+        description: "Day 14 of your Vietnam & Cambodia journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 15,
+        title: "Beach & Relaxation",
+        description: "Day 15 of your Vietnam & Cambodia journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 16,
+        title: "Departure",
+        description: "Day 16 of your Vietnam & Cambodia journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 17,
+        title: "Arrival & Welcome",
+        description: "Day 17 of your Vietnam & Cambodia journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 18,
+        title: "City Exploration",
+        description: "Day 18 of your Vietnam & Cambodia journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 19,
+        title: "Scenic Journey",
+        description: "Day 19 of your Vietnam & Cambodia journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 20,
+        title: "Nature & Adventure",
+        description: "Day 20 of your Vietnam & Cambodia journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 21,
+        title: "Departure",
+        description: "Day 21 of your Vietnam & Cambodia journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
 
   // =====================================================
@@ -2054,6 +3601,79 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hue", "Hoi An", "Da Nang"],
     activities: ["cruise", "cultural", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "Departure",
+        description: "Day 10 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "hanoi-sapa-6d",
@@ -2079,6 +3699,51 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Sapa"],
     activities: ["trekking", "cultural", "homestay", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Hanoi & Sapa journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Hanoi & Sapa journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Hanoi & Sapa journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Hanoi & Sapa journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Hanoi & Sapa journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Departure",
+        description: "Day 6 of your Hanoi & Sapa journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
 
   // Additional specialty tours
@@ -2106,6 +3771,72 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hue", "Hoi An"],
     activities: ["cruise", "cultural", "city-tour", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Departure",
+        description: "Day 9 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "essence-vietnam-10d",
@@ -2131,6 +3862,79 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hue", "Hoi An", "Mekong Delta"],
     activities: ["cruise", "cultural", "cooking-class", "market-visit"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "Departure",
+        description: "Day 10 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "central-vietnam-7d",
@@ -2156,6 +3960,58 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Da Nang",
     destinations: ["Hue", "Hoi An", "Da Nang"],
     activities: ["cultural", "beach", "photography", "temple-visit"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Central Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Central Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Central Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Central Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Central Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Central Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Departure",
+        description: "Day 7 of your Central Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "discovery-northeast-9d",
@@ -2181,6 +4037,72 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Ha Giang", "Sapa"],
     activities: ["trekking", "photography", "cultural", "nature"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Northeast Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Northeast Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Northeast Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Northeast Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Northeast Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Northeast Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Northeast Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Northeast Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Departure",
+        description: "Day 9 of your Northeast Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "southern-vietnam-7d",
@@ -2206,6 +4128,58 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Ho Chi Minh City",
     destinations: ["Mekong Delta", "Cu Chi", "Phu Quoc"],
     activities: ["city-tour", "boat-trip", "beach", "cultural"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Southern Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Southern Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Southern Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Southern Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Southern Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Southern Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Departure",
+        description: "Day 7 of your Southern Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "signatures-vietnam-14d",
@@ -2231,6 +4205,107 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hue", "Hoi An", "Mekong Delta"],
     activities: ["cruise", "cultural", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "City Exploration",
+        description: "Day 10 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 11,
+        title: "Scenic Journey",
+        description: "Day 11 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 12,
+        title: "Nature & Adventure",
+        description: "Day 12 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 13,
+        title: "Cultural Discovery",
+        description: "Day 13 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 14,
+        title: "Departure",
+        description: "Day 14 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "cultural-heritage-12d",
@@ -2256,6 +4331,93 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hue", "Hoi An", "Ninh Binh"],
     activities: ["cultural", "temple-visit", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "City Exploration",
+        description: "Day 10 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 11,
+        title: "Scenic Journey",
+        description: "Day 11 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 12,
+        title: "Departure",
+        description: "Day 12 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "natural-wonders-16d",
@@ -2281,6 +4443,121 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Phong Nha", "Sapa", "Halong Bay", "Phu Quoc"],
     activities: ["trekking", "cave-exploration", "nature", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "City Exploration",
+        description: "Day 10 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 11,
+        title: "Scenic Journey",
+        description: "Day 11 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 12,
+        title: "Nature & Adventure",
+        description: "Day 12 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 13,
+        title: "Cultural Discovery",
+        description: "Day 13 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 14,
+        title: "Local Experience",
+        description: "Day 14 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 15,
+        title: "Beach & Relaxation",
+        description: "Day 15 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 16,
+        title: "Departure",
+        description: "Day 16 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "perfect-vietnam-7d",
@@ -2306,6 +4583,58 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hoi An"],
     activities: ["cruise", "cultural", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Departure",
+        description: "Day 7 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "vietnam-discovery-8d",
@@ -2331,6 +4660,65 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hue", "Hoi An"],
     activities: ["cruise", "cultural", "photography", "city-tour"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "hanoi-ninh-binh-halong-5d",
@@ -2356,6 +4744,44 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Ninh Binh", "Halong Bay"],
     activities: ["cruise", "boat-trip", "cultural", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Hanoi, Ninh Binh & Halong journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Hanoi, Ninh Binh & Halong journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Hanoi, Ninh Binh & Halong journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Hanoi, Ninh Binh & Halong journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Departure",
+        description: "Day 5 of your Hanoi, Ninh Binh & Halong journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "north-vietnam-adventure-7d",
@@ -2567,6 +4993,65 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Sapa", "Pu Luong", "Halong Bay"],
     activities: ["trekking", "nature", "photography", "homestay"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Northern Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Northern Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Northern Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Northern Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Northern Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Northern Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Northern Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Northern Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "highlights-vietnam-10d",
@@ -2592,6 +5077,79 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay", "Hue", "Hoi An", "Mekong Delta"],
     activities: ["cruise", "cultural", "photography", "boat-trip"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "Departure",
+        description: "Day 10 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "cultural-odyssey-10d",
@@ -2617,6 +5175,79 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Sapa", "Hoi An", "Mekong Delta"],
     activities: ["cultural", "cooking-class", "homestay", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "Departure",
+        description: "Day 10 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "best-vietnam-13d",
@@ -2642,6 +5273,100 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Sapa", "Halong Bay", "Hue", "Hoi An", "Mekong Delta"],
     activities: ["cruise", "trekking", "cultural", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "City Exploration",
+        description: "Day 10 of your Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 11,
+        title: "Scenic Journey",
+        description: "Day 11 of your Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 12,
+        title: "Nature & Adventure",
+        description: "Day 12 of your Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 13,
+        title: "Departure",
+        description: "Day 13 of your Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
   {
     id: "discovery-north-east-13d",
@@ -2667,6 +5392,100 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Ha Giang", "Sapa"],
     activities: ["trekking", "photography", "cultural", "market-visit"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Welcome",
+        description: "Day 1 of your Northeast Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        title: "City Exploration",
+        description: "Day 2 of your Northeast Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 3,
+        title: "Scenic Journey",
+        description: "Day 3 of your Northeast Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 4,
+        title: "Nature & Adventure",
+        description: "Day 4 of your Northeast Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 5,
+        title: "Cultural Discovery",
+        description: "Day 5 of your Northeast Vietnam journey - cultural discovery.",
+        activities: ["Visit UNESCO sites","Traditional craft villages","Authentic local lunch","Evening entertainment"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 6,
+        title: "Local Experience",
+        description: "Day 6 of your Northeast Vietnam journey - local experience.",
+        activities: ["Morning market visit","Cooking class","Explore local neighborhoods","Free time for shopping"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 7,
+        title: "Beach & Relaxation",
+        description: "Day 7 of your Northeast Vietnam journey - beach & relaxation.",
+        activities: ["Transfer to coastal area","Beach time","Fresh seafood dinner","Sunset watching"],
+        meals: ["Breakfast","Dinner"],
+      },
+      {
+        day: 8,
+        title: "Departure",
+        description: "Day 8 of your Northeast Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      },
+      {
+        day: 9,
+        title: "Arrival & Welcome",
+        description: "Day 9 of your Northeast Vietnam journey - arrival & welcome.",
+        activities: ["Airport pickup","Hotel check-in","Welcome briefing","Evening city orientation walk"],
+        meals: ["Dinner"],
+      },
+      {
+        day: 10,
+        title: "City Exploration",
+        description: "Day 10 of your Northeast Vietnam journey - city exploration.",
+        activities: ["Morning city tour","Visit historical sites","Traditional lunch","Afternoon cultural activities"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 11,
+        title: "Scenic Journey",
+        description: "Day 11 of your Northeast Vietnam journey - scenic journey.",
+        activities: ["Transfer to next destination","Scenic stops along the way","Local village visit","Check-in at new location"],
+        meals: ["Breakfast","Lunch","Dinner"],
+      },
+      {
+        day: 12,
+        title: "Nature & Adventure",
+        description: "Day 12 of your Northeast Vietnam journey - nature & adventure.",
+        activities: ["Morning outdoor activities","Nature exploration","Picnic lunch","Afternoon leisure"],
+        meals: ["Breakfast","Lunch"],
+      },
+      {
+        day: 13,
+        title: "Departure",
+        description: "Day 13 of your Northeast Vietnam journey - departure.",
+        activities: ["Breakfast at hotel","Last-minute shopping","Airport transfer","Farewell"],
+        meals: ["Breakfast"],
+      }
+    ],
   },
 
   // ============================================
@@ -3658,6 +6477,23 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Lan Ha Bay"],
     activities: ["cruise", "kayaking", "cave-exploration"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Embarkation & Cruise",
+        description: "Begin your Lan Ha Bay cruise adventure with embarkation and scenic cruising.",
+        activities: ["Welcome aboard and check-in","Enjoy welcome lunch while cruising","Visit stunning limestone caves","Kayaking through hidden lagoons","Watch sunset from sundeck","Delicious seafood dinner"],
+        meals: ["Lunch","Dinner"],
+      },
+      {
+        day: 2,
+        title: "Sunrise & Disembarkation",
+        description: "Wake up to stunning views of Lan Ha Bay before disembarking.",
+        activities: ["Early morning Tai Chi on deck","Watch sunrise over the bay","Enjoy breakfast buffet","Visit floating fishing village","Check out and transfer back"],
+        meals: ["Breakfast","Brunch"],
+      }
+    ],
   },
   {
     id: "lyra-grandeur-cruise-2d1n",
@@ -3691,6 +6527,23 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Hanoi",
     destinations: ["Halong Bay"],
     activities: ["cruise", "golf", "spa", "photography"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Embarkation & Cruise",
+        description: "Begin your Halong Bay cruise adventure with embarkation and scenic cruising.",
+        activities: ["Welcome aboard and check-in","Enjoy welcome lunch while cruising","Visit stunning limestone caves","Kayaking through hidden lagoons","Watch sunset from sundeck","Delicious seafood dinner"],
+        meals: ["Lunch","Dinner"],
+      },
+      {
+        day: 2,
+        title: "Sunrise & Disembarkation",
+        description: "Wake up to stunning views of Halong Bay before disembarking.",
+        activities: ["Early morning Tai Chi on deck","Watch sunrise over the bay","Enjoy breakfast buffet","Visit floating fishing village","Check out and transfer back"],
+        meals: ["Breakfast","Brunch"],
+      }
+    ],
   },
 
   // DAY TRIPS (BestPriceTravel)
@@ -3730,6 +6583,16 @@ export const FEATURED_TOURS: Tour[] = [
     activities: ["food-tour", "walking-tour", "cultural"],
   
     imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc8f8b206f.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc8f8b206d.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc8f8b206e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc8f8b2070.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc9069163e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc90691641.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc90691642.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc90691643.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657fc8f8b206a.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65895a5e11c2e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/65895a5e11c30.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/641832bee3a4c.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/68ef22b7b45b7.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/68ef22b7b45b9.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/6824604dd50bb.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/5ef6a7ed3796e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/68343776bcf69.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/64182ecc7dba4.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Hanoi Street Food Adventure",
+        description: "Taste the best of Hanoi cuisine on this walking food tour through the Old Quarter.",
+        activities: ["Evening meetup in Old Quarter","Try famous Pho Bo","Sample Bun Cha","Taste Banh Mi","Visit local beer corner","Try egg coffee","Sweet dessert finale"],
+        meals: ["Dinner"],
+      }
+    ],
   },
   {
     id: "mekong-delta-day-trip",
@@ -3767,6 +6630,16 @@ export const FEATURED_TOURS: Tour[] = [
     activities: ["boat-tour", "cultural", "nature"],
   
     imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454a74f3a6a4.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454a74f3a6a2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454a74f3a6a5.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454a74f3a6a6.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652e60d6c2b18.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454a74f3a6a8.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454a74f3a6a9.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6454a74f3a6aa.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652e60d6c2b14.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652e60d6c2b19.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652e60d6c2b1b.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/6621d429ea6b2.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/6621d4864a4d4.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/65b1e86a6765c.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/6454aaa47b043.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/644b8d7cabfff.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/65323234bd4e4.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/652cff8a4ada4.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Mekong Delta Discovery",
+        description: "Experience the vibrant life of the Mekong Delta waterways.",
+        activities: ["Early pickup from Ho Chi Minh City","Boat cruise through canals","Visit Cai Be floating market","Explore fruit orchards","Traditional music performance","Coconut candy workshop","Return to city"],
+        meals: ["Lunch"],
+      }
+    ],
   },
   {
     id: "cu-chi-speedboat-tour",
@@ -3804,6 +6677,16 @@ export const FEATURED_TOURS: Tour[] = [
     activities: ["speedboat", "historical", "cultural"],
   
     imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/cu-chi-64289c24ad834.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652f2df2caf84.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652f2df2caf83.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/cu-chi-tunnel-64289c224c7ee.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652f2df2caf80.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/cu-chi-tunnels-64289c26b36e1.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/cu-chi-visit-64289c2913d38.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652f2df2caf85.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/shooting-range-cu-chi-64289c2b54abf.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/642cd11f7f37f.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/6426b90687841.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/652dfa080dcfc.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/652e0e2271f75.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Luxury Cu Chi Speedboat Tour",
+        description: "Travel in style by speedboat to the historic Cu Chi Tunnels.",
+        activities: ["Hotel pickup","Scenic speedboat ride on Saigon River","Explore tunnel complex","Learn about wartime history","Lunch at riverside restaurant","Speedboat return to city"],
+        meals: ["Lunch"],
+      }
+    ],
   },
   {
     id: "saigon-dinner-cruise",
@@ -3831,6 +6714,16 @@ export const FEATURED_TOURS: Tour[] = [
     activities: ["cruise", "dining", "entertainment"],
   
     imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/64269eef03b54.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/64269eef03b52.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/64269eef03b58.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/64269eef03b55.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/64269eef03b56.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/64269eef03b57.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/652e5fd8f243b.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/650015ca66c43.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/67232e4b65385.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/692eb6d919f96.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Saigon River Dinner Cruise",
+        description: "Enjoy a romantic evening cruise along the Saigon River with fine dining.",
+        activities: ["Evening pier pickup","Welcome drink on deck","Scenic river cruise","Gourmet dinner service","Live music entertainment","City lights viewing","Return to pier"],
+        meals: ["Dinner"],
+      }
+    ],
   },
   {
     id: "hoi-an-memories-show",
@@ -3858,6 +6751,16 @@ export const FEATURED_TOURS: Tour[] = [
     activities: ["cultural", "entertainment", "photography"],
   
     imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6420a46e57425.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6420a46e57422.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6420a46e57426.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6420a46e57427.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6420a46e57428.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/6420a46e57428.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/6347da723f303.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/6347da5656c74.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/6347da9a8aba9.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/663465088a37e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f260bbfda2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f2756ed251.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f28c7a230e.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Hoi An Memories Show",
+        description: "Experience the spectacular outdoor performance showcasing Hoi An's rich history.",
+        activities: ["Transfer to show venue","Pre-show riverside walk","Watch Hoi An Memories performance","500+ performers","Stunning visual effects","Return transfer"],
+        meals: [],
+      }
+    ],
   },
   {
     id: "hoi-an-basket-boat",
@@ -3885,6 +6788,16 @@ export const FEATURED_TOURS: Tour[] = [
     activities: ["boat-tour", "nature", "cultural"],
   
     imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/663465088a37e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/663465088a37d.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/663465088a37a.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6420a6519026d.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/663465139930e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6634651399312.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6420a6519026f.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/663465088a37f.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6634651399311.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6634651399310.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/64128bb85c8d5.jpeg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/64128bdcc4012.jpeg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/64128dd2e1eae.jpg","https://d122axpxm39woi.cloudfront.net/images/review/250_170/64128dd2e1eb1.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/6420a46e57425.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f260bbfda2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f2756ed251.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f28c7a230e.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Coconut Village Basket Boat",
+        description: "Paddle through the coconut palm water forest in traditional round basket boats.",
+        activities: ["Pickup from Hoi An","Arrive at Cam Thanh village","Board basket boat","Paddle through coconut forest","Learn local fishing techniques","Crab catching demonstration","Return to Hoi An"],
+        meals: ["Snacks"],
+      }
+    ],
   },
   {
     id: "hoi-an-walking-tour",
@@ -3912,6 +6825,16 @@ export const FEATURED_TOURS: Tour[] = [
     activities: ["walking-tour", "cultural", "photography"],
   
     imageGallery: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfda2.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfda1.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfda6.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfda4.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfda5.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfda7.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfda3.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/800_450/641f260bbfd9e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/origin/641f260bbfda7.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/6420a46e57425.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/663465088a37e.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f2756ed251.jpg","https://d122axpxm39woi.cloudfront.net/images/tours/370_207/641f28c7a230e.jpg","https://d122axpxm39woi.cloudfront.net/assets/img/dcma.png"],
+  
+    itinerary: [
+      {
+        day: 1,
+        title: "Hoi An Walking Tour",
+        description: "Discover the UNESCO World Heritage ancient town of Hoi An on foot.",
+        activities: ["Morning meetup","Japanese Covered Bridge","Tan Ky Ancient House","Fujian Assembly Hall","Local market visit","Riverside stroll","Free time in Old Town"],
+        meals: [],
+      }
+    ],
   },
 
   // SAPA TOURS (BestPriceTravel)
