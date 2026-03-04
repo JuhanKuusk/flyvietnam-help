@@ -66,7 +66,7 @@ export async function sendEmail(params: SendEmailParams): Promise<{ success: boo
     const transporter = createSmtpTransporter();
 
     const mailOptions: nodemailer.SendMailOptions = {
-      from: `VietnamVisaHelp Support <${ZOHO_EMAIL}>`,
+      from: `VietnamTravel.help Support <${ZOHO_EMAIL}>`,
       to: params.to,
       subject: params.subject,
       text: params.text,

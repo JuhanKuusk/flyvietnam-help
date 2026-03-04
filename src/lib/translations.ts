@@ -18,8 +18,8 @@ export const translations = {
   // Header
   header: {
     siteName: "VietnamTravel.help",
-    tagline: "Fast-Track Travel Service",
-    logoTagline: "Check-in Approval in 30 min",
+    tagline: "Your Travel Concierge",
+    logoTagline: "Your Travel Concierge",
     support: "24/7 WhatsApp Support",
     supportShort: "Support",
     aboutUs: "About Us",
@@ -84,7 +84,7 @@ export const translations = {
     addressOptional: "(Optional)",
     hotelPlaceholder: "Hotel name or address",
     urgentRescue: "URGENT RESCUE - 30 Minutes",
-    urgentRescueDesc: "30 min check-in approval • Full visa in 1,5 hours",
+    urgentRescueDesc: "30 min boarding support • Full visa in 1.5 hours",
     serviceFee: "Service fee",
     total: "Total",
     continueButton: "Continue to Applicant Details →",
@@ -119,7 +119,7 @@ export const translations = {
   sidebar: {
     whyChooseUs: "Why Choose Us?",
     fastestProcessing: "Fastest Processing",
-    fastestProcessingDesc: "Check-in approval in 30 minutes",
+    fastestProcessingDesc: "Expedited processing in 30 minutes",
     whatsappSupport: "24/7 WhatsApp Support",
     whatsappSupportDesc: "Real-time updates on your visa",
     moneyBack: "Money-back Guarantee",
@@ -165,7 +165,7 @@ export const translations = {
     privacyPolicy: "Privacy Policy",
     termsOfService: "Terms of Service",
     refundPolicy: "Refund Policy",
-    copyright: "© 2026 VietnamVisaHelp.com - All rights reserved",
+    copyright: "© 2026 VietnamTravel.help - All rights reserved",
   },
 
   // Visa Info Modal
@@ -370,7 +370,7 @@ export const translations = {
   // Visa Speed Options
   visaSpeeds: {
     speed30MinName: "30-Minute Express Visa",
-    speed30MinDesc: "Check-in approval within 30 minutes. Fastest processing: visa ready in 1–1.5 hours.",
+    speed30MinDesc: "Expedited processing within 30 minutes. Fastest service: visa ready in 1–1.5 hours.",
     speed4HourName: "4-Hour Express Visa",
     speed4HourDesc: "Quick processing - visa ready in 4 hours",
     speed1DayName: "1-Day Standard Visa",
@@ -496,7 +496,7 @@ export const translations = {
     termsPreview3Title: "3. Nature of Our Service",
     termsPreview3Content: "VietnamTravel.help provides professional visa application assistance services including document review and verification, application form preparation and submission, 24/7 customer support, application status tracking, and express processing options. We do not issue visas. All visa decisions are made solely by the Vietnam Immigration Department.",
     termsPreview4Title: "4. Processing Times",
-    termsPreview4Content: "We offer various processing speeds: Emergency (15-30 min with Check-In Approval), Urgent (1 hour), Express (4 hours), Express (1 day), Express (2 days), and Standard (2-3 business days). Processing times are estimates and actual delivery depends on the Vietnam Immigration Department.",
+    termsPreview4Content: "We offer various processing speeds: Emergency (15-30 min with Expedited Processing), Urgent (1 hour), Express (4 hours), Express (1 day), Express (2 days), and Standard (2-3 business days). Processing times are estimates and actual delivery depends on the Vietnam Immigration Department.",
     termsPreview5Title: "5. Fees and Payment",
     termsPreview5Content: "Our fees consist of: Government Fee ($25 USD single entry, $50 USD multiple entry - non-refundable once submitted) and Service Fee (varies by processing speed from $24 to $224). Total prices: Standard $49, Express 2-day $79, Express 1-day $99, Express 4-hour $119, Urgent 1-hour $159, Emergency $199, Weekend/Holiday $249.",
     termsPreview6Title: "6. Refund Policy",
@@ -578,7 +578,7 @@ export const translations = {
 
   // Apply Page - Header
   applyHeader: {
-    siteName: "VietnamVisaHelp.com",
+    siteName: "VietnamTravel.help",
     tagline: "30 Min Approval Letter",
     support: "24/7 Support",
   },
@@ -873,7 +873,7 @@ export const translations = {
 
   // Hero Price Section
   heroPrice: {
-    fullVisaDesc: "1-Hour Full Visa | Check-in approval letter in 30 min",
+    fullVisaDesc: "1-Hour Full Visa | Boarding support letter in 30 min",
     expressLabel: "1-Hour Express",
   },
 
@@ -919,7 +919,7 @@ export const translations = {
 
     // About Us page
     aboutTitle: "About Us",
-    aboutIntro: "Vietnam Visa Help is a professional third-party visa support service specializing in Vietnam e-Visa applications and related travel documentation. We are not affiliated with the Vietnam Government or the Immigration Department.",
+    aboutIntro: "Vietnam Travel Help is a professional third-party visa support service specializing in Vietnam e-Visa applications and related travel documentation. We are not affiliated with the Vietnam Government or the Immigration Department.",
     expressProcessing: "Express Processing",
     expressProcessingText: "We are particularly known for our urgent visa processing services, offering expedited options with processing times as fast as one hour, as well as standard processing for travelers who plan ahead. Our services cover a wide range of Vietnam visa options, including tourist e-Visas, business e-Visas, single-entry and multiple-entry visas, and other Vietnam entry permits depending on travel purpose and nationality.",
     comprehensiveSupport: "Comprehensive Support",
@@ -928,7 +928,7 @@ export const translations = {
     localExpertiseText: "All visa applications are carefully reviewed and processed in Ho Chi Minh City by local Vietnamese visa experts, ensuring compliance with current Vietnamese immigration regulations and minimizing the risk of delays or rejections. Our local expertise allows us to stay up to date with policy changes and processing requirements.",
     ourMission: "Our Mission",
     ourMissionText: "Our mission is to make the Vietnam visa process simple, transparent, and efficient—whether you need an emergency visa at short notice or a standard application with professional support.",
-    applyNow: "Apply for Your Visa Now",
+    applyNow: "Request Concierge Assistance",
     home: "Home",
     fastReliableService: "Fast & Reliable Service",
 
@@ -936,7 +936,7 @@ export const translations = {
     termsTitle: "Terms of Use",
     termsIntro: "By using this website, you agree to these Terms.",
     whatWeDo: "What We Do",
-    whatWeDoText: "VietnamVisaHelp.com provides visa assistance and administrative support services for travelers to Vietnam. We are not a government agency, embassy, or consulate. We do not issue visas. All visa decisions are made by Vietnamese authorities.",
+    whatWeDoText: "VietnamTravel.help provides visa assistance and administrative support services for travelers to Vietnam. We are not a government agency, embassy, or consulate. We do not issue visas. All visa decisions are made by Vietnamese authorities.",
     whoCanUse: "Who Can Use This Website",
     whoCanUseText: "You must be at least 18 years old and legally able to enter into contracts.",
     yourResponsibilities: "Your Responsibilities",
@@ -952,7 +952,7 @@ export const translations = {
     processingTimes: "Processing Times",
     processingTimesText: "Processing times are estimates only. Delays may occur due to government processing, holidays, or additional checks.",
     intellectualProperty: "Intellectual Property",
-    intellectualPropertyText: "All content on this website belongs to VietnamVisaHelp.com and may not be copied or reused without permission.",
+    intellectualPropertyText: "All content on this website belongs to VietnamTravel.help and may not be copied or reused without permission.",
     prohibitedUse: "Prohibited Use",
     youMayNot: "You may not:",
     prohibited1: "Use the website for fraud or illegal activity",
@@ -998,7 +998,7 @@ export const translations = {
     neverSell: "We never sell your data.",
     // SMS/Mobile Communications (A2P 10DLC Required)
     smsTitle: "SMS/Mobile Communications",
-    smsIntro: "When you provide your mobile phone number and opt-in to receive SMS messages from VietnamVisaHelp.com:",
+    smsIntro: "When you provide your mobile phone number and opt-in to receive SMS messages from VietnamTravel.help:",
     sms1: "We use your mobile number solely to send visa application updates, status notifications, and important travel alerts",
     sms2: "Your mobile phone number and SMS consent will never be shared with or sold to third parties for marketing purposes",
     sms3: "We do not share your mobile information with lead generators or data brokers",
@@ -1064,7 +1064,7 @@ export const translations = {
     // Disclaimer
     disclaimerTitle: "Disclaimer",
     notGovernment: "Not a Government Agency",
-    notGovernmentText: "VietnamVisaHelp.com is a private visa assistance service. We are NOT affiliated with any government body, embassy, or consulate. We do not make visa approval decisions.",
+    notGovernmentText: "VietnamTravel.help is a private visa assistance service. We are NOT affiliated with any government body, embassy, or consulate. We do not make visa approval decisions.",
     noGuarantee: "No Guarantee of Visa Approval",
     noGuaranteeText: "We cannot guarantee that your visa will be approved. All decisions rest with Vietnamese immigration authorities.",
     infoAccuracy: "Information Accuracy",
@@ -1079,7 +1079,7 @@ export const translations = {
     externalLinksText: "Our website may contain links to external sites. We are not responsible for their content or policies.",
 
     // Payment Consent
-    consentCheckboxText: "I confirm that all information provided is accurate, and I agree to the Terms of Use, Privacy Policy, and Refund Policy. I understand that VietnamVisaHelp.com is not a government agency and does not guarantee visa approval.",
+    consentCheckboxText: "I confirm that all information provided is accurate, and I agree to the Terms of Use, Privacy Policy, and Refund Policy. I understand that VietnamTravel.help is not a government agency and does not guarantee visa approval.",
 
     // Footer Partner Section
     officialPartner: "Official Partner: CÔNG TY CỔ PHẦN CÔNG NGHỆ DU LỊCH BESTPRICE",

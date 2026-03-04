@@ -1,8 +1,8 @@
 {
   "header": {
     "siteName": "越签.com",
-    "tagline": "登机保证 - 1小时签证",
-    "logoTagline": "🚨 登机保证 - 保证值机通过",
+    "tagline": "您的旅行礼宾服务",
+    "logoTagline": "您的旅行礼宾服务",
     "support": "24小时中文客服",
     "supportShort": "客服",
     "aboutUs": "关于我们",
@@ -836,7 +836,7 @@
     "localExpertiseText": "所有签证申请均由胡志明市的本地越南签证专家仔细审核和处理，确保符合现行越南移民法规，最大程度减少延误或拒签风险。我们的本地专业知识使我们能够及时了解政策变化和处理要求。",
     "ourMission": "我们的使命",
     "ourMissionText": "我们的使命是使越南签证流程简单、透明、高效——无论您是需要紧急签证还是需要专业支持的标准申请。",
-    "applyNow": "立即申请签证",
+    "applyNow": "请求礼宾服务",
     "home": "首页",
     "fastReliableService": "快速可靠的服务",
     "termsTitle": "使用条款",
@@ -907,7 +907,7 @@
     "sms3": "我们不会与潜在客户生成器或数据经纪人共享您的手机信息",
     "sms4": "消息频率因您的申请状态而异",
     "sms5": "可能会收取消息和数据费用",
-    "smsOptOut": "要退出短信，请回复STOP。如需帮助，请回复HELP或联系support@vietnamvisahelp.com。",
+    "smsOptOut": "要退出短信，请回复STOP。如需帮助，请回复HELP或联系support@vietnamtravel.help。",
     "internationalTransfers": "国际传输",
     "internationalTransfersText": "您的数据可能在您所在国家以外处理。我们在适用时使用符合GDPR的保障措施。",
     "dataRetention": "数据保留",

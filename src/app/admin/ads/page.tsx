@@ -1612,7 +1612,7 @@ export default function AdManagerPage() {
                         value={group.link || ''}
                         onChange={(e) => updateGroupLink(group.format, e.target.value)}
                         className="w-full px-3 py-2 rounded bg-gray-700 text-white border border-gray-600 focus:border-pink-500 focus:outline-none text-sm"
-                        placeholder="https://vietnamvisahelp.com/..."
+                        placeholder="https://vietnamtravel.help/..."
                       />
                     </div>
                   </div>
@@ -2398,7 +2398,7 @@ export default function AdManagerPage() {
                   {/* Header */}
                   <div className="flex items-center gap-3 p-3 border-b border-gray-800">
                     <div className="w-8 h-8 bg-gradient-to-br from-pink-500 to-purple-500 rounded-full" />
-                    <span className="text-white text-sm font-medium">vietnamvisahelp</span>
+                    <span className="text-white text-sm font-medium">vietnamtravel.help</span>
                   </div>
 
                   {/* Video or Image preview */}

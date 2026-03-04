@@ -260,7 +260,7 @@ export async function sendPaymentConfirmationEmail({
 
   try {
     const { error } = await emailClient.emails.send({
-      from: "VietnamVisaHelp <support@vietnamvisahelp.com>",
+      from: "VietnamTravel.help <support@vietnamtravel.help>",
       to: [to],
       subject: `${t.subject} - ${referenceNumber}`,
       html: `
@@ -341,7 +341,7 @@ export async function sendPaymentConfirmationEmail({
 
           <div style="text-align: center; padding: 20px; color: #666; font-size: 12px;">
             <p>&copy; ${new Date().getFullYear()} ${t.footerCopyright}</p>
-            <p><a href="https://vietnamvisahelp.com" style="color: #10b981;">vietnamvisahelp.com</a></p>
+            <p><a href="https://vietnamtravel.help" style="color: #10b981;">vietnamtravel.help</a></p>
           </div>
         </body>
         </html>
@@ -390,7 +390,7 @@ export async function sendVisaDocumentEmail({
     const pdfBase64 = Buffer.from(pdfBuffer).toString("base64");
 
     const { error } = await emailClient.emails.send({
-      from: "VietnamVisaHelp <support@vietnamvisahelp.com>",
+      from: "VietnamTravel.help <support@vietnamtravel.help>",
       to: [to],
       subject: `${t.subject} - ${referenceNumber}`,
       html: `

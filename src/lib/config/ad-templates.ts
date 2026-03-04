@@ -26,7 +26,7 @@ export interface AdTemplate {
 }
 
 // Base URL for all ads
-const BASE_URL = 'https://vietnamvisahelp.com';
+const BASE_URL = 'https://vietnamtravel.help';
 
 // Ad templates organized by language and service type
 export const AD_TEMPLATES: Record<
@@ -207,7 +207,7 @@ export const AD_TEMPLATES: Record<
         'Apply for Vietnam Visa',
         'Vietnam Travel Visa',
         'Online Visa Service',
-        'Vietnam Visa Help',
+        'Vietnam Travel Help',
         'Cheap Vietnam Visa',
         'Best Visa Service',
       ],

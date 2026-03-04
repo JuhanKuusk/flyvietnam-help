@@ -127,7 +127,7 @@ const VISA_SPEED_INFO: Record<VisaSpeedKey, {
   "30-min": {
     name: "URGENT 30-Minute Express Visa",
     nameZH: "紧急30分钟快速签证",
-    description: "Check-in approval letter delivered within 30 minutes via email & WhatsApp",
+    description: "Boarding support letter delivered within 30 minutes via email & WhatsApp",
     descriptionZH: "30分钟内通过邮件和WhatsApp发送登机批准函",
     price: 199,
   },
@@ -403,7 +403,7 @@ function PaymentForm() {
                             <a href="/refund" target="_blank" className="text-emerald-400 hover:text-emerald-300 underline">
                               Refund Policy
                             </a>
-                            . I understand that VietnamVisaHelp.com is not a government agency and does not guarantee visa approval.
+                            . I understand that VietnamTravel.help is not a government agency and does not guarantee visa approval.
                           </>
                         )}
                       </span>
