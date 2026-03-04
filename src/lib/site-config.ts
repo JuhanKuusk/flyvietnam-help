@@ -131,11 +131,11 @@ export const SITES: Record<string, SiteConfig> = {
       showISTTimezone: false,
     },
     content: {
-      siteName: "VietnamVisaHelp.com",
-      siteNameShort: "VietnamVisaHelp",
+      siteName: "VietnamTravel.help",
+      siteNameShort: "VietnamTravel.help",
       domain: "vietnamvisahelp.com",
-      tagline: "Express Visa Service",
-      metaTitle: "Vietnam E-Visa in 30 Minutes | VietnamVisaHelp.com",
+      tagline: "Your Travel Concierge",
+      metaTitle: "Vietnam E-Visa in 30 Minutes | VietnamTravel.help",
       metaDescription: "Get your Vietnam E-Visa approval letter in 30 minutes. Stuck at check-in? We fix that fast. Express visa service for urgent travelers.",
       heroTitle: "Can't Check In?",
       heroSubtitle: "Get your Vietnam E-Visa approval letter in as fast as 30 minutes. Pass airline check-in immediately. Full visa ready before you land.",
@@ -212,57 +212,57 @@ export const SITES: Record<string, SiteConfig> = {
 
   // ---------------------------------------------------------------------------
   // INDIA SITE: vietnamvisaurgent.in
+  // Mirror of vietnamtravel.help with Hindi, Chinese, English only
   // ---------------------------------------------------------------------------
   "vietnamvisaurgent.in": {
     id: "vietnamvisaurgent-india",
     theme: {
-      primaryColor: "#ea580c",           // Saffron/orange (Indian flag)
-      primaryColorHover: "#c2410c",
-      secondaryColor: "#059669",         // Green (Indian flag)
-      accentColor: "#f59e0b",            // Amber/gold
-      urgencyColor: "#dc2626",           // Red for urgency
-      heroGradient: "from-orange-700 via-orange-600 to-amber-600",
-      buttonGradient: "from-orange-500 to-amber-500",
+      primaryColor: "#0891b2",           // Teal/cyan - friendly, travel-like (same as vietnamtravel.help)
+      primaryColorHover: "#0e7490",
+      secondaryColor: "#059669",         // Green - trust, nature
+      accentColor: "#f59e0b",            // Amber - warm, inviting
+      urgencyColor: "#6366f1",           // Indigo - calm, not aggressive
+      heroGradient: "from-cyan-700 via-teal-600 to-emerald-600",
+      buttonGradient: "from-teal-500 to-cyan-500",
       borderRadius: "rounded",
     },
     layout: {
-      heroVariant: "india",
-      showUrgencyBanner: true,
-      showCountdownTimer: true,
-      highlightedVisaSpeed: "30-min",
-      defaultVisaSpeed: "30-min",
-      trustBadgeVariant: "india",
-      testimonialSet: "india",
-      showTours: false,
-      useGoogleAdsCompliant: false,
-      showIndianPaymentMethods: true,
-      showISTTimezone: true,
+      heroVariant: "default",
+      showUrgencyBanner: false,          // No urgency - compliant
+      showCountdownTimer: false,         // No countdown - compliant
+      highlightedVisaSpeed: null,        // No highlighted speed
+      defaultVisaSpeed: "2-day",         // Default to slower, cheaper option
+      trustBadgeVariant: "travel",       // Travel-focused badges
+      testimonialSet: "travel",          // Softer testimonials
+      showTours: true,                   // Show tours section - affiliate content
+      useGoogleAdsCompliant: true,       // Use Google Ads safe language
+      showIndianPaymentMethods: false,
+      showISTTimezone: false,
     },
     content: {
-      siteName: "VietnamVisaUrgent.in",
-      siteNameShort: "VietnamVisaUrgent",
+      siteName: "VietnamTravel.help",
+      siteNameShort: "VietnamTravel.help",
       domain: "vietnamvisaurgent.in",
-      tagline: "भारतीयों के लिए तत्काल वीज़ा सेवा", // Urgent visa service for Indians
-      metaTitle: "Vietnam Visa for Indians - 30 Min Processing | VietnamVisaUrgent.in",
-      metaDescription: "Urgent Vietnam visa for Indian citizens. Get e-visa approval in 30 minutes. Trusted by 10,000+ Indian travelers. Hindi support available.",
-      heroTitle: "भारतीय नागरिकों के लिए वियतनाम वीज़ा",
-      heroSubtitle: "30 मिनट में ई-वीज़ा अप्रूवल प्राप्त करें। 10,000+ भारतीय यात्रियों द्वारा विश्वसनीय।",
-      heroBadge: "⚡ 30 मिनट में वीज़ा अप्रूवल",
-      ctaButtonText: "अभी आवेदन करें",
-      trustHeadline: "10,000+ भारतीय यात्रियों द्वारा विश्वसनीय",
-      supportEmail: "india@vietnamvisaurgent.in",
-      whatsappNumber: "+84705549868",  // Can be changed to Indian number later
+      tagline: "Your Travel Concierge",
+      metaTitle: "Vietnam Travel Help - E-Visa Application Assistance",
+      metaDescription: "Professional assistance for Vietnam e-visa applications. We help travelers navigate the official visa process. Clear guidance, document support, and application tracking.",
+      heroTitle: "Planning Your Vietnam Trip?",
+      heroSubtitle: "We provide professional assistance with e-visa applications. Our team helps you prepare documents and submit your application correctly.",
+      heroBadge: "Trusted Travel Assistance Service",
+      ctaButtonText: "Get Started",
+      trustHeadline: "Helping travelers since 2019",
+      supportEmail: "info@vietnamtravel.help",
+      whatsappNumber: "+84705549868",
       whatsappDisplay: "+84 70 5549868",
-      currencyCode: "INR",
-      currencySymbol: "₹",
-      showAlternateCurrency: true,
-      alternateCurrencyCode: "USD",
+      currencyCode: "USD",
+      currencySymbol: "$",
+      showAlternateCurrency: false,
     },
     behavior: {
-      defaultLanguage: "HI",
+      defaultLanguage: "EN",
       targetCountries: ["IN"],
-      forceLanguageForCountries: true,
-      availableLanguages: ["HI", "EN"],  // Only Hindi and English for India site
+      forceLanguageForCountries: false,
+      availableLanguages: ["EN", "HI", "ZH"],  // Only English, Hindi, and Chinese
     },
   },
 
@@ -296,10 +296,10 @@ export const SITES: Record<string, SiteConfig> = {
       showISTTimezone: false,
     },
     content: {
-      siteName: "VietnamTravel.Help",
-      siteNameShort: "VietnamTravel.Help",
+      siteName: "VietnamTravel.help",
+      siteNameShort: "VietnamTravel.help",
       domain: "vietnamtravel.help",
-      tagline: "Your Vietnam Travel Assistant",
+      tagline: "Your Travel Concierge",
       metaTitle: "Vietnam Travel Help - E-Visa Application Assistance",
       metaDescription: "Professional assistance for Vietnam e-visa applications. We help travelers navigate the official visa process. Clear guidance, document support, and application tracking.",
       heroTitle: "Planning Your Vietnam Trip?",
@@ -356,7 +356,7 @@ export const SITES: Record<string, SiteConfig> = {
       siteName: "越签.com",
       siteNameShort: "越签",
       domain: "xn--vyzo38a.com",
-      tagline: "登机保证 - 1小时签证",
+      tagline: "您的旅行礼宾服务",
       metaTitle: "越南签证 - 30分钟登机批准 | 越签.com",
       metaDescription: "被拒绝登机？30分钟获得越南签证批准函。登机保证，不成功全额退款。24小时中文客服，支持支付宝微信支付。",
       heroTitle: "🚨 登机保证",
