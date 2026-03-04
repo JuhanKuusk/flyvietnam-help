@@ -71,9 +71,7 @@ export function Logo({ size = "md", showTagline = true, className = "", variant 
           </span>
         ) : (
           <span className={`${text} font-bold leading-tight`} style={{ color: '#2d7ef6' }}>
-            <span className="border-b border-black">Vietnam</span>
-            <span className="border-b border-black">Visa</span>
-            <span className="border-b border-black">Help</span>
+            VietnamTravel.help
           </span>
         )}
         {showTagline && (
