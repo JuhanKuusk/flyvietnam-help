@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SiteProvider } from "@/contexts/SiteContext";
@@ -6,6 +7,7 @@ import { LanguageProvider } from "@/contexts/LanguageContext";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import { CurrencyProvider } from "@/contexts/CurrencyContext";
 import { CookieConsent } from "@/components/ui/cookie-consent";
+import { getSiteConfigFromHostname } from "@/lib/site-config";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,11 +19,20 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Vietnam E-Visa in 30 Minutes | VietnamTravel.help",
-  description: "Get your Vietnam E-Visa approval letter in 30 minutes. Stuck at check-in? We fix that fast. Express visa service for urgent travelers.",
-  keywords: "Vietnam visa, e-visa, urgent visa, fast visa, Vietnam travel, approval letter",
-};
+// Dynamic metadata based on hostname
+export async function generateMetadata(): Promise<Metadata> {
+  const headersList = await headers();
+  const host = headersList.get("host") || "vietnamtravel.help";
+  const hostname = host.split(":")[0]; // Remove port if present
+
+  const siteConfig = getSiteConfigFromHostname(hostname);
+
+  return {
+    title: siteConfig.content.metaTitle,
+    description: siteConfig.content.metaDescription,
+    keywords: "Vietnam visa, e-visa, urgent visa, fast visa, Vietnam travel, approval letter",
+  };
+}
 
 export default function RootLayout({
   children,

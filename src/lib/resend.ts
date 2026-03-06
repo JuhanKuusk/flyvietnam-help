@@ -1,8 +1,37 @@
 import { Resend } from "resend";
 import { translations, SupportedLanguage } from "./translations";
 import { translateTexts } from "./deepl";
+import { SiteConfig } from "./site-config";
 
 const resendApiKey = process.env.RESEND_API_KEY;
+
+// Default email sender config (fallback)
+const DEFAULT_SENDER_NAME = "VietnamTravel.help";
+const DEFAULT_SENDER_EMAIL = "support@vietnamtravel.help";
+
+// Get email sender string from site config or use defaults
+function getEmailSender(siteConfig?: SiteConfig): string {
+  if (siteConfig) {
+    return `${siteConfig.content.siteName} <${siteConfig.content.supportEmail}>`;
+  }
+  return `${DEFAULT_SENDER_NAME} <${DEFAULT_SENDER_EMAIL}>`;
+}
+
+// Get site URL from site config or use default
+function getSiteUrl(siteConfig?: SiteConfig): string {
+  if (siteConfig) {
+    return `https://${siteConfig.content.domain}`;
+  }
+  return "https://vietnamtravel.help";
+}
+
+// Get WhatsApp number from site config or use default
+function getWhatsAppNumber(siteConfig?: SiteConfig): string {
+  if (siteConfig) {
+    return siteConfig.content.whatsappNumber.replace(/[^0-9]/g, "");
+  }
+  return "84705549868";
+}
 
 export const resend = resendApiKey ? new Resend(resendApiKey) : null;
 
@@ -238,6 +267,7 @@ interface SendPaymentConfirmationParams {
   exitDate: string;
   entryPort: string;
   language?: SupportedLanguage;
+  siteConfig?: SiteConfig;
 }
 
 export async function sendPaymentConfirmationEmail({
@@ -250,6 +280,7 @@ export async function sendPaymentConfirmationEmail({
   exitDate,
   entryPort,
   language = "EN",
+  siteConfig,
 }: SendPaymentConfirmationParams): Promise<{ success: boolean; error?: string }> {
   const emailClient = getResend();
 
@@ -258,9 +289,15 @@ export async function sendPaymentConfirmationEmail({
   const labels = serviceTypeLabels[language] || serviceTypeLabels.EN;
   const speedLabel = visaSpeed ? labels[visaSpeed] || labels.standard : labels.standard;
 
+  // Get site-specific sender and URLs
+  const sender = getEmailSender(siteConfig);
+  const siteUrl = getSiteUrl(siteConfig);
+  const whatsappNumber = getWhatsAppNumber(siteConfig);
+  const siteName = siteConfig?.content.siteName || DEFAULT_SENDER_NAME;
+
   try {
     const { error } = await emailClient.emails.send({
-      from: "VietnamTravel.help <support@vietnamtravel.help>",
+      from: sender,
       to: [to],
       subject: `${t.subject} - ${referenceNumber}`,
       html: `
@@ -335,13 +372,13 @@ export async function sendPaymentConfirmationEmail({
 
             <div style="text-align: center; padding: 20px 0;">
               <p style="color: #666; margin-bottom: 15px;">${t.questionsText}</p>
-              <a href="https://wa.me/84705549868?text=Hi, I need help with my visa. Reference: ${referenceNumber}" style="display: inline-block; padding: 12px 30px; background: #25D366; color: white; text-decoration: none; border-radius: 8px; font-weight: bold;">${t.chatWhatsApp}</a>
+              <a href="https://wa.me/${whatsappNumber}?text=Hi, I need help with my visa. Reference: ${referenceNumber}" style="display: inline-block; padding: 12px 30px; background: #25D366; color: white; text-decoration: none; border-radius: 8px; font-weight: bold;">${t.chatWhatsApp}</a>
             </div>
           </div>
 
           <div style="text-align: center; padding: 20px; color: #666; font-size: 12px;">
-            <p>&copy; ${new Date().getFullYear()} ${t.footerCopyright}</p>
-            <p><a href="https://vietnamtravel.help" style="color: #10b981;">vietnamtravel.help</a></p>
+            <p>&copy; ${new Date().getFullYear()} ${siteName}. All rights reserved.</p>
+            <p><a href="${siteUrl}" style="color: #10b981;">${siteName}</a></p>
           </div>
         </body>
         </html>
@@ -366,6 +403,7 @@ interface SendVisaEmailParams {
   referenceNumber: string;
   documentUrl: string;
   language?: SupportedLanguage;
+  siteConfig?: SiteConfig;
 }
 
 export async function sendVisaDocumentEmail({
@@ -374,11 +412,16 @@ export async function sendVisaDocumentEmail({
   referenceNumber,
   documentUrl,
   language = "EN",
+  siteConfig,
 }: SendVisaEmailParams): Promise<{ success: boolean; error?: string }> {
   const emailClient = getResend();
 
   // Get translated content
   const t = await getVisaReadyEmailTranslations(language);
+
+  // Get site-specific sender
+  const sender = getEmailSender(siteConfig);
+  const siteName = siteConfig?.content.siteName || DEFAULT_SENDER_NAME;
 
   try {
     // Fetch the PDF to attach
@@ -390,7 +433,7 @@ export async function sendVisaDocumentEmail({
     const pdfBase64 = Buffer.from(pdfBuffer).toString("base64");
 
     const { error } = await emailClient.emails.send({
-      from: "VietnamTravel.help <support@vietnamtravel.help>",
+      from: sender,
       to: [to],
       subject: `${t.subject} - ${referenceNumber}`,
       html: `
@@ -430,7 +473,7 @@ export async function sendVisaDocumentEmail({
           </div>
 
           <div style="text-align: center; padding: 20px; color: #666; font-size: 12px;">
-            <p>&copy; ${new Date().getFullYear()} Vietnam Fast Visa. All rights reserved.</p>
+            <p>&copy; ${new Date().getFullYear()} ${siteName}. All rights reserved.</p>
           </div>
         </body>
         </html>

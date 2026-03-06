@@ -1,6 +1,7 @@
 import { ImapFlow } from "imapflow";
 import nodemailer from "nodemailer";
 import { simpleParser, ParsedMail } from "mailparser";
+import { SiteConfig } from "./site-config";
 
 // Gmail IMAP/SMTP configuration
 const GMAIL_IMAP_HOST = "imap.gmail.com";
@@ -9,9 +10,20 @@ const GMAIL_SMTP_HOST = "smtp.gmail.com";
 const GMAIL_SMTP_PORT = 465;
 
 // Get credentials from environment
-// For Google Workspace: use support@vietnamvisahelp.com with App Password
+// Support email should be set in environment or use default
 const GMAIL_EMAIL = process.env.GMAIL_EMAIL || "support@vietnamvisahelp.com";
 const GMAIL_APP_PASSWORD = process.env.GMAIL_APP_PASSWORD || "";
+
+// Default sender name (used when no site config is provided)
+const DEFAULT_SENDER_NAME = "VietnamTravel.help Support";
+
+// Get sender name from site config or use default
+function getSenderName(siteConfig?: SiteConfig): string {
+  if (siteConfig) {
+    return `${siteConfig.content.siteName} Support`;
+  }
+  return DEFAULT_SENDER_NAME;
+}
 
 export interface EmailMessage {
   id: string;
@@ -42,6 +54,7 @@ export interface SendEmailParams {
   replyTo?: string;
   inReplyTo?: string;
   references?: string;
+  siteConfig?: SiteConfig;
 }
 
 // Create SMTP transporter for sending emails via Gmail
@@ -65,9 +78,10 @@ export function createSmtpTransporter() {
 export async function sendEmail(params: SendEmailParams): Promise<{ success: boolean; error?: string; messageId?: string }> {
   try {
     const transporter = createSmtpTransporter();
+    const senderName = getSenderName(params.siteConfig);
 
     const mailOptions: nodemailer.SendMailOptions = {
-      from: `VietnamTravel.help Support <${GMAIL_EMAIL}>`,
+      from: `${senderName} <${GMAIL_EMAIL}>`,
       to: params.to,
       subject: params.subject,
       text: params.text,

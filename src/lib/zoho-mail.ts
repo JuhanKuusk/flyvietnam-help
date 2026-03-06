@@ -1,6 +1,7 @@
 import { ImapFlow } from "imapflow";
 import nodemailer from "nodemailer";
 import { simpleParser, ParsedMail } from "mailparser";
+import { SiteConfig } from "./site-config";
 
 // Zoho Mail IMAP/SMTP configuration
 const ZOHO_IMAP_HOST = "imap.zoho.com";
@@ -11,6 +12,17 @@ const ZOHO_SMTP_PORT = 465;
 // Get credentials from environment
 const ZOHO_EMAIL = process.env.ZOHO_EMAIL || "admin@vietnamvisahelp.com";
 const ZOHO_PASSWORD = process.env.ZOHO_PASSWORD || "";
+
+// Default sender name (used when no site config is provided)
+const DEFAULT_SENDER_NAME = "VietnamTravel.help Support";
+
+// Get sender name from site config or use default
+function getSenderName(siteConfig?: SiteConfig): string {
+  if (siteConfig) {
+    return `${siteConfig.content.siteName} Support`;
+  }
+  return DEFAULT_SENDER_NAME;
+}
 
 export interface EmailMessage {
   id: string;
@@ -41,6 +53,7 @@ export interface SendEmailParams {
   replyTo?: string;
   inReplyTo?: string;
   references?: string;
+  siteConfig?: SiteConfig;
 }
 
 // Create SMTP transporter for sending emails
@@ -64,9 +77,10 @@ export function createSmtpTransporter() {
 export async function sendEmail(params: SendEmailParams): Promise<{ success: boolean; error?: string; messageId?: string }> {
   try {
     const transporter = createSmtpTransporter();
+    const senderName = getSenderName(params.siteConfig);
 
     const mailOptions: nodemailer.SendMailOptions = {
-      from: `VietnamTravel.help Support <${ZOHO_EMAIL}>`,
+      from: `${senderName} <${ZOHO_EMAIL}>`,
       to: params.to,
       subject: params.subject,
       text: params.text,

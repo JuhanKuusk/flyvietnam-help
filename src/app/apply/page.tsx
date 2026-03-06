@@ -1235,7 +1235,7 @@ function ApplyForm() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const { t, isLoading: isTranslating, language } = useLanguage();
-  const { formatSitePrice } = useSite();
+  const { formatSitePrice, siteConfig } = useSite();
 
   // Get initial values from URL params (from home page)
   const initialFlight = searchParams.get("flight") || ""; // This is the flight arriving in Vietnam (or only flight if no connection)
@@ -1803,10 +1803,10 @@ function ApplyForm() {
       <header className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 shadow-sm overflow-hidden">
         <div className="max-w-6xl mx-auto px-2 sm:px-6 lg:px-8 py-3 sm:py-4 flex justify-between items-center">
           <a href="/" className="hidden sm:flex items-center gap-3">
-            <Logo size="md" taglineText={t.header?.logoTagline || t.applyHeader?.tagline || "Expedited Processing in 30 min"} siteName={t.header?.siteName !== "VietnamTravel.help" ? t.header?.siteName : undefined} />
+            <Logo size="md" taglineText={t.header?.logoTagline || t.applyHeader?.tagline || "Expedited Processing in 30 min"} siteName={siteConfig?.content.siteName || t.header?.siteName} />
           </a>
           <a href="/" className="sm:hidden text-lg font-bold" style={{ color: '#c41e3a' }}>
-            {t.header?.siteName || "VietnamTravel.help"}
+            {siteConfig?.content.siteName || t.header?.siteName || "VietnamTravel.help"}
           </a>
           <div className="flex items-center gap-1 sm:gap-3">
             {/* About Us Button - Blue */}
@@ -3197,13 +3197,13 @@ function ApplyForm() {
                       </div>
                       <div className="h-[200px] overflow-y-scroll p-4 text-xs text-gray-600 dark:text-gray-400 leading-relaxed scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
                         <p className="font-semibold text-gray-900 dark:text-white mb-2">{t.applyForm.termsPreview1Title || "1. Definitions"}</p>
-                        <p className="mb-3">{t.applyForm.termsPreview1Content || "\"Provider\" - VietnamTravel.help is an e-commercial or non-government website. \"Client\" - An individual or company who conducts payment of the Sales Order/Booking. \"Terms and Conditions\" - An agreement between The Client and The Provider governing the rights, obligations, and responsibilities of both parties."}</p>
+                        <p className="mb-3">{(t.applyForm.termsPreview1Content || `"Provider" - ${siteConfig?.content.siteName || "VietnamTravel.help"} is an e-commercial or non-government website. "Client" - An individual or company who conducts payment of the Sales Order/Booking. "Terms and Conditions" - An agreement between The Client and The Provider governing the rights, obligations, and responsibilities of both parties.`).replace(/VietnamTravel\.help/g, siteConfig?.content.siteName || "VietnamTravel.help")}</p>
 
                         <p className="font-semibold text-gray-900 dark:text-white mb-2">{t.applyForm.termsPreview2Title || "2. Acceptance of Terms"}</p>
-                        <p className="mb-3">{t.applyForm.termsPreview2Content || "By using our Website and Service, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. You understand that VietnamTravel.help is an independent visa assistance service and is NOT affiliated with the Vietnamese Government or any governmental body. You agree not to use the website for illegal purposes and to respect all applicable laws."}</p>
+                        <p className="mb-3">{(t.applyForm.termsPreview2Content || `By using our Website and Service, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. You understand that ${siteConfig?.content.siteName || "VietnamTravel.help"} is an independent visa assistance service and is NOT affiliated with the Vietnamese Government or any governmental body. You agree not to use the website for illegal purposes and to respect all applicable laws.`).replace(/VietnamTravel\.help/g, siteConfig?.content.siteName || "VietnamTravel.help")}</p>
 
                         <p className="font-semibold text-gray-900 dark:text-white mb-2">{t.applyForm.termsPreview3Title || "3. Nature of Our Service"}</p>
-                        <p className="mb-3">{t.applyForm.termsPreview3Content || "VietnamTravel.help provides professional visa application assistance services including document review and verification, application form preparation and submission, 24/7 customer support, application status tracking, and express processing options. We do not issue visas. All visa decisions are made solely by the Vietnam Immigration Department."}</p>
+                        <p className="mb-3">{(t.applyForm.termsPreview3Content || `${siteConfig?.content.siteName || "VietnamTravel.help"} provides professional visa application assistance services including document review and verification, application form preparation and submission, 24/7 customer support, application status tracking, and express processing options. We do not issue visas. All visa decisions are made solely by the Vietnam Immigration Department.`).replace(/VietnamTravel\.help/g, siteConfig?.content.siteName || "VietnamTravel.help")}</p>
 
                         <p className="font-semibold text-gray-900 dark:text-white mb-2">{t.applyForm.termsPreview4Title || "4. Processing Times"}</p>
                         <p className="mb-3">{t.applyForm.termsPreview4Content || "We offer various processing speeds: Emergency (15-30 min with Expedited Processing), Urgent (1 hour), Express (4 hours), Express (1 day), Express (2 days), and Standard (2-3 business days). Processing times are estimates and actual delivery depends on the Vietnam Immigration Department."}</p>
@@ -3215,7 +3215,7 @@ function ApplyForm() {
                         <p className="mb-3">{t.applyForm.termsPreview6Content || "Full refund: Available if you cancel before we submit your application. Partial refund (service fee only): When you cancel after submission but before approval. No refund: Once visa is approved, visa denial due to your error, change of travel plans, or delays by authorities. If visa is denied by Vietnam Immigration: We refund 50% of service fee."}</p>
 
                         <p className="font-semibold text-gray-900 dark:text-white mb-2">{t.applyForm.termsPreview7Title || "7. Warnings and Disclaimers"}</p>
-                        <p className="mb-3">{t.applyForm.termsPreview7Content || "VietnamTravel.help is NOT a government agency and is NOT affiliated with the Vietnam Immigration Department. We are an independent commercial service. You may apply directly through the official government website (evisa.xuatnhapcanh.gov.vn) for $25 USD with 3 business day processing. Visa approval is at the sole discretion of Vietnamese immigration authorities. Non-refundable fares or reservations must not be purchased until all visas have been obtained."}</p>
+                        <p className="mb-3">{(t.applyForm.termsPreview7Content || `${siteConfig?.content.siteName || "VietnamTravel.help"} is NOT a government agency and is NOT affiliated with the Vietnam Immigration Department. We are an independent commercial service. You may apply directly through the official government website (evisa.xuatnhapcanh.gov.vn) for $25 USD with 3 business day processing. Visa approval is at the sole discretion of Vietnamese immigration authorities. Non-refundable fares or reservations must not be purchased until all visas have been obtained.`).replace(/VietnamTravel\.help/g, siteConfig?.content.siteName || "VietnamTravel.help")}</p>
 
                         <p className="font-semibold text-gray-900 dark:text-white mb-2">{t.applyForm.termsPreview8Title || "8. Limitation of Liability"}</p>
                         <p className="mb-3">{t.applyForm.termsPreview8Content || "We are not responsible for: visa refusals or delays by the Vietnam Immigration Department, entry denial at Vietnamese borders, travel disruptions or missed flights, changes in Vietnamese visa policies, consequences of incorrect information provided by you, incomplete documentation, or technical issues beyond our control. Our total liability shall not exceed the amount you paid for our services."}</p>
@@ -3224,7 +3224,7 @@ function ApplyForm() {
                         <p className="mb-3">{t.applyForm.termsPreview9Content || "Your personal information is collected only for visa application processing purposes, stored securely, shared only with the Vietnam Immigration Department as required, and never sold to third parties. Your data is deleted 30 days after services are completed."}</p>
 
                         <p className="font-semibold text-gray-900 dark:text-white mb-2">{t.applyForm.termsPreview10Title || "10. Contact Information"}</p>
-                        <p className="mb-3">{t.applyForm.termsPreview10Content || "Email: info@vietnamtravel.help | WhatsApp: +84 70 5549868 | Address: Park 7 Building, Floor 38, Vinhomes Central Park, 720A, Binh Thanh District, Ho Chi Minh City, Vietnam"}</p>
+                        <p className="mb-3">{t.applyForm.termsPreview10Content || `Email: ${siteConfig?.content.supportEmail || "info@vietnamtravel.help"} | WhatsApp: ${siteConfig?.content.whatsappNumber || "+84 70 5549868"} | Address: Park 7 Building, Floor 38, Vinhomes Central Park, 720A, Binh Thanh District, Ho Chi Minh City, Vietnam`}</p>
 
                         <div className="flex gap-4 mt-4 pt-3 border-t border-gray-200 dark:border-gray-600">
                           <a href="/terms" target="_blank" className="text-blue-600 dark:text-blue-400 hover:underline">{t.applyForm.fullTermsLink || "Full Terms →"}</a>
