@@ -1,6 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getSupabaseServer } from "@/lib/supabase-server";
-import sharp from "sharp";
+
+// Dynamically import sharp - it may not be available on all platforms
+let sharp: typeof import("sharp") | null = null;
+try {
+  sharp = require("sharp");
+} catch {
+  console.warn("Sharp module not available, photo processing will be limited");
+}
 
 // Passport photo dimensions (4x6cm at 300 DPI)
 const PASSPORT_WIDTH = 472; // 4cm * 300 / 2.54
@@ -59,16 +66,21 @@ async function processPassportPhoto(imageBuffer: Buffer): Promise<Buffer> {
   // Remove background (returns PNG with white background)
   const bgRemovedBuffer = await removeBackground(imageBuffer);
 
+  // If sharp is not available, return the background-removed image as-is
+  if (!sharp) {
+    console.warn("Sharp not available, skipping resize");
+    return bgRemovedBuffer;
+  }
+
   // Resize to passport dimensions with white background
   // Start with high quality JPEG
-  let quality = 100;
   let processedBuffer = await sharp(bgRemovedBuffer)
     .flatten({ background: { r: 255, g: 255, b: 255 } }) // Ensure white background
     .resize(PASSPORT_WIDTH, PASSPORT_HEIGHT, {
       fit: "cover",
       position: "top", // Keep face at top
     })
-    .jpeg({ quality, chromaSubsampling: "4:4:4" }) // Maximum quality settings
+    .jpeg({ quality: 100, chromaSubsampling: "4:4:4" }) // Maximum quality settings
     .toBuffer();
 
   // If the file is smaller than 2MB, we need to increase the resolution

@@ -2,7 +2,7 @@ import { getBlogPosts } from '@/lib/blog'
 import type { BlogPost } from '@/lib/database.types'
 
 export async function GET() {
-  const baseUrl = 'https://vietnamvisahelp.com'
+  const baseUrl = 'https://vietnamtravel.help'
 
   let posts: BlogPost[] = []
   try {
@@ -24,7 +24,7 @@ export async function GET() {
   const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>VietnamVisaHelp Blog</title>
+    <title>VietnamTravel.help Blog</title>
     <link>${baseUrl}/blog</link>
     <description>Vietnam travel tips, visa guides, and cultural insights for travelers.</description>
     <language>en-us</language>
@@ -32,7 +32,7 @@ export async function GET() {
     <atom:link href="${baseUrl}/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>${baseUrl}/logo.png</url>
-      <title>VietnamVisaHelp Blog</title>
+      <title>VietnamTravel.help Blog</title>
       <link>${baseUrl}</link>
     </image>
     ${posts.map(post => `

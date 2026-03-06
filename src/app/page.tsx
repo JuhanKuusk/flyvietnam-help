@@ -541,7 +541,7 @@ export default function Home() {
                   <span className="text-gray-700 dark:text-gray-300 text-xl">{t.hero.perPerson}</span>
                 </div>
                 <div className="text-gray-600 dark:text-gray-400 text-sm mt-2">
-                  {t.heroPrice?.fullVisaDesc || "1.5-Hour Full Visa | Check-in approval letter in 30 min"}
+                  {t.heroPrice?.fullVisaDesc || "1.5-Hour Full Visa | Boarding support letter in 30 min"}
                 </div>
               </div>
             )}

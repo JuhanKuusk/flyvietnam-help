@@ -9,6 +9,7 @@ import { Footer } from "@/components/ui/footer";
 import { Logo } from "@/components/ui/logo";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { LanguageSelector } from "@/components/ui/language-selector";
+import { GoogleAdsSafetyHeader } from "@/components/ui/google-ads-safety-header";
 
 // Lead Capture Form Modal
 function LeadCaptureModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
@@ -206,6 +207,9 @@ export default function WelcomeConciergePage() {
         </div>
       </header>
 
+      {/* Google Ads Safety Header - Above the Fold for Compliance */}
+      <GoogleAdsSafetyHeader />
+
       {/* Hero Section */}
       <section className="relative min-h-[600px] flex items-center justify-center bg-gradient-to-br from-emerald-900 via-emerald-800 to-teal-900">
         {/* Background Image Overlay */}
@@ -283,7 +287,7 @@ export default function WelcomeConciergePage() {
             What is Vietnam Airport Fast Track?
           </h2>
           <p className="text-gray-600 dark:text-gray-400 text-center max-w-3xl mx-auto mb-8">
-            Vietnam airport fast track is a service for travelers to skip lines at visa, immigration, and baggage.
+            Vietnam airport fast track is a service for travelers to skip lines at immigration, entry processing, and baggage.
             It reduces wait times and makes the airport experience smoother and more efficient.
           </p>
 
@@ -377,7 +381,7 @@ export default function WelcomeConciergePage() {
             Arrival Fast Track Services
           </h2>
           <p className="text-gray-600 dark:text-gray-400 text-center max-w-3xl mx-auto mb-12">
-            Our fast track services help visitors with visa stamping, visa stickers, and luggage assistance.
+            Our fast track services help visitors with entry documentation assistance, arrival document processing, and luggage assistance.
             Designed to make arrival smooth and easy, saving time and reducing stress after a long flight.
           </p>
 
@@ -394,7 +398,7 @@ export default function WelcomeConciergePage() {
               </div>
               <p className="text-gray-600 dark:text-gray-400 mb-4">
                 Our staff will greet you at the aircraft gate with a welcome board displaying your name.
-                We&apos;ll assist you in getting your visa stamp and sticker without waiting in line.
+                We&apos;ll assist you in getting your entry documentation without waiting in line.
               </p>
               <div className="bg-emerald-50 dark:bg-emerald-900/20 rounded-lg p-4">
                 <p className="text-emerald-700 dark:text-emerald-400 font-semibold text-center">
@@ -430,7 +434,7 @@ export default function WelcomeConciergePage() {
                   <svg className="w-4 h-4 text-emerald-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Visa stamp without waiting in line
+                  Entry processing without waiting in line
                 </li>
                 <li className="flex items-center gap-2 text-gray-700 dark:text-gray-300 text-sm">
                   <svg className="w-4 h-4 text-emerald-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -758,7 +762,7 @@ export default function WelcomeConciergePage() {
                 <h3 className="font-bold text-gray-900 dark:text-white">Prepare Payment</h3>
               </div>
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                Bring the visa stamping fee in <strong>USD</strong>, as ATMs are only accessible after immigration.
+                Bring the government entry fee in <strong>USD</strong>, as ATMs are only accessible after immigration.
               </p>
             </div>
 
@@ -772,7 +776,7 @@ export default function WelcomeConciergePage() {
                 <h3 className="font-bold text-gray-900 dark:text-white">Carry Printed Documents</h3>
               </div>
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                Print your e-visa or approval letter, as <strong>mobile copies may not be accepted</strong>.
+                Print your travel authorization or approval letter, as <strong>mobile copies may not be accepted</strong>.
               </p>
             </div>
           </div>

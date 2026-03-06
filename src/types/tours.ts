@@ -199,7 +199,7 @@ export interface Tour {
   imageGallery?: string[]; // Additional images for gallery
   rating?: number;
   reviewCount?: number;
-  affiliateUrl: string;
+  affiliateUrl?: string; // Optional - some tours don't have affiliate links
   // Enhanced fields from BestPrice Travel
   overview?: string; // Detailed tour overview
   importantNotes?: string[]; // Schedule changes, dietary requirements, etc.

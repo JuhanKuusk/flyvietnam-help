@@ -1,0 +1,132 @@
+{
+  "urls": [
+    "https://www.bestpricetravel.com/halong-bay-tours/halong-bay-cruise-2-days-1-night-from-hanoi-with-transfer.html",
+    "https://www.bestpricetravel.com/halong-bay-cruises/mon-cheri-cruise.html",
+    "https://www.bestpricetravel.com/halong-bay-cruises/lyra-grandeur-cruise.html",
+    "https://www.bestpricetravel.com/ha-giang-tours/ha-giang-panoramas-4-days.html",
+    "https://www.bestpricetravel.com/vietnam-tours/saigon-to-da-nang-golf-8-days.html",
+    "https://www.bestpricetravel.com/vietnam-tours/hanoi-halong-bay-ninh-binh-a-glimpse-of-north-vietnam-5-days.html",
+    "https://www.bestpricetravel.com/halong-bay-tours/private-halong-bay-day-trip-from-hanoi.html",
+    "https://www.bestpricetravel.com/vietnam-tours/vietnam-biking-trekking-snorkeling-12-days.html",
+    "https://www.bestpricetravel.com/vietnam-tours/north-center-vietnam-easy-adventure-for-family-with-kids-10-days.html",
+    "https://www.bestpricetravel.com/vietnam-tours/trekking-caving-ba-be-national-park-3-days-2-nights.html",
+    "https://www.bestpricetravel.com/vietnam-tours/central-vietnam-deep-dive-7-days.html",
+    "https://www.bestpricetravel.com/vietnam-tours/central-and-southern-vietnamese-taste-10-days.html",
+    "https://www.bestpricetravel.com/hoi-an-tours/hoi-an-vespa-tour-half-day.html",
+    "https://www.bestpricetravel.com/vietnam-tours/phong-nha-cave-dmz-4-days.html",
+    "https://www.bestpricetravel.com/mekong-delta-tours/authentic-mekong-delta-2-days-with-homestay-ben-tre-tra-vinh.html",
+    "https://www.bestpricetravel.com/ho-chi-minh-city-tours/saigon-by-night-jeep-adventure-street-food-delights.html",
+    "https://www.bestpricetravel.com/vietnam-tours/dalat-highlands-adventure-3-days.html",
+    "https://www.bestpricetravel.com/da-nang-tours/da-nang-full-day-city-tour.html",
+    "https://www.bestpricetravel.com/indochina-tours/romance-of-vietnam-cambodia-from-mekong-delta-to-angkor-wat-13-days.html",
+    "https://www.bestpricetravel.com/hanoi-tours/family-adventure-in-hanoi-outskirt-ba-vi-eco-escape-3-days.html",
+    "https://www.bestpricetravel.com/hanoi-tours/northern-vietnams-flavors-and-traditions-3-days.html",
+    "https://www.bestpricetravel.com/ho-chi-minh-city-tours/cu-chi-tunnels-half-day-small-group.html",
+    "https://www.bestpricetravel.com/hoi-an-tours/my-son-sanctuary-half-day-tour.html",
+    "https://www.bestpricetravel.com/indochina-tours/cultural-beach-paradise-vietnam-cambodia-bali-16-days.html",
+    "https://www.bestpricetravel.com/vietnam-tours/hoi-an-lantern-photography-2-days.html",
+    "https://www.bestpricetravel.com/hoi-an-tours/experience-rural-life-and-cooking-at-organic-farm-in-hoi-an.html",
+    "https://www.bestpricetravel.com/vietnam-tours/vietnam-tet-festival-10-days.html",
+    "https://www.bestpricetravel.com/vietnam-tours/hoi-an-lantern-festival-3-days.html",
+    "https://www.bestpricetravel.com/vietnam-tours/one-journey-two-heritages-spiritual-yen-tu-to-majestic-halong-bay-6-days.html"
+  ],
+  "mapping": {
+    "https://www.bestpricetravel.com/halong-bay-tours/halong-bay-cruise-2-days-1-night-from-hanoi-with-transfer.html": [
+      "catherine-cruise-2d1n",
+      "halong-bay-romantic-cruise-3d",
+      "halong-bay-photo-cruise-2d"
+    ],
+    "https://www.bestpricetravel.com/halong-bay-cruises/mon-cheri-cruise.html": [
+      "mon-cheri-cruise-2d1n"
+    ],
+    "https://www.bestpricetravel.com/halong-bay-cruises/lyra-grandeur-cruise.html": [
+      "lyra-grandeur-cruise-2d1n"
+    ],
+    "https://www.bestpricetravel.com/ha-giang-tours/ha-giang-panoramas-4-days.html": [
+      "ha-giang-3d-exploration"
+    ],
+    "https://www.bestpricetravel.com/vietnam-tours/saigon-to-da-nang-golf-8-days.html": [
+      "saigon-danang-motorbike-7d",
+      "saigon-danang-golf-8d"
+    ],
+    "https://www.bestpricetravel.com/vietnam-tours/hanoi-halong-bay-ninh-binh-a-glimpse-of-north-vietnam-5-days.html": [
+      "hanoi-halong-ninh-binh-5d"
+    ],
+    "https://www.bestpricetravel.com/halong-bay-tours/private-halong-bay-day-trip-from-hanoi.html": [
+      "private-halong-day-trip"
+    ],
+    "https://www.bestpricetravel.com/vietnam-tours/vietnam-biking-trekking-snorkeling-12-days.html": [
+      "vietnam-biking-trekking-snorkeling-12d",
+      "small-group-mekong-adventure-3d"
+    ],
+    "https://www.bestpricetravel.com/vietnam-tours/north-center-vietnam-easy-adventure-for-family-with-kids-10-days.html": [
+      "vietnam-family-kids-10d",
+      "family-easy-adventure-10d"
+    ],
+    "https://www.bestpricetravel.com/vietnam-tours/trekking-caving-ba-be-national-park-3-days-2-nights.html": [
+      "vietnam-trekking-caving-12d"
+    ],
+    "https://www.bestpricetravel.com/vietnam-tours/central-vietnam-deep-dive-7-days.html": [
+      "central-vietnam-deep-dive-7d"
+    ],
+    "https://www.bestpricetravel.com/vietnam-tours/central-and-southern-vietnamese-taste-10-days.html": [
+      "vietnam-photo-expedition-14d",
+      "vietnam-photography-15d",
+      "vietnam-birdwatching-10d"
+    ],
+    "https://www.bestpricetravel.com/hoi-an-tours/hoi-an-vespa-tour-half-day.html": [
+      "hoi-an-countryside-cycling"
+    ],
+    "https://www.bestpricetravel.com/vietnam-tours/phong-nha-cave-dmz-4-days.html": [
+      "phong-nha-cave-2d",
+      "dmz-battlefield-2d"
+    ],
+    "https://www.bestpricetravel.com/mekong-delta-tours/authentic-mekong-delta-2-days-with-homestay-ben-tre-tra-vinh.html": [
+      "mekong-delta-authentic-2d"
+    ],
+    "https://www.bestpricetravel.com/ho-chi-minh-city-tours/saigon-by-night-jeep-adventure-street-food-delights.html": [
+      "saigon-street-food-night-tour",
+      "saigon-street-food-master-2d"
+    ],
+    "https://www.bestpricetravel.com/vietnam-tours/dalat-highlands-adventure-3-days.html": [
+      "dalat-highlands-3d"
+    ],
+    "https://www.bestpricetravel.com/da-nang-tours/da-nang-full-day-city-tour.html": [
+      "saigon-city-highlights"
+    ],
+    "https://www.bestpricetravel.com/indochina-tours/romance-of-vietnam-cambodia-from-mekong-delta-to-angkor-wat-13-days.html": [
+      "angkor-wat-extension-3d",
+      "mekong-to-angkor-7d"
+    ],
+    "https://www.bestpricetravel.com/hanoi-tours/family-adventure-in-hanoi-outskirt-ba-vi-eco-escape-3-days.html": [
+      "vietnam-eco-adventure-10d"
+    ],
+    "https://www.bestpricetravel.com/hanoi-tours/northern-vietnams-flavors-and-traditions-3-days.html": [
+      "vietnam-rural-immersion-7d"
+    ],
+    "https://www.bestpricetravel.com/ho-chi-minh-city-tours/cu-chi-tunnels-half-day-small-group.html": [
+      "cu-chi-tunnels-half-day"
+    ],
+    "https://www.bestpricetravel.com/hoi-an-tours/my-son-sanctuary-half-day-tour.html": [
+      "my-son-sanctuary-half-day"
+    ],
+    "https://www.bestpricetravel.com/indochina-tours/cultural-beach-paradise-vietnam-cambodia-bali-16-days.html": [
+      "honeymoon-vietnam-beach-12d"
+    ],
+    "https://www.bestpricetravel.com/vietnam-tours/hoi-an-lantern-photography-2-days.html": [
+      "hoi-an-lantern-photo-2d"
+    ],
+    "https://www.bestpricetravel.com/hoi-an-tours/experience-rural-life-and-cooking-at-organic-farm-in-hoi-an.html": [
+      "hoi-an-cooking-farmstay-2d"
+    ],
+    "https://www.bestpricetravel.com/vietnam-tours/vietnam-tet-festival-10-days.html": [
+      "vietnam-tet-festival-10d"
+    ],
+    "https://www.bestpricetravel.com/vietnam-tours/hoi-an-lantern-festival-3-days.html": [
+      "hoi-an-lantern-festival-3d"
+    ],
+    "https://www.bestpricetravel.com/vietnam-tours/one-journey-two-heritages-spiritual-yen-tu-to-majestic-halong-bay-6-days.html": [
+      "vietnam-train-journey-14d"
+    ]
+  }
+}

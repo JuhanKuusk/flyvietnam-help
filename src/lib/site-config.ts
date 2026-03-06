@@ -322,6 +322,62 @@ export const SITES: Record<string, SiteConfig> = {
   },
 
   // ---------------------------------------------------------------------------
+  // FLY VIETNAM SITE: flyvietnam.help
+  // Mirror of vietnamtravel.help with FlyVietnam branding
+  // Hosted on Namecheap with separate IP address
+  // ---------------------------------------------------------------------------
+  "flyvietnam.help": {
+    id: "flyvietnam-help",
+    theme: {
+      primaryColor: "#0891b2",           // Teal/cyan - friendly, travel-like
+      primaryColorHover: "#0e7490",
+      secondaryColor: "#059669",         // Green - trust, nature
+      accentColor: "#f59e0b",            // Amber - warm, inviting
+      urgencyColor: "#6366f1",           // Indigo - calm, not aggressive
+      heroGradient: "from-cyan-700 via-teal-600 to-emerald-600",
+      buttonGradient: "from-teal-500 to-cyan-500",
+      borderRadius: "rounded",
+    },
+    layout: {
+      heroVariant: "default",
+      showUrgencyBanner: false,          // No urgency - compliant
+      showCountdownTimer: false,         // No countdown - compliant
+      highlightedVisaSpeed: null,        // No highlighted speed
+      defaultVisaSpeed: "2-day",         // Default to slower, cheaper option
+      trustBadgeVariant: "travel",       // Travel-focused badges
+      testimonialSet: "travel",          // Softer testimonials
+      showTours: true,                   // Show tours section - affiliate content
+      useGoogleAdsCompliant: true,       // Use Google Ads safe language
+      showIndianPaymentMethods: false,
+      showISTTimezone: false,
+    },
+    content: {
+      siteName: "FlyVietnam.Help",
+      siteNameShort: "FlyVietnam.Help",
+      domain: "flyvietnam.help",
+      tagline: "Your Travel Concierge",
+      metaTitle: "FlyVietnam.Help - Vietnam Tour And Premium Travel Concierge",
+      metaDescription: "Professional assistance for Vietnam e-visa applications. FlyVietnam.Help guides you through the official visa process with clear guidance, document support, and application tracking.",
+      heroTitle: "Planning Your Vietnam Trip?",
+      heroSubtitle: "We provide professional assistance with e-visa applications. Our team helps you prepare documents and submit your application correctly.",
+      heroBadge: "Trusted Travel Assistance Service",
+      ctaButtonText: "Get Started",
+      trustHeadline: "Helping travelers since 2019",
+      supportEmail: "info@flyvietnam.help",
+      whatsappNumber: "+84705549868",
+      whatsappDisplay: "+84 70 5549868",
+      currencyCode: "USD",
+      currencySymbol: "$",
+      showAlternateCurrency: false,
+    },
+    behavior: {
+      defaultLanguage: "EN",
+      targetCountries: [],
+      forceLanguageForCountries: false,
+    },
+  },
+
+  // ---------------------------------------------------------------------------
   // CHINA SITE: 越签.com (xn--vyzo38a.com)
   // Aggressive marketing for Baidu/Chinese market - no Google Ads compliance needed
   // ---------------------------------------------------------------------------

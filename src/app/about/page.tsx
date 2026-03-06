@@ -105,14 +105,47 @@ export default function AboutPage() {
 
         {/* Content */}
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 md:p-12 space-y-8">
-          {/* Introduction */}
-          <div className="space-y-4">
-            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              {t.legal?.aboutIntro || "Vietnam Travel Help is a professional visa support service specializing in Vietnam e-Visa applications and related travel documentation. Through our website, www.vietnamtravel.help, we assist travelers from around the world with fast, accurate, and reliable visa solutions for entry into Vietnam."}
+          {/* Third-Party Disclaimer Notice */}
+          <div className="p-4 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+            <p className="text-sm text-amber-800 dark:text-amber-300">
+              <strong>Important Notice:</strong> VietnamTravel.help is a private, third-party travel consultancy and concierge service.
+              We are NOT affiliated with the Vietnamese Government, the Vietnam Immigration Department, or any governmental body.
+              Travelers may apply directly at{" "}
+              <a href="https://evisa.xuatnhapcanh.gov.vn" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                evisa.xuatnhapcanh.gov.vn
+              </a>{" "}
+              (official government fee: $25 USD single entry / $50 USD multiple entry).
             </p>
           </div>
 
-          {/* Express Processing */}
+          {/* Introduction */}
+          <div className="space-y-4">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
+              {isChinaSite ? "越签.com | 您的越南旅游礼宾服务" : "VietnamTravel.help | Your Premium Travel Concierge"}
+            </h2>
+            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              {t.legal?.aboutIntro || "VietnamTravel.help is a professional third-party support service specializing in travel documentation and comprehensive Vietnam travel experiences. Operated by Best Price Travel (License No. 01-1794/2022/SDL-GPLHND), we bring over 14 years of expertise to your journey."}
+            </p>
+          </div>
+
+          {/* Vietnam Tour Services */}
+          <div className="space-y-4">
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{ backgroundColor: '#c41e3a' }}>
+                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{isChinaSite ? "越南旅游服务" : "Vietnam Tour Services"}</h2>
+            </div>
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+              {isChinaSite
+                ? "我们与领先的国际旅行运营商合作，提供导游旅行团、邮轮和定制旅行套餐。从下龙湾邮轮到湄公河三角洲探险，我们策划难忘的越南体验。"
+                : "In partnership with leading international operators, we offer guided tours, cruises, and custom travel packages. From Ha Long Bay cruises to Mekong Delta adventures, we curate unforgettable Vietnam experiences."}
+            </p>
+          </div>
+
+          {/* Airport Fast-Track */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{ backgroundColor: '#c41e3a' }}>
@@ -120,14 +153,16 @@ export default function AboutPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{t.legal?.expressProcessing || "Express Processing"}</h2>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{isChinaSite ? "机场快速通道" : "Airport Fast-Track"}</h2>
             </div>
-            <p className="text-gray-700 dark:text-gray-300 leading-relaxed pl-15">
-              {t.legal?.expressProcessingText || "We are particularly known for our urgent visa processing services, offering expedited options with processing times as fast as one hour, as well as standard processing for travelers who plan ahead. Our services cover a wide range of Vietnam visa options, including tourist e-Visas, business e-Visas, single-entry and multiple-entry visas, and other Vietnam entry permits depending on travel purpose and nationality."}
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+              {isChinaSite
+                ? "我们提供抵达协助和入境文件指导，确保您在机场无压力体验。我们的VIP快速通道服务帮助您跳过排队，在5-15分钟内通过移民检查。"
+                : "We provide arrival assistance and entry document guidance to ensure a stress-free experience at the airport. Our VIP fast-track services help you skip the queues and breeze through immigration in 5-15 minutes."}
             </p>
           </div>
 
-          {/* Support Services */}
+          {/* 24/7 Document Support */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{ backgroundColor: '#c41e3a' }}>
@@ -135,10 +170,12 @@ export default function AboutPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
                 </svg>
               </div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{t.legal?.comprehensiveSupport || "Comprehensive Support"}</h2>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{isChinaSite ? "24/7 文件支持" : "24/7 Document Support"}</h2>
             </div>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              {t.legal?.comprehensiveSupportText || "In addition to visa applications, we provide supplementary support services such as application review, error correction, document guidance, arrival assistance, and visa-related travel consultation to ensure a smooth and stress-free experience for our clients."}
+              {isChinaSite
+                ? "我们在河内和胡志明市的当地专家为所有旅行申请提供实时跟踪和错误纠正。我们全天候提供WhatsApp支持，帮助您进行文件审核、申请更正和旅行咨询。"
+                : "Our local experts in Hanoi and Ho Chi Minh City provide real-time tracking and error correction for all travel submissions. We're available 24/7 on WhatsApp to help with document review, application corrections, and travel consultation."}
             </p>
           </div>
 
@@ -245,7 +282,7 @@ export default function AboutPage() {
               className="inline-flex items-center gap-2 px-8 py-4 text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-xl transition-all hover:scale-105"
               style={{ backgroundColor: '#c41e3a' }}
             >
-              <span>{t.legal?.applyNow || "Apply for Your Visa Now"}</span>
+              <span>{t.legal?.applyNow || "Request Concierge Assistance"}</span>
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>

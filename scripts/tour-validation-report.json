@@ -1,0 +1,990 @@
+{
+  "timestamp": "2026-03-03T14:38:33.827Z",
+  "summary": {
+    "totalTours": 179,
+    "valid": 47,
+    "withIssues": 0,
+    "withWarnings": 132,
+    "noScrapedData": 0
+  },
+  "byCategory": {
+    "multi-day": {
+      "total": 145,
+      "issues": 0,
+      "warnings": 110
+    },
+    "cruise": {
+      "total": 6,
+      "issues": 0,
+      "warnings": 4
+    },
+    "day-trip": {
+      "total": 28,
+      "issues": 0,
+      "warnings": 18
+    }
+  },
+  "issues": [],
+  "warnings": [
+    {
+      "id": "vietnam-essential-10d",
+      "name": "Vietnam Essential 10 Days",
+      "warnings": [
+        "Review count differs: ours=171, source=112"
+      ]
+    },
+    {
+      "id": "catherine-cruise-2d1n",
+      "name": "Catherine Cruise Halong Bay",
+      "warnings": [
+        "Review count differs: ours=22, source=9"
+      ]
+    },
+    {
+      "id": "mon-cheri-cruise-2d1n",
+      "name": "Mon Cheri Cruise",
+      "warnings": [
+        "Review count differs: ours=276, source=9"
+      ]
+    },
+    {
+      "id": "phu-quoc-beach-escape-5d",
+      "name": "Phu Quoc Beach Escape",
+      "warnings": [
+        "Review count differs: ours=124, source=2"
+      ]
+    },
+    {
+      "id": "south-vietnam-phu-quoc-6d",
+      "name": "South Vietnam: Phu Quoc & Saigon",
+      "warnings": [
+        "Review count differs: ours=87, source=4"
+      ]
+    },
+    {
+      "id": "phu-quoc-romantic-5d",
+      "name": "Romantic Getaway in Phu Quoc",
+      "warnings": [
+        "Review count differs: ours=56, source=4",
+        "Itinerary days mismatch: ours=5, source=3"
+      ]
+    },
+    {
+      "id": "hon-thom-island-day",
+      "name": "Hon Thom Island Full Day",
+      "warnings": [
+        "Review count differs: ours=198, source=1"
+      ]
+    },
+    {
+      "id": "ha-giang-loop-4d",
+      "name": "Ha Giang Loop on Motorbike",
+      "warnings": [
+        "Review count differs: ours=312, source=12"
+      ]
+    },
+    {
+      "id": "ha-giang-scooter-7d",
+      "name": "Northern Vietnam by Scooter",
+      "warnings": [
+        "Review count differs: ours=145, source=9"
+      ]
+    },
+    {
+      "id": "ha-giang-3d-exploration",
+      "name": "Authentic Ha Giang 3 Days",
+      "warnings": [
+        "Review count differs: ours=234, source=9"
+      ]
+    },
+    {
+      "id": "saigon-danang-motorbike-7d",
+      "name": "Saigon to Danang: Vietnam Highlands",
+      "warnings": [
+        "Review count differs: ours=67, source=2179"
+      ]
+    },
+    {
+      "id": "central-vietnam-danang-5d",
+      "name": "Central Vietnam: Da Nang, Hoi An & Ba Na Hills",
+      "warnings": [
+        "Review count differs: ours=287, source=11"
+      ]
+    },
+    {
+      "id": "hue-hoi-an-4d",
+      "name": "Hue and Hoi An At A Glance",
+      "warnings": [
+        "Review count differs: ours=198, source=7"
+      ]
+    },
+    {
+      "id": "cycling-hue-hoi-an-7d",
+      "name": "Cycling Vietnam Coast: Hue to Hoi An",
+      "warnings": [
+        "Itinerary days mismatch: ours=7, source=4"
+      ]
+    },
+    {
+      "id": "central-vietnam-heritage-9d",
+      "name": "Central Vietnam Heritage & Adventure",
+      "warnings": [
+        "Review count differs: ours=67, source=9"
+      ]
+    },
+    {
+      "id": "cu-chi-mekong-combo-day",
+      "name": "Cu Chi Tunnels & Mekong Delta Day Tour",
+      "warnings": [
+        "Review count differs: ours=456, source=6"
+      ]
+    },
+    {
+      "id": "mekong-speedboat-day",
+      "name": "Luxury Mekong Delta Speedboat Tour",
+      "warnings": [
+        "Review count differs: ours=187, source=4"
+      ]
+    },
+    {
+      "id": "mekong-floating-market-2d",
+      "name": "Mekong Delta with Floating Market",
+      "warnings": [
+        "Review count differs: ours=234, source=5"
+      ]
+    },
+    {
+      "id": "mekong-local-life-day",
+      "name": "Mekong Local Life: Cai Be & Tan Phong Island",
+      "warnings": [
+        "Review count differs: ours=145, source=3"
+      ]
+    },
+    {
+      "id": "north-vietnam-hanoi-sapa-halong-6d",
+      "name": "Best of Northern Vietnam: Hanoi, Sapa & Halong",
+      "warnings": [
+        "Review count differs: ours=378, source=105"
+      ]
+    },
+    {
+      "id": "luxury-north-vietnam-7d",
+      "name": "Luxurious Northern Vietnam Exploration",
+      "warnings": [
+        "Review count differs: ours=56, source=10"
+      ]
+    },
+    {
+      "id": "private-north-vietnam-14d",
+      "name": "Private Gateways to North Vietnam",
+      "warnings": [
+        "Review count differs: ours=45, source=4"
+      ]
+    },
+    {
+      "id": "hanoi-halong-ninh-binh-5d",
+      "name": "Hanoi, Halong Bay, Ninh Binh Budget Glimpse",
+      "warnings": [
+        "Review count differs: ours=234, source=9"
+      ]
+    },
+    {
+      "id": "north-vietnam-sapa-halong-5d",
+      "name": "North Vietnam at A Glance: Sapa & Halong",
+      "warnings": [
+        "Review count differs: ours=267, source=18"
+      ]
+    },
+    {
+      "id": "south-vietnam-glimpse-4d",
+      "name": "A Glimpse of Southern Vietnam",
+      "warnings": [
+        "Review count differs: ours=312, source=11"
+      ]
+    },
+    {
+      "id": "best-south-vietnam-5d",
+      "name": "Best of South Vietnam: Saigon, Cu Chi & Mekong",
+      "warnings": [
+        "Review count differs: ours=198, source=15"
+      ]
+    },
+    {
+      "id": "hanoi-halong-mai-chau-4d",
+      "name": "Hanoi, Halong Bay, Mai Chau",
+      "warnings": [
+        "Review count differs: ours=178, source=7"
+      ]
+    },
+    {
+      "id": "hcmc-city-tour-full-day",
+      "name": "Ho Chi Minh City Tour Full Day",
+      "warnings": [
+        "Review count differs: ours=234, source=6"
+      ]
+    },
+    {
+      "id": "long-tan-battlefield-day",
+      "name": "Long Tan - Nui Dat Battlefield Tour",
+      "warnings": [
+        "Review count differs: ours=89, source=1"
+      ]
+    },
+    {
+      "id": "hcmc-vespa-half-day",
+      "name": "Ho Chi Minh Vespa Half-Day",
+      "warnings": [
+        "Review count differs: ours=156, source=2"
+      ]
+    },
+    {
+      "id": "private-halong-day-trip",
+      "name": "Private Halong Bay Day Trip",
+      "warnings": [
+        "Review count differs: ours=187, source=9"
+      ]
+    },
+    {
+      "id": "vietnam-biking-trekking-snorkeling-12d",
+      "name": "Vietnam Adventure: Biking, Trekking & Snorkeling",
+      "warnings": [
+        "Review count differs: ours=67, source=9"
+      ]
+    },
+    {
+      "id": "vietnam-on-wheels-16d",
+      "name": "Vietnam on Wheels: North to South by Bike",
+      "warnings": [
+        "Review count differs: ours=45, source=11"
+      ]
+    },
+    {
+      "id": "vietnam-mix-transport-12d",
+      "name": "Ultimate Vietnam: By Land, Rail & Water",
+      "warnings": [
+        "Review count differs: ours=56, source=6"
+      ]
+    },
+    {
+      "id": "vietnam-easy-rider-16d",
+      "name": "Vietnam Easy Rider: North to South",
+      "warnings": [
+        "Review count differs: ours=34, source=4"
+      ]
+    },
+    {
+      "id": "vietnam-family-kids-10d",
+      "name": "North & Central Vietnam Family Adventure",
+      "warnings": [
+        "Review count differs: ours=89, source=9"
+      ]
+    },
+    {
+      "id": "vietnam-family-classic-8d",
+      "name": "Classic Vietnam Family Tour",
+      "warnings": [
+        "Review count differs: ours=67, source=4"
+      ]
+    },
+    {
+      "id": "luxury-gourmet-vietnam-13d",
+      "name": "Luxury Gourmet Explorer Vietnam",
+      "warnings": [
+        "Review count differs: ours=28, source=8"
+      ]
+    },
+    {
+      "id": "luxurious-vietnam-11d",
+      "name": "Luxurious Vietnam Exploration",
+      "warnings": [
+        "Review count differs: ours=42, source=10"
+      ]
+    },
+    {
+      "id": "luxury-wellness-spa-14d",
+      "name": "Luxury Vietnam Beach Wellness & Spa",
+      "warnings": [
+        "Review count differs: ours=35, source=10",
+        "Itinerary days mismatch: ours=14, source=9"
+      ]
+    },
+    {
+      "id": "insight-vietnam-luxury-14d",
+      "name": "Luxurious Insight Vietnam Local",
+      "warnings": [
+        "Review count differs: ours=29, source=4"
+      ]
+    },
+    {
+      "id": "northeast-vietnam-hidden-7d",
+      "name": "Hidden Trails of Northeast Vietnam",
+      "warnings": [
+        "Review count differs: ours=56, source=11"
+      ]
+    },
+    {
+      "id": "hill-tribes-northwest-9d",
+      "name": "Ethnic Encounters: Hill Tribes of Vietnam",
+      "warnings": [
+        "Review count differs: ours=45, source=6"
+      ]
+    },
+    {
+      "id": "saigon-mui-ne-relaxation-7d",
+      "name": "South Vietnam: Saigon & Mui Ne Beach",
+      "warnings": [
+        "Review count differs: ours=123, source=2"
+      ]
+    },
+    {
+      "id": "vietnam-beaches-island-10d",
+      "name": "Vietnam Beaches & Islands Escape",
+      "warnings": [
+        "Review count differs: ours=78, source=2",
+        "Itinerary days mismatch: ours=10, source=5"
+      ]
+    },
+    {
+      "id": "luxury-vietnam-cambodia-15d",
+      "name": "Incredible Luxury Vietnam & Cambodia",
+      "warnings": [
+        "Review count differs: ours=34, source=8"
+      ]
+    },
+    {
+      "id": "northern-vietnam-soft-adventure-8d",
+      "name": "Northern Vietnam Soft Adventure",
+      "warnings": [
+        "Review count differs: ours=89, source=8"
+      ]
+    },
+    {
+      "id": "vietnam-trekking-caving-12d",
+      "name": "Vietnam Active Escape: Trekking, Caving & Water",
+      "warnings": [
+        "Review count differs: ours=67, source=279"
+      ]
+    },
+    {
+      "id": "vietnam-honeymoon-romantic-10d",
+      "name": "Vietnam Romantic Honeymoon Escape",
+      "warnings": [
+        "Review count differs: ours=45, source=10",
+        "Itinerary days mismatch: ours=10, source=14"
+      ]
+    },
+    {
+      "id": "vietnam-lovers-honeymoon-12d",
+      "name": "Impressive Vietnam for Lovers",
+      "warnings": [
+        "Review count differs: ours=38, source=1",
+        "Itinerary days mismatch: ours=12, source=10"
+      ]
+    },
+    {
+      "id": "epic-vietnam-north-south-12d",
+      "name": "Epic Vietnam: North to South Small Group",
+      "warnings": [
+        "Review count differs: ours=234, source=6",
+        "Itinerary days mismatch: ours=12, source=10"
+      ]
+    },
+    {
+      "id": "vietnam-classic-small-group-10d",
+      "name": "Vietnam Classic Small Group Tour",
+      "warnings": [
+        "Review count differs: ours=189, source=29",
+        "Itinerary days mismatch: ours=10, source=16"
+      ]
+    },
+    {
+      "id": "central-vietnam-deep-dive-7d",
+      "name": "Central Vietnam Deep Dive",
+      "warnings": [
+        "Review count differs: ours=112, source=9"
+      ]
+    },
+    {
+      "id": "vietnam-photo-expedition-14d",
+      "name": "Vietnam Photography Expedition",
+      "warnings": [
+        "Review count differs: ours=23, source=9"
+      ]
+    },
+    {
+      "id": "vietnam-culinary-journey-10d",
+      "name": "Vietnam Culinary Journey",
+      "warnings": [
+        "Itinerary days mismatch: ours=10, source=11"
+      ]
+    },
+    {
+      "id": "hoi-an-therapeutic-escape-5d",
+      "name": "Hoi An Therapeutic Escape",
+      "warnings": [
+        "Review count differs: ours=12, source=1"
+      ]
+    },
+    {
+      "id": "saigon-executive-wellness-5d",
+      "name": "Saigon Executive Wellness Retreat",
+      "warnings": [
+        "Review count differs: ours=28, source=1"
+      ]
+    },
+    {
+      "id": "best-northern-vietnam-6d",
+      "name": "Best of Northern Vietnam",
+      "warnings": [
+        "Review count differs: ours=156, source=105"
+      ]
+    },
+    {
+      "id": "hanoi-halong-ninh-binh-4d",
+      "name": "Hanoi, Halong & Ninh Binh Express",
+      "warnings": [
+        "Review count differs: ours=89, source=16"
+      ]
+    },
+    {
+      "id": "sapa-fansipan-adventure-3d",
+      "name": "Sapa & Fansipan Adventure",
+      "warnings": [
+        "Review count differs: ours=67, source=7",
+        "Itinerary days mismatch: ours=3, source=5"
+      ]
+    },
+    {
+      "id": "ha-giang-loop-adventure-4d",
+      "name": "Ha Giang Loop Adventure",
+      "warnings": [
+        "Review count differs: ours=134, source=12"
+      ]
+    },
+    {
+      "id": "ba-be-lake-ban-gioc-5d",
+      "name": "Ba Be Lake & Ban Gioc Waterfall",
+      "warnings": [
+        "Review count differs: ours=45, source=2"
+      ]
+    },
+    {
+      "id": "central-vietnam-discovery-5d",
+      "name": "Central Vietnam Discovery",
+      "warnings": [
+        "Review count differs: ours=112, source=10"
+      ]
+    },
+    {
+      "id": "hoi-an-memories-show-tour",
+      "name": "Hoi An Memories Show Experience",
+      "warnings": [
+        "Review count differs: ours=234, source=4"
+      ]
+    },
+    {
+      "id": "hue-dmz-day-tour",
+      "name": "Hue DMZ Historical Tour",
+      "warnings": [
+        "Review count differs: ours=89, source=1"
+      ]
+    },
+    {
+      "id": "hoi-an-countryside-cycling",
+      "name": "Hoi An Countryside Cycling Tour",
+      "warnings": [
+        "Review count differs: ours=156, source=8"
+      ]
+    },
+    {
+      "id": "phong-nha-cave-2d",
+      "name": "Phong Nha Cave Adventure",
+      "warnings": [
+        "Review count differs: ours=98, source=9"
+      ]
+    },
+    {
+      "id": "phu-quoc-island-escape-4d",
+      "name": "Phu Quoc Island Escape",
+      "warnings": [
+        "Review count differs: ours=156, source=4",
+        "Itinerary days mismatch: ours=4, source=6"
+      ]
+    },
+    {
+      "id": "saigon-street-food-night-tour",
+      "name": "Saigon Street Food Night Tour",
+      "warnings": [
+        "Review count differs: ours=523, source=62"
+      ]
+    },
+    {
+      "id": "dalat-highlands-3d",
+      "name": "Dalat Highlands Adventure",
+      "warnings": [
+        "Review count differs: ours=167, source=9"
+      ]
+    },
+    {
+      "id": "saigon-city-highlights",
+      "name": "Saigon City Highlights Tour",
+      "warnings": [
+        "Review count differs: ours=678, source=9"
+      ]
+    },
+    {
+      "id": "vietnam-cambodia-highlights-12d",
+      "name": "Vietnam & Cambodia Highlights",
+      "warnings": [
+        "Review count differs: ours=134, source=42",
+        "Itinerary days mismatch: ours=12, source=21"
+      ]
+    },
+    {
+      "id": "angkor-wat-extension-3d",
+      "name": "Angkor Wat Extension",
+      "warnings": [
+        "Review count differs: ours=98, source=9"
+      ]
+    },
+    {
+      "id": "mekong-to-angkor-7d",
+      "name": "Mekong Delta to Angkor Wat",
+      "warnings": [
+        "Review count differs: ours=67, source=9"
+      ]
+    },
+    {
+      "id": "best-indochina-15d",
+      "name": "Best of Indochina",
+      "warnings": [
+        "Review count differs: ours=141, source=42",
+        "Itinerary days mismatch: ours=15, source=21"
+      ]
+    },
+    {
+      "id": "vietnam-eco-adventure-10d",
+      "name": "Vietnam Eco Adventure",
+      "warnings": [
+        "Review count differs: ours=34, source=539"
+      ]
+    },
+    {
+      "id": "vietnam-rural-immersion-7d",
+      "name": "Vietnam Rural Immersion",
+      "warnings": [
+        "Review count differs: ours=56, source=420"
+      ]
+    },
+    {
+      "id": "hanoi-halong-golf-6d",
+      "name": "Luxury Hanoi & Halong Golf Retreat",
+      "warnings": [
+        "Review count differs: ours=28, source=105"
+      ]
+    },
+    {
+      "id": "saigon-danang-golf-8d",
+      "name": "Saigon to Da Nang: Golf, History & Coastal Charms",
+      "warnings": [
+        "Review count differs: ours=19, source=2179"
+      ]
+    },
+    {
+      "id": "majestic-vietnam-beach-17d",
+      "name": "Majestic Vietnam with Beach Holiday",
+      "warnings": [
+        "Itinerary days mismatch: ours=17, source=15"
+      ]
+    },
+    {
+      "id": "hoi-an-beach-break-7d",
+      "name": "Hoi An Surrounding & Beach Break",
+      "warnings": [
+        "Itinerary days mismatch: ours=7, source=5"
+      ]
+    },
+    {
+      "id": "nha-trang-discovery-beach-6d",
+      "name": "Nha Trang Discovery & Beach Break",
+      "warnings": [
+        "Itinerary days mismatch: ours=6, source=5"
+      ]
+    },
+    {
+      "id": "vietnam-classic-8d",
+      "name": "Vietnam Classic Tour",
+      "warnings": [
+        "Review count differs: ours=87, source=29",
+        "Itinerary days mismatch: ours=8, source=16"
+      ]
+    },
+    {
+      "id": "vietnam-discovery-14d",
+      "name": "Vietnam Discovery",
+      "warnings": [
+        "Review count differs: ours=67, source=11",
+        "Itinerary days mismatch: ours=14, source=7"
+      ]
+    },
+    {
+      "id": "mekong-delta-day-trip-saigon",
+      "name": "Mekong Delta Day Trip from Saigon",
+      "warnings": [
+        "Review count differs: ours=456, source=18"
+      ]
+    },
+    {
+      "id": "ninh-binh-day-trip",
+      "name": "Ninh Binh Day Trip from Hanoi",
+      "warnings": [
+        "Review count differs: ours=312, source=16"
+      ]
+    },
+    {
+      "id": "cu-chi-tunnels-half-day",
+      "name": "Cu Chi Tunnels Half Day Tour",
+      "warnings": [
+        "Review count differs: ours=567, source=9"
+      ]
+    },
+    {
+      "id": "my-son-sanctuary-half-day",
+      "name": "My Son Sanctuary Half Day Tour",
+      "warnings": [
+        "Review count differs: ours=234, source=10"
+      ]
+    },
+    {
+      "id": "family-easy-adventure-10d",
+      "name": "North & Central Vietnam Easy Adventure for Family",
+      "warnings": [
+        "Review count differs: ours=13, source=9"
+      ]
+    },
+    {
+      "id": "ha-giang-motorbike-loop-5d",
+      "name": "Ha Giang Motorbike Loop Adventure",
+      "warnings": [
+        "Review count differs: ours=89, source=12",
+        "Itinerary days mismatch: ours=5, source=4"
+      ]
+    },
+    {
+      "id": "vietnam-romantic-escape-10d",
+      "name": "Vietnam Romantic Escape",
+      "warnings": [
+        "Review count differs: ours=34, source=4",
+        "Itinerary days mismatch: ours=10, source=6"
+      ]
+    },
+    {
+      "id": "honeymoon-vietnam-beach-12d",
+      "name": "Honeymoon Vietnam Beach Paradise",
+      "warnings": [
+        "Review count differs: ours=23, source=2059"
+      ]
+    },
+    {
+      "id": "couples-hoi-an-beach-5d",
+      "name": "Couples Hoi An Beach Retreat",
+      "warnings": [
+        "Review count differs: ours=45, source=12"
+      ]
+    },
+    {
+      "id": "saigon-phu-quoc-honeymoon-7d",
+      "name": "Saigon & Phu Quoc Honeymoon",
+      "warnings": [
+        "Review count differs: ours=28, source=4",
+        "Itinerary days mismatch: ours=7, source=6"
+      ]
+    },
+    {
+      "id": "halong-bay-romantic-cruise-3d",
+      "name": "Halong Bay Romantic Cruise",
+      "warnings": [
+        "Review count differs: ours=67, source=9"
+      ]
+    },
+    {
+      "id": "vietnam-budget-backpacker-12d",
+      "name": "Vietnam Budget Backpacker",
+      "warnings": [
+        "Review count differs: ours=234, source=25",
+        "Itinerary days mismatch: ours=12, source=10"
+      ]
+    },
+    {
+      "id": "north-vietnam-budget-6d",
+      "name": "North Vietnam Budget Adventure",
+      "warnings": [
+        "Review count differs: ours=156, source=25",
+        "Itinerary days mismatch: ours=6, source=10"
+      ]
+    },
+    {
+      "id": "vietnam-small-group-classic-10d",
+      "name": "Vietnam Small Group Classic",
+      "warnings": [
+        "Review count differs: ours=78, source=29",
+        "Itinerary days mismatch: ours=10, source=16"
+      ]
+    },
+    {
+      "id": "small-group-north-vietnam-7d",
+      "name": "Small Group North Vietnam Explorer",
+      "warnings": [
+        "Review count differs: ours=56, source=2",
+        "Itinerary days mismatch: ours=7, source=11"
+      ]
+    },
+    {
+      "id": "small-group-mekong-adventure-3d",
+      "name": "Small Group Mekong Adventure",
+      "warnings": [
+        "Review count differs: ours=89, source=9"
+      ]
+    },
+    {
+      "id": "small-group-central-highlands-5d",
+      "name": "Small Group Central Highlands",
+      "warnings": [
+        "Itinerary days mismatch: ours=5, source=9"
+      ]
+    },
+    {
+      "id": "vietnam-luxury-signature-12d",
+      "name": "Vietnam Luxury Signature Journey",
+      "warnings": [
+        "Review count differs: ours=12, source=5",
+        "Itinerary days mismatch: ours=12, source=18"
+      ]
+    },
+    {
+      "id": "luxury-halong-heritage-cruise-3d",
+      "name": "Luxury Halong Heritage Line Cruise",
+      "warnings": [
+        "Review count differs: ours=45, source=7",
+        "Itinerary days mismatch: ours=3, source=5"
+      ]
+    },
+    {
+      "id": "luxury-northern-escape-6d",
+      "name": "Luxury Northern Vietnam Escape",
+      "warnings": [
+        "Review count differs: ours=23, source=10",
+        "Itinerary days mismatch: ours=6, source=7"
+      ]
+    },
+    {
+      "id": "luxury-central-vietnam-5d",
+      "name": "Luxury Central Vietnam Retreat",
+      "warnings": [
+        "Review count differs: ours=19, source=8"
+      ]
+    },
+    {
+      "id": "vietnam-photography-15d",
+      "name": "Vietnam Photography Expedition",
+      "warnings": [
+        "Review count differs: ours=34, source=9"
+      ]
+    },
+    {
+      "id": "sapa-rice-terrace-photo-4d",
+      "name": "Sapa Rice Terrace Photography",
+      "warnings": [
+        "Review count differs: ours=42, source=15",
+        "Itinerary days mismatch: ours=4, source=2"
+      ]
+    },
+    {
+      "id": "hoi-an-lantern-photo-2d",
+      "name": "Hoi An Lantern Photography",
+      "warnings": [
+        "Review count differs: ours=56, source=9"
+      ]
+    },
+    {
+      "id": "mekong-delta-photo-3d",
+      "name": "Mekong Delta Photography",
+      "warnings": [
+        "Review count differs: ours=38, source=15",
+        "Itinerary days mismatch: ours=3, source=5"
+      ]
+    },
+    {
+      "id": "halong-bay-photo-cruise-2d",
+      "name": "Halong Bay Photography Cruise",
+      "warnings": [
+        "Review count differs: ours=67, source=9"
+      ]
+    },
+    {
+      "id": "vietnam-culinary-journey-12d",
+      "name": "Vietnam Culinary Journey",
+      "warnings": [
+        "Itinerary days mismatch: ours=12, source=11"
+      ]
+    },
+    {
+      "id": "hoi-an-cooking-farmstay-2d",
+      "name": "Hoi An Cooking & Farmstay",
+      "warnings": [
+        "Review count differs: ours=78, source=38"
+      ]
+    },
+    {
+      "id": "saigon-street-food-master-2d",
+      "name": "Saigon Street Food Master",
+      "warnings": [
+        "Review count differs: ours=145, source=62"
+      ]
+    },
+    {
+      "id": "mekong-cooking-homestay-3d",
+      "name": "Mekong Cooking Homestay",
+      "warnings": [
+        "Review count differs: ours=67, source=6",
+        "Itinerary days mismatch: ours=3, source=2"
+      ]
+    },
+    {
+      "id": "vietnam-war-history-10d",
+      "name": "Vietnam War History Tour",
+      "warnings": [
+        "Itinerary days mismatch: ours=10, source=8"
+      ]
+    },
+    {
+      "id": "dmz-battlefield-2d",
+      "name": "DMZ Battlefield Tour",
+      "warnings": [
+        "Review count differs: ours=92, source=9"
+      ]
+    },
+    {
+      "id": "hanoi-war-sites-full-day",
+      "name": "Hanoi War Sites Full Day",
+      "warnings": [
+        "Review count differs: ours=156, source=16"
+      ]
+    },
+    {
+      "id": "vietnam-tet-festival-10d",
+      "name": "Vietnam Tet Festival Experience",
+      "warnings": [
+        "Review count differs: ours=45, source=9"
+      ]
+    },
+    {
+      "id": "hoi-an-lantern-festival-3d",
+      "name": "Hoi An Lantern Festival",
+      "warnings": [
+        "Review count differs: ours=134, source=9"
+      ]
+    },
+    {
+      "id": "hue-festival-arts-5d",
+      "name": "Hue Festival Arts & Culture",
+      "warnings": [
+        "Itinerary days mismatch: ours=5, source=3"
+      ]
+    },
+    {
+      "id": "nha-trang-beach-4d",
+      "name": "Nha Trang Beach Escape",
+      "warnings": [
+        "Review count differs: ours=167, source=4",
+        "Itinerary days mismatch: ours=4, source=5"
+      ]
+    },
+    {
+      "id": "nha-trang-diving-3d",
+      "name": "Nha Trang Diving Experience",
+      "warnings": [
+        "Review count differs: ours=98, source=4",
+        "Itinerary days mismatch: ours=3, source=5"
+      ]
+    },
+    {
+      "id": "mui-ne-beach-kite-4d",
+      "name": "Mui Ne Beach & Kitesurfing",
+      "warnings": [
+        "Review count differs: ours=76, source=2",
+        "Itinerary days mismatch: ours=4, source=7"
+      ]
+    },
+    {
+      "id": "nha-trang-mui-ne-combo-6d",
+      "name": "Nha Trang & Mui Ne Combo",
+      "warnings": [
+        "Review count differs: ours=112, source=4",
+        "Itinerary days mismatch: ours=6, source=5"
+      ]
+    },
+    {
+      "id": "bac-ha-market-weekend-3d",
+      "name": "Bac Ha Market Weekend",
+      "warnings": [
+        "Review count differs: ours=134, source=3",
+        "Itinerary days mismatch: ours=3, source=2"
+      ]
+    },
+    {
+      "id": "ha-giang-loop-5d",
+      "name": "Ha Giang Loop Adventure",
+      "warnings": [
+        "Review count differs: ours=234, source=12",
+        "Itinerary days mismatch: ours=5, source=4"
+      ]
+    },
+    {
+      "id": "mai-chau-homestay-2d",
+      "name": "Mai Chau Valley Homestay",
+      "warnings": [
+        "Review count differs: ours=289, source=5"
+      ]
+    },
+    {
+      "id": "pu-luong-ethnic-trek-4d",
+      "name": "Pu Luong Ethnic Trekking",
+      "warnings": [
+        "Review count differs: ours=156, source=8",
+        "Itinerary days mismatch: ours=4, source=3"
+      ]
+    },
+    {
+      "id": "vietnam-train-journey-14d",
+      "name": "Vietnam Train Journey",
+      "warnings": [
+        "Review count differs: ours=89, source=1349"
+      ]
+    },
+    {
+      "id": "vietnam-wellness-retreat-7d",
+      "name": "Vietnam Wellness Retreat",
+      "warnings": [
+        "Review count differs: ours=67, source=8",
+        "Itinerary days mismatch: ours=7, source=5"
+      ]
+    },
+    {
+      "id": "vietnam-volunteering-14d",
+      "name": "Vietnam Volunteering Experience",
+      "warnings": [
+        "Review count differs: ours=45, source=6",
+        "Itinerary days mismatch: ours=14, source=9"
+      ]
+    },
+    {
+      "id": "vietnam-birdwatching-10d",
+      "name": "Vietnam Birdwatching Expedition",
+      "warnings": [
+        "Review count differs: ours=34, source=9"
+      ]
+    }
+  ],
+  "noScrapedData": []
+}

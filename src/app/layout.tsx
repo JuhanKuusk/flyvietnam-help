@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vietnam E-Visa in 30 Minutes | VietnamVisaHelp.com",
+  title: "Vietnam E-Visa in 30 Minutes | VietnamTravel.help",
   description: "Get your Vietnam E-Visa approval letter in 30 minutes. Stuck at check-in? We fix that fast. Express visa service for urgent travelers.",
   keywords: "Vietnam visa, e-visa, urgent visa, fast visa, Vietnam travel, approval letter",
 };
