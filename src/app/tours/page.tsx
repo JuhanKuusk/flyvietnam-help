@@ -21,7 +21,7 @@ import { ThemeToggle } from "@/components/ui/theme-toggle";
 // Mobile pagination - 10 tours per page
 const MOBILE_PAGE_SIZE = 10;
 
-// Hero background images for the tours page (Vietnam Travel Help branded images)
+// Hero background images for the tours page (FlyVietnam.Help branded images)
 const HERO_IMAGES = [
   "/VietnamTravel_Help-hero-section-slide.webp",
   "/VietnamTravel_Help-hero-section-slide-2.webp",

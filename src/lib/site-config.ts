@@ -244,7 +244,7 @@ export const SITES: Record<string, SiteConfig> = {
       siteNameShort: "FlyVietnam.Help",
       domain: "vietnamvisaurgent.in",
       tagline: "Your Travel Concierge",
-      metaTitle: "Vietnam Travel Help - E-Visa Application Assistance",
+      metaTitle: "FlyVietnam.Help - E-Visa Application Assistance",
       metaDescription: "Professional assistance for Vietnam e-visa applications. We help travelers navigate the official visa process. Clear guidance, document support, and application tracking.",
       heroTitle: "Planning Your Vietnam Trip?",
       heroSubtitle: "We provide professional assistance with e-visa applications. Our team helps you prepare documents and submit your application correctly.",

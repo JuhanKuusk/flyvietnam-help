@@ -207,7 +207,7 @@ export const AD_TEMPLATES: Record<
         'Apply for Vietnam Visa',
         'Vietnam Travel Visa',
         'Online Visa Service',
-        'Vietnam Travel Help',
+        'FlyVietnam Help',
         'Cheap Vietnam Visa',
         'Best Visa Service',
       ],

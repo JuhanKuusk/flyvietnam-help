@@ -155,7 +155,7 @@ Our team is now processing your visa application. You'll receive your approved v
 
 Questions? Reply to this message!
 
-Vietnam Travel Help 🇻🇳`,
+FlyVietnam.Help 🇻🇳`,
     });
 
     console.log(`WhatsApp confirmation sent to ${whatsappNumber}`);
