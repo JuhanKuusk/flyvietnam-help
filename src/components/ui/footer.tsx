@@ -7,7 +7,10 @@ import { IndianPaymentIcons } from "./indian-payment-icons";
 
 export function Footer() {
   const { t } = useLanguage();
-  const { content, layout, isIndiaSite, isChinaSite, theme } = useSite();
+  const { content, layout, isIndiaSite, isChinaSite, theme, siteName } = useSite();
+
+  // Replace VietnamTravel.help with actual siteName in disclaimer text
+  const disclaimerText = (t.legal.disclaimerBannerText || "").replace(/VietnamTravel\.help/g, siteName);
 
   return (
     <footer className="bg-gray-900 text-gray-300">
@@ -16,7 +19,7 @@ export function Footer() {
         <div className="mb-4">
           <h3 className="text-amber-400 font-semibold mb-1.5 text-sm">{t.legal.importantDisclaimer}</h3>
           <p className="text-xs text-gray-400">
-            {t.legal.disclaimerBannerText}
+            {disclaimerText}
           </p>
         </div>
 

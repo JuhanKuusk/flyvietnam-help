@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useSite } from "@/contexts/SiteContext";
 
 export function DisclaimerBanner() {
   const { t } = useLanguage();
+  const { siteName } = useSite();
 
-  // Get site name from translations (defaults to VietnamTravel.help)
-  const siteName = t.header?.siteName || "VietnamTravel.help";
+  // Use siteName from SiteContext (properly detects domain)
 
   return (
     <div className="border-b border-red-900" style={{ backgroundColor: '#991b1b' }}>
