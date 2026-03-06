@@ -7,7 +7,7 @@ import { LanguageProvider } from "@/contexts/LanguageContext";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import { CurrencyProvider } from "@/contexts/CurrencyContext";
 import { CookieConsent } from "@/components/ui/cookie-consent";
-import { getSiteConfigFromHostname } from "@/lib/site-config";
+import { getSiteConfig } from "@/lib/site-config";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const host = headersList.get("host") || "vietnamtravel.help";
   const hostname = host.split(":")[0]; // Remove port if present
 
-  const siteConfig = getSiteConfigFromHostname(hostname);
+  const siteConfig = getSiteConfig(hostname);
 
   return {
     title: siteConfig.content.metaTitle,
