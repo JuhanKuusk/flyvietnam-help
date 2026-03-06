@@ -400,7 +400,7 @@ export default function Home() {
             {/* Logo */}
             <div className="flex flex-col">
               <Link href="/" className="hover:opacity-90 transition-opacity">
-                <Logo size="md" taglineText={t.header.logoTagline} siteName={siteName !== "VietnamTravel.help" ? siteName : undefined} />
+                <Logo size="md" taglineText={t.header.logoTagline} siteName={siteName} />
               </Link>
               {/* Mobile contact info below logo */}
               <div className="flex sm:hidden items-center gap-2 mt-1 text-xs text-gray-500 dark:text-gray-400">

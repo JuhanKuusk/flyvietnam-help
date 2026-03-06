@@ -14,8 +14,8 @@ export default function AboutPage() {
   const { content, siteName, layout, isChinaSite } = useSite();
 
   // Dynamic site display name
-  const siteDisplayName = isChinaSite ? "越签.com" : "VietnamTravel.help";
-  const contactEmail = isChinaSite ? "info@越签.com" : "info@vietnamtravel.help";
+  const siteDisplayName = isChinaSite ? "越签.com" : siteName;
+  const contactEmail = content.supportEmail;
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
@@ -26,7 +26,7 @@ export default function AboutPage() {
             {/* Logo */}
             <div className="flex flex-col">
               <Link href="/" className="hover:opacity-90 transition-opacity">
-                <Logo size="md" taglineText={t.header.logoTagline} siteName={isChinaSite ? "越签.com" : (siteName !== "VietnamTravel.help" ? siteName : undefined)} />
+                <Logo size="md" taglineText={t.header.logoTagline} siteName={siteDisplayName} />
               </Link>
               {/* Mobile contact info below logo */}
               <div className="flex sm:hidden items-center gap-2 mt-1 text-xs text-gray-500 dark:text-gray-400">
