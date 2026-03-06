@@ -31,7 +31,7 @@ export async function POST(request: NextRequest) {
     await trackTourAnalytics({
       tourId: body.tourId,
       eventType: body.eventType,
-      sourceDomain: body.sourceDomain || "vietnamtravel.help",
+      sourceDomain: body.sourceDomain || "flyvietnam.help",
       userAgent,
       referrer,
     });

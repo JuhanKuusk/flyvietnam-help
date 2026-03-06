@@ -403,7 +403,7 @@ function PaymentForm() {
                             <a href="/refund" target="_blank" className="text-emerald-400 hover:text-emerald-300 underline">
                               Refund Policy
                             </a>
-                            . I understand that VietnamTravel.help is not a government agency and does not guarantee visa approval.
+                            . I understand that FlyVietnam.Help is not a government agency and does not guarantee visa approval.
                           </>
                         )}
                       </span>

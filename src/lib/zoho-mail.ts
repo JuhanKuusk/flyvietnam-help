@@ -14,7 +14,7 @@ const ZOHO_EMAIL = process.env.ZOHO_EMAIL || "admin@vietnamvisahelp.com";
 const ZOHO_PASSWORD = process.env.ZOHO_PASSWORD || "";
 
 // Default sender name (used when no site config is provided)
-const DEFAULT_SENDER_NAME = "VietnamTravel.help Support";
+const DEFAULT_SENDER_NAME = "FlyVietnam.Help Support";
 
 // Get sender name from site config or use default
 function getSenderName(siteConfig?: SiteConfig): string {

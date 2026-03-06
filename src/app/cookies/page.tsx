@@ -14,8 +14,8 @@ export default function CookiesPage() {
   const { isChinaSite, content } = useSite();
 
   // Dynamic site display name
-  const siteDisplayName = isChinaSite ? "越签.com" : "VietnamTravel.help";
-  const contactEmail = isChinaSite ? "info@越签.com" : "info@vietnamtravel.help";
+  const siteDisplayName = isChinaSite ? "越签.com" : "FlyVietnam.Help";
+  const contactEmail = isChinaSite ? "info@越签.com" : "info@flyvietnam.help";
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">

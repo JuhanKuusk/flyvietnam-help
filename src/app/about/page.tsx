@@ -108,7 +108,7 @@ export default function AboutPage() {
           {/* Third-Party Disclaimer Notice */}
           <div className="p-4 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
             <p className="text-sm text-amber-800 dark:text-amber-300">
-              <strong>Important Notice:</strong> VietnamTravel.help is a private, third-party travel consultancy and concierge service.
+              <strong>Important Notice:</strong> FlyVietnam.Help is a private, third-party travel consultancy and concierge service.
               We are NOT affiliated with the Vietnamese Government, the Vietnam Immigration Department, or any governmental body.
               Travelers may apply directly at{" "}
               <a href="https://evisa.xuatnhapcanh.gov.vn" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
@@ -121,10 +121,10 @@ export default function AboutPage() {
           {/* Introduction */}
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-              {isChinaSite ? "越签.com | 您的越南旅游礼宾服务" : "VietnamTravel.help | Your Premium Travel Concierge"}
+              {isChinaSite ? "越签.com | 您的越南旅游礼宾服务" : "FlyVietnam.Help | Your Premium Travel Concierge"}
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              {t.legal?.aboutIntro || "VietnamTravel.help is a professional third-party support service specializing in travel documentation and comprehensive Vietnam travel experiences. Operated by Best Price Travel (License No. 01-1794/2022/SDL-GPLHND), we bring over 14 years of expertise to your journey."}
+              {t.legal?.aboutIntro || "FlyVietnam.Help is a professional third-party support service specializing in travel documentation and comprehensive Vietnam travel experiences. Operated by Best Price Travel (License No. 01-1794/2022/SDL-GPLHND), we bring over 14 years of expertise to your journey."}
             </p>
           </div>
 

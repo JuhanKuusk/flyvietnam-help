@@ -14,8 +14,8 @@ export default function RefundPage() {
   const { isChinaSite, content } = useSite();
 
   // Dynamic site display name
-  const siteDisplayName = isChinaSite ? "越签.com" : "VietnamTravel.help";
-  const contactEmail = isChinaSite ? "info@越签.com" : "info@vietnamtravel.help";
+  const siteDisplayName = isChinaSite ? "越签.com" : "FlyVietnam.Help";
+  const contactEmail = isChinaSite ? "info@越签.com" : "info@flyvietnam.help";
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
@@ -240,8 +240,8 @@ export default function RefundPage() {
               </li>
               <li>
                 <strong>{isChinaSite ? "网站：" : "Website:"}</strong>{" "}
-                <a href={isChinaSite ? "https://越签.com" : "https://vietnamtravel.help"} className="text-blue-600 dark:text-blue-400 hover:underline">
-                  {isChinaSite ? "www.越签.com" : "www.vietnamtravel.help"}
+                <a href={isChinaSite ? "https://越签.com" : "https://flyvietnam.help"} className="text-blue-600 dark:text-blue-400 hover:underline">
+                  {isChinaSite ? "www.越签.com" : "www.flyvietnam.help"}
                 </a>
               </li>
             </ul>

@@ -93,7 +93,7 @@ export default function FeesPage() {
             {t.legal?.feesPageTitle || "Service Fee Breakdown"}
           </h1>
           <p className="text-gray-500 dark:text-gray-400 mb-8">
-            {t.legal?.feesPageSubtitle || "VietnamTravel.help | Last updated: March 4, 2026"}
+            {t.legal?.feesPageSubtitle || "FlyVietnam.Help | Last updated: March 4, 2026"}
           </p>
 
           {/* Important Notice Box */}
@@ -105,7 +105,7 @@ export default function FeesPage() {
               {t.legal?.importantNotice || "Important Notice"}
             </h2>
             <p className="text-amber-700 dark:text-amber-300 font-medium">
-              {t.legal?.importantNoticeText || "VietnamTravel.help is a private, third-party travel consultancy and concierge service. We are NOT affiliated with the Vietnamese Government, the Vietnam Immigration Department, or any governmental body. We do not issue visas - all visa decisions are made solely by Vietnamese immigration authorities."}
+              {t.legal?.importantNoticeText || "FlyVietnam.Help is a private, third-party travel consultancy and concierge service. We are NOT affiliated with the Vietnamese Government, the Vietnam Immigration Department, or any governmental body. We do not issue visas - all visa decisions are made solely by Vietnamese immigration authorities."}
             </p>
           </div>
 
@@ -115,7 +115,7 @@ export default function FeesPage() {
               {t.legal?.understandingPrice || "Understanding Your Total Price"}
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              {t.legal?.understandingPriceText || "At VietnamTravel.help, we believe in 100% pricing transparency. Your total payment consists of two distinct parts: the official government regulatory fee and our professional concierge service fee."}
+              {t.legal?.understandingPriceText || "At FlyVietnam.Help, we believe in 100% pricing transparency. Your total payment consists of two distinct parts: the official government regulatory fee and our professional concierge service fee."}
             </p>
           </section>
 

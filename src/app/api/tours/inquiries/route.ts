@@ -60,7 +60,7 @@ export async function POST(request: NextRequest) {
       specialRequests: body.specialRequests,
       status: "new",
       referredToAffiliate: false,
-      sourceDomain: "vietnamtravel.help",
+      sourceDomain: "flyvietnam.help",
       userAgent,
       ipAddress,
     });

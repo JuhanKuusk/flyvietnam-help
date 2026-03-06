@@ -26,7 +26,7 @@ export interface AdTemplate {
 }
 
 // Base URL for all ads
-const BASE_URL = 'https://vietnamtravel.help';
+const BASE_URL = 'https://flyvietnam.help';
 
 // Ad templates organized by language and service type
 export const AD_TEMPLATES: Record<

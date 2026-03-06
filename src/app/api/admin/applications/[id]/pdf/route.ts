@@ -147,7 +147,7 @@ export async function GET(
     // Header
     addText("VIETNAM VISA APPLICATION", pageWidth / 2 - 40, y, { fontSize: 18, fontStyle: "bold", color: [196, 30, 58] });
     y += 8;
-    addText("vietnamtravel.help", pageWidth / 2 - 18, y, { fontSize: 10, color: [100, 100, 100] });
+    addText("flyvietnam.help", pageWidth / 2 - 18, y, { fontSize: 10, color: [100, 100, 100] });
     y += 10;
 
     // Reference & Status

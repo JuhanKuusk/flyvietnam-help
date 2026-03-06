@@ -13,7 +13,7 @@ export default function DisclaimerPage() {
   const { isChinaSite } = useSite();
 
   // Dynamic site display name
-  const siteDisplayName = isChinaSite ? "越签.com" : "VietnamTravel.help";
+  const siteDisplayName = isChinaSite ? "越签.com" : "FlyVietnam.Help";
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">

@@ -131,11 +131,11 @@ export const SITES: Record<string, SiteConfig> = {
       showISTTimezone: false,
     },
     content: {
-      siteName: "VietnamTravel.help",
-      siteNameShort: "VietnamTravel.help",
+      siteName: "FlyVietnam.Help",
+      siteNameShort: "FlyVietnam.Help",
       domain: "vietnamvisahelp.com",
       tagline: "Your Travel Concierge",
-      metaTitle: "Vietnam E-Visa in 30 Minutes | VietnamTravel.help",
+      metaTitle: "Vietnam E-Visa in 30 Minutes | FlyVietnam.Help",
       metaDescription: "Get your Vietnam E-Visa approval letter in 30 minutes. Stuck at check-in? We fix that fast. Express visa service for urgent travelers.",
       heroTitle: "Can't Check In?",
       heroSubtitle: "Get your Vietnam E-Visa approval letter in as fast as 30 minutes. Pass airline check-in immediately. Full visa ready before you land.",
@@ -212,12 +212,12 @@ export const SITES: Record<string, SiteConfig> = {
 
   // ---------------------------------------------------------------------------
   // INDIA SITE: vietnamvisaurgent.in
-  // Mirror of vietnamtravel.help with Hindi, Chinese, English only
+  // Mirror of flyvietnam.help with Hindi, Chinese, English only
   // ---------------------------------------------------------------------------
   "vietnamvisaurgent.in": {
     id: "vietnamvisaurgent-india",
     theme: {
-      primaryColor: "#0891b2",           // Teal/cyan - friendly, travel-like (same as vietnamtravel.help)
+      primaryColor: "#0891b2",           // Teal/cyan - friendly, travel-like (same as flyvietnam.help)
       primaryColorHover: "#0e7490",
       secondaryColor: "#059669",         // Green - trust, nature
       accentColor: "#f59e0b",            // Amber - warm, inviting
@@ -240,8 +240,8 @@ export const SITES: Record<string, SiteConfig> = {
       showISTTimezone: false,
     },
     content: {
-      siteName: "VietnamTravel.help",
-      siteNameShort: "VietnamTravel.help",
+      siteName: "FlyVietnam.Help",
+      siteNameShort: "FlyVietnam.Help",
       domain: "vietnamvisaurgent.in",
       tagline: "Your Travel Concierge",
       metaTitle: "Vietnam Travel Help - E-Visa Application Assistance",
@@ -251,7 +251,7 @@ export const SITES: Record<string, SiteConfig> = {
       heroBadge: "Trusted Travel Assistance Service",
       ctaButtonText: "Get Started",
       trustHeadline: "Helping travelers since 2019",
-      supportEmail: "info@vietnamtravel.help",
+      supportEmail: "info@flyvietnam.help",
       whatsappNumber: "+84705549868",
       whatsappDisplay: "+84 70 5549868",
       currencyCode: "USD",
@@ -267,63 +267,8 @@ export const SITES: Record<string, SiteConfig> = {
   },
 
   // ---------------------------------------------------------------------------
-  // TRAVEL HELP SITE: vietnamtravel.help
-  // Softer messaging, big disclaimers, Google Ads compliant
-  // ---------------------------------------------------------------------------
-  "vietnamtravel.help": {
-    id: "vietnamtravel-help",
-    theme: {
-      primaryColor: "#0891b2",           // Teal/cyan - friendly, travel-like
-      primaryColorHover: "#0e7490",
-      secondaryColor: "#059669",         // Green - trust, nature
-      accentColor: "#f59e0b",            // Amber - warm, inviting
-      urgencyColor: "#6366f1",           // Indigo - calm, not aggressive
-      heroGradient: "from-cyan-700 via-teal-600 to-emerald-600",
-      buttonGradient: "from-teal-500 to-cyan-500",
-      borderRadius: "rounded",
-    },
-    layout: {
-      heroVariant: "default",
-      showUrgencyBanner: false,          // No urgency - compliant
-      showCountdownTimer: false,         // No countdown - compliant
-      highlightedVisaSpeed: null,        // No highlighted speed
-      defaultVisaSpeed: "2-day",         // Default to slower, cheaper option
-      trustBadgeVariant: "travel",       // Travel-focused badges
-      testimonialSet: "travel",          // Softer testimonials
-      showTours: true,                   // Show tours section - affiliate content
-      useGoogleAdsCompliant: true,       // Use Google Ads safe language (no "visa" keyword)
-      showIndianPaymentMethods: false,
-      showISTTimezone: false,
-    },
-    content: {
-      siteName: "VietnamTravel.help",
-      siteNameShort: "VietnamTravel.help",
-      domain: "vietnamtravel.help",
-      tagline: "Your Travel Concierge",
-      metaTitle: "Vietnam Travel Help - E-Visa Application Assistance",
-      metaDescription: "Professional assistance for Vietnam e-visa applications. We help travelers navigate the official visa process. Clear guidance, document support, and application tracking.",
-      heroTitle: "Planning Your Vietnam Trip?",
-      heroSubtitle: "We provide professional assistance with e-visa applications. Our team helps you prepare documents and submit your application correctly.",
-      heroBadge: "Trusted Travel Assistance Service",
-      ctaButtonText: "Get Started",
-      trustHeadline: "Helping travelers since 2019",
-      supportEmail: "info@vietnamtravel.help",
-      whatsappNumber: "+84705549868",
-      whatsappDisplay: "+84 70 5549868",
-      currencyCode: "USD",
-      currencySymbol: "$",
-      showAlternateCurrency: false,
-    },
-    behavior: {
-      defaultLanguage: "EN",
-      targetCountries: [],
-      forceLanguageForCountries: false,
-    },
-  },
-
-  // ---------------------------------------------------------------------------
   // FLY VIETNAM SITE: flyvietnam.help
-  // Mirror of vietnamtravel.help with FlyVietnam branding
+  // Main site with FlyVietnam branding
   // Hosted on Namecheap with separate IP address
   // ---------------------------------------------------------------------------
   "flyvietnam.help": {
@@ -544,7 +489,7 @@ export const TESTIMONIALS: Record<string, Testimonial[]> = {
     },
   ],
 
-  // Softer, compliant testimonials for VietnamTravel.help
+  // Softer, compliant testimonials for FlyVietnam.Help
   travel: [
     {
       name: "Jennifer L.",
@@ -655,7 +600,7 @@ export const TRUST_BADGES: Record<string, TrustBadge[]> = {
     { icon: "message", value: "हिंदी", label: "Hindi Support" },
   ],
 
-  // Softer badges for VietnamTravel.help - no urgency messaging
+  // Softer badges for FlyVietnam.Help - no urgency messaging
   travel: [
     { icon: "users", value: "5+ Years", label: "Helping Travelers" },
     { icon: "globe", value: "80+", label: "Countries Served" },
@@ -717,8 +662,8 @@ export function getSiteConfig(hostname: string): SiteConfig {
     }
   }
 
-  // Default to VietnamTravel.help
-  return SITES["vietnamtravel.help"];
+  // Default to FlyVietnam.Help
+  return SITES["flyvietnam.help"];
 }
 
 /**

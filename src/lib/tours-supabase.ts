@@ -34,7 +34,7 @@ export async function createTourInquiry(
       special_requests: inquiry.specialRequests,
       status: inquiry.status || "new",
       referred_to_affiliate: inquiry.referredToAffiliate || false,
-      source_domain: inquiry.sourceDomain || "vietnamtravel.help",
+      source_domain: inquiry.sourceDomain || "flyvietnam.help",
       user_agent: inquiry.userAgent,
       ip_address: inquiry.ipAddress,
     })
@@ -159,7 +159,7 @@ export async function trackTourAnalytics(
   const { error } = await supabase.from("tour_analytics").insert({
     tour_id: event.tourId,
     event_type: event.eventType,
-    source_domain: event.sourceDomain || "vietnamtravel.help",
+    source_domain: event.sourceDomain || "flyvietnam.help",
     user_agent: event.userAgent,
     referrer: event.referrer,
   });

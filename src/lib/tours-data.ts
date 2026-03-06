@@ -1,5 +1,5 @@
 /**
- * Tour data for vietnamtravel.help
+ * Tour data for flyvietnam.help
  *
  * SUPPLIERS/PARTNERS:
  * 1. halong-bay-tours.com - 8 cruise tours (Halong Bay & Mekong)
@@ -5524,16 +5524,104 @@ export const FEATURED_TOURS: Tour[] = [
     `,
     highlights: ["Ho Chi Minh City", "Mekong Delta", "Cu Chi Tunnels", "Hoi An", "Halong Bay"],
     itinerary: [
-      { day: 1, title: "Ho Chi Minh City Arrival", description: "Welcome to Vietnam", activities: ["Airport pickup", "Hotel check-in", "Welcome dinner"], meals: ["Dinner"] },
-      { day: 2, title: "Mekong Delta", description: "Full day Mekong exploration", activities: ["Boat cruise", "Local villages", "Fruit tasting"], meals: ["Breakfast", "Lunch"] },
-      { day: 3, title: "Cu Chi Tunnels", description: "Historical war sites", activities: ["Tunnel exploration", "War history"], meals: ["Breakfast", "Lunch"] },
-      { day: 4, title: "Flight to Hoi An", description: "Transfer to central Vietnam", activities: ["Flight to Da Nang", "Transfer to Hoi An"], meals: ["Breakfast"] },
-      { day: 5, title: "Hoi An Ancient Town", description: "UNESCO World Heritage exploration", activities: ["Walking tour", "Lantern streets", "Cooking class"], meals: ["Breakfast", "Lunch"] },
-      { day: 6, title: "Hoi An Free Day", description: "Leisure time in Hoi An", activities: ["Beach or shopping", "Spa options"], meals: ["Breakfast"] },
-      { day: 7, title: "Flight to Hanoi", description: "Transfer to northern Vietnam", activities: ["Flight to Hanoi", "City tour"], meals: ["Breakfast"] },
-      { day: 8, title: "Hanoi City Tour", description: "Explore Vietnam's capital", activities: ["Ho Chi Minh Mausoleum", "Old Quarter", "Temple of Literature"], meals: ["Breakfast", "Lunch"] },
-      { day: 9, title: "Halong Bay Cruise", description: "Overnight on Halong Bay", activities: ["Cruise boarding", "Cave visit", "Sunset", "Dinner"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 10, title: "Halong Bay - Departure", description: "Return to Hanoi and departure", activities: ["Sunrise", "Brunch cruise", "Transfer to airport"], meals: ["Brunch"] }
+      {
+        day: 1,
+        title: "Ho Chi Minh City Arrival",
+        description: "Welcome to Vietnam! Our guide will meet you at Tan Son Nhat International Airport and transfer you to your hotel in the heart of Ho Chi Minh City. After checking in, take some time to rest and freshen up before enjoying a welcome dinner at a local restaurant, introducing you to the flavors of Vietnamese cuisine.",
+        activities: ["Airport pickup", "Hotel check-in", "Welcome dinner"],
+        meals: ["Dinner"],
+        accommodation: "Hotel in Ho Chi Minh City",
+        imageUrl: "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/660b65fcbcfa8.jpg",
+        dayImages: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/660b65fcbcfa8.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/660b65fcbcfa7.jpg"]
+      },
+      {
+        day: 2,
+        title: "Mekong Delta",
+        description: "Depart early for a full day exploring the Mekong Delta - Vietnam's 'rice bowl'. Cruise along the waterways on traditional sampan boats, visit local villages to see traditional crafts like coconut candy making, and enjoy fresh tropical fruits at a local orchard. Experience the authentic rural life of southern Vietnam.",
+        activities: ["Boat cruise", "Local villages", "Fruit tasting"],
+        meals: ["Breakfast", "Lunch"],
+        accommodation: "Hotel in Ho Chi Minh City",
+        imageUrl: "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/69267e2c47649.jpg",
+        dayImages: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/69267e2c47649.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/69267e2c4764a.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/69267e2c47647.jpg"]
+      },
+      {
+        day: 3,
+        title: "Cu Chi Tunnels",
+        description: "Today explore the historic Cu Chi Tunnels, an incredible network of underground passages used during the Vietnam War. Learn about the ingenious tunnel system, see wartime artifacts, and optionally crawl through sections of the tunnels yourself. Return to Ho Chi Minh City for an evening at leisure.",
+        activities: ["Tunnel exploration", "War history"],
+        meals: ["Breakfast", "Lunch"],
+        accommodation: "Hotel in Ho Chi Minh City",
+        imageUrl: "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/660b65fcbcfaf.jpg",
+        dayImages: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/660b65fcbcfaf.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/660b65fcbcfa9.jpg"]
+      },
+      {
+        day: 4,
+        title: "Flight to Hoi An",
+        description: "After breakfast, transfer to the airport for your flight to Da Nang. Upon arrival, our guide will meet you and transfer you to the charming ancient town of Hoi An. Check into your hotel and spend the afternoon exploring the atmospheric streets at your own pace.",
+        activities: ["Flight to Da Nang", "Transfer to Hoi An"],
+        meals: ["Breakfast"],
+        accommodation: "Hotel in Hoi An",
+        imageUrl: "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/666fef79c6866.jpg"
+      },
+      {
+        day: 5,
+        title: "Hoi An Ancient Town",
+        description: "Discover the UNESCO World Heritage-listed ancient town of Hoi An on a walking tour. Visit the iconic Japanese Covered Bridge, ancient merchant houses, and traditional Chinese assembly halls. In the evening, witness the magical lantern-lit streets and enjoy a cooking class to learn authentic Vietnamese recipes.",
+        activities: ["Walking tour", "Lantern streets", "Cooking class"],
+        meals: ["Breakfast", "Lunch"],
+        accommodation: "Hotel in Hoi An",
+        imageUrl: "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/63a92d4dc1e50.jpg",
+        dayImages: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/63a92d4dc1e50.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/666fef9fb79e4.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6666acbd71ef6.jpg"]
+      },
+      {
+        day: 6,
+        title: "Hoi An Free Day",
+        description: "Enjoy a free day to explore Hoi An at your own pace. Relax on An Bang Beach, browse the local markets and tailor shops, or indulge in a traditional spa treatment. Optional activities include a bicycle tour of the countryside or a boat trip to Cham Island.",
+        activities: ["Beach or shopping", "Spa options"],
+        meals: ["Breakfast"],
+        accommodation: "Hotel in Hoi An",
+        imageUrl: "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/666fefbac52fd.jpg",
+        dayImages: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/666fefbac52fd.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6666accf2224c.jpg"]
+      },
+      {
+        day: 7,
+        title: "Flight to Hanoi",
+        description: "Bid farewell to Hoi An and transfer to Da Nang Airport for your flight to Hanoi. Upon arrival, explore Vietnam's capital city with a brief orientation tour, taking in the tree-lined boulevards and French colonial architecture. Check into your hotel in the atmospheric Old Quarter.",
+        activities: ["Flight to Hanoi", "City tour"],
+        meals: ["Breakfast"],
+        accommodation: "Hotel in Hanoi",
+        imageUrl: "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/63a92d4dc1e4e.jpg",
+        dayImages: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/63a92d4dc1e4e.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6666adfd7bfe4.jpg"]
+      },
+      {
+        day: 8,
+        title: "Hanoi City Tour",
+        description: "A full day exploring Hanoi's highlights. Visit the Ho Chi Minh Mausoleum complex, the One Pillar Pagoda, and the Temple of Literature - Vietnam's first university. Stroll around scenic Hoan Kiem Lake and explore the bustling Old Quarter with its 36 ancient streets. End the day with an optional water puppet show.",
+        activities: ["Ho Chi Minh Mausoleum", "Old Quarter", "Temple of Literature"],
+        meals: ["Breakfast", "Lunch"],
+        accommodation: "Hotel in Hanoi",
+        imageUrl: "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/63a92d4dc1e52.jpg",
+        dayImages: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/63a92d4dc1e52.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/666fef1c40792.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/657ad908b2a65.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/666fef31a416c.jpg"]
+      },
+      {
+        day: 9,
+        title: "Halong Bay Cruise",
+        description: "Travel to Halong Bay, a UNESCO World Heritage Site renowned for its emerald waters and thousands of towering limestone islands. Board your cruise ship and set sail through this breathtaking seascape. Visit stunning caves, kayak through hidden lagoons, and enjoy a sunset dinner on deck as you anchor for the night.",
+        activities: ["Cruise boarding", "Cave visit", "Sunset", "Dinner"],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+        accommodation: "Overnight on Halong Bay cruise",
+        imageUrl: "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/659bad7ea95bb.jpg",
+        dayImages: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/659bad7ea95bb.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/day-3-witness-beautiful-sight-on-halong-bay-cruise-64a3e813dd448.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/666fef5c57f32.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6666ae448d3e1.jpg"]
+      },
+      {
+        day: 10,
+        title: "Halong Bay - Departure",
+        description: "Wake early to catch the sunrise over the bay - a truly magical experience. Enjoy tai chi on the sundeck before a leisurely brunch as the cruise navigates back through the spectacular scenery. Disembark and transfer to Hanoi's Noi Bai International Airport for your onward flight. Farewell Vietnam!",
+        activities: ["Sunrise", "Brunch cruise", "Transfer to airport"],
+        meals: ["Brunch"],
+        imageUrl: "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/63a92d4dc1e4f.jpg",
+        dayImages: ["https://d122axpxm39woi.cloudfront.net/images/tours/800_450/63a92d4dc1e4f.jpg", "https://d122axpxm39woi.cloudfront.net/images/tours/800_450/6666ae5492b31.jpg"]
+      }
     ],
     included: [
       "9 nights accommodation",

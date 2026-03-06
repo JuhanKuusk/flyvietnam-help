@@ -40,7 +40,7 @@ const COUNTRY_TO_LANGUAGE: Record<string, SupportedLanguage> = {
 
 // Helper to get domain from cookie with retry
 function getDomainFromCookie(): string {
-  if (typeof document === "undefined") return "vietnamtravel.help";
+  if (typeof document === "undefined") return "flyvietnam.help";
   const cookies = document.cookie.split(";");
   for (const cookie of cookies) {
     const [name, value] = cookie.trim().split("=");
@@ -55,7 +55,7 @@ function getDomainFromCookie(): string {
       return hostname;
     }
   }
-  return "vietnamtravel.help";
+  return "flyvietnam.help";
 }
 
 interface LanguageContextType {

@@ -15,7 +15,7 @@ const GMAIL_EMAIL = process.env.GMAIL_EMAIL || "support@vietnamvisahelp.com";
 const GMAIL_APP_PASSWORD = process.env.GMAIL_APP_PASSWORD || "";
 
 // Default sender name (used when no site config is provided)
-const DEFAULT_SENDER_NAME = "VietnamTravel.help Support";
+const DEFAULT_SENDER_NAME = "FlyVietnam.Help Support";
 
 // Get sender name from site config or use default
 function getSenderName(siteConfig?: SiteConfig): string {

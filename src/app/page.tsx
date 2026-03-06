@@ -1220,7 +1220,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Tours Section - Only shown on vietnamtravel.help */}
+      {/* Tours Section - Only shown on flyvietnam.help */}
       {layout.showTours && (
         <ToursSection
           tours={getFeaturedTours(4)}

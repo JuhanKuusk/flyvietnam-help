@@ -12,7 +12,7 @@ export default function TermsPage() {
   const { siteName, isChinaSite, domain } = useSite();
 
   // Get site name for text references
-  const siteDisplayName = isChinaSite ? "越签.com" : "VietnamTravel.help";
+  const siteDisplayName = isChinaSite ? "越签.com" : "FlyVietnam.Help";
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
@@ -94,7 +94,7 @@ export default function TermsPage() {
             </p>
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4 mb-4">
               <li>{isChinaSite ? "在线预订（通过我们的网站）" : "Online booking (through our website)"}</li>
-              <li>{isChinaSite ? "电子邮件：info@vietnamtravel.help" : "Email: info@vietnamtravel.help"}</li>
+              <li>{isChinaSite ? "电子邮件：info@flyvietnam.help" : "Email: info@flyvietnam.help"}</li>
               <li>{isChinaSite ? "WhatsApp/微信：+84 70 5549868" : "WhatsApp: +84 70 5549868"}</li>
             </ul>
             <div className="bg-gray-50 dark:bg-gray-700/50 rounded-lg p-4">
@@ -366,9 +366,9 @@ export default function TermsPage() {
                 : "If you have any questions about these Terms and Conditions, please contact us:"}
             </p>
             <ul className="list-none text-gray-700 dark:text-gray-300 space-y-2">
-              <li><strong>{isChinaSite ? "电子邮件：" : "Email:"}</strong> <a href="mailto:info@vietnamtravel.help" className="text-blue-600 dark:text-blue-400 hover:underline">info@vietnamtravel.help</a></li>
+              <li><strong>{isChinaSite ? "电子邮件：" : "Email:"}</strong> <a href="mailto:info@flyvietnam.help" className="text-blue-600 dark:text-blue-400 hover:underline">info@flyvietnam.help</a></li>
               <li><strong>{isChinaSite ? "微信/WhatsApp：" : "WhatsApp:"}</strong> <a href="https://wa.me/84705549868" className="text-blue-600 dark:text-blue-400 hover:underline">+84 70 5549868</a></li>
-              <li><strong>{isChinaSite ? "网站：" : "Website:"}</strong> <a href={isChinaSite ? "https://越签.com" : "https://vietnamtravel.help"} className="text-blue-600 dark:text-blue-400 hover:underline">{isChinaSite ? "www.越签.com" : "www.vietnamtravel.help"}</a></li>
+              <li><strong>{isChinaSite ? "网站：" : "Website:"}</strong> <a href={isChinaSite ? "https://越签.com" : "https://flyvietnam.help"} className="text-blue-600 dark:text-blue-400 hover:underline">{isChinaSite ? "www.越签.com" : "www.flyvietnam.help"}</a></li>
               <li className="pt-2"><strong>{isChinaSite ? "地址：" : "Address:"}</strong> {isChinaSite ? "越南胡志明市平盛郡720A Vinhomes Central Park Park 7大厦38楼" : "Park 7 Building, Floor 38, Vinhomes Central Park, 720A, Binh Thanh District, Ho Chi Minh City, Vietnam"}</li>
             </ul>
             <p className="text-gray-700 dark:text-gray-300 mt-4">

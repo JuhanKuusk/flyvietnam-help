@@ -17,7 +17,7 @@ export const LANGUAGES: Record<SupportedLanguage, { name: string; flag: string; 
 export const translations = {
   // Header
   header: {
-    siteName: "VietnamTravel.help",
+    siteName: "FlyVietnam.Help",
     tagline: "Your Travel Concierge",
     logoTagline: "Your Travel Concierge",
     support: "24/7 WhatsApp Support",
@@ -165,7 +165,7 @@ export const translations = {
     privacyPolicy: "Privacy Policy",
     termsOfService: "Terms of Service",
     refundPolicy: "Refund Policy",
-    copyright: "© 2026 VietnamTravel.help - All rights reserved",
+    copyright: "© 2026 FlyVietnam.Help - All rights reserved",
   },
 
   // Visa Info Modal
@@ -490,11 +490,11 @@ export const translations = {
     privacyPolicyLinkArrow: "Privacy Policy →",
     // Terms preview box content
     termsPreview1Title: "1. Definitions",
-    termsPreview1Content: '"Provider" - VietnamTravel.help is an e-commercial or non-government website. "Client" - An individual or company who conducts payment of the Sales Order/Booking. "Terms and Conditions" - An agreement between The Client and The Provider governing the rights, obligations, and responsibilities of both parties.',
+    termsPreview1Content: '"Provider" - FlyVietnam.Help is an e-commercial or non-government website. "Client" - An individual or company who conducts payment of the Sales Order/Booking. "Terms and Conditions" - An agreement between The Client and The Provider governing the rights, obligations, and responsibilities of both parties.',
     termsPreview2Title: "2. Acceptance of Terms",
-    termsPreview2Content: "By using our Website and Service, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. You understand that VietnamTravel.help is an independent visa assistance service and is NOT affiliated with the Vietnamese Government or any governmental body. You agree not to use the website for illegal purposes and to respect all applicable laws.",
+    termsPreview2Content: "By using our Website and Service, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. You understand that FlyVietnam.Help is an independent visa assistance service and is NOT affiliated with the Vietnamese Government or any governmental body. You agree not to use the website for illegal purposes and to respect all applicable laws.",
     termsPreview3Title: "3. Nature of Our Service",
-    termsPreview3Content: "VietnamTravel.help provides professional visa application assistance services including document review and verification, application form preparation and submission, 24/7 customer support, application status tracking, and express processing options. We do not issue visas. All visa decisions are made solely by the Vietnam Immigration Department.",
+    termsPreview3Content: "FlyVietnam.Help provides professional visa application assistance services including document review and verification, application form preparation and submission, 24/7 customer support, application status tracking, and express processing options. We do not issue visas. All visa decisions are made solely by the Vietnam Immigration Department.",
     termsPreview4Title: "4. Processing Times",
     termsPreview4Content: "We offer various processing speeds: Emergency (15-30 min with Expedited Processing), Urgent (1 hour), Express (4 hours), Express (1 day), Express (2 days), and Standard (2-3 business days). Processing times are estimates and actual delivery depends on the Vietnam Immigration Department.",
     termsPreview5Title: "5. Fees and Payment",
@@ -502,13 +502,13 @@ export const translations = {
     termsPreview6Title: "6. Refund Policy",
     termsPreview6Content: "Full refund: Available if you cancel before we submit your application. Partial refund (service fee only): When you cancel after submission but before approval. No refund: Once visa is approved, visa denial due to your error, change of travel plans, or delays by authorities. If visa is denied by Vietnam Immigration: We refund 50% of service fee.",
     termsPreview7Title: "7. Warnings and Disclaimers",
-    termsPreview7Content: "VietnamTravel.help is NOT a government agency and is NOT affiliated with the Vietnam Immigration Department. We are an independent commercial service. You may apply directly through the official government website (evisa.xuatnhapcanh.gov.vn) for $25 USD with 3 business day processing. Visa approval is at the sole discretion of Vietnamese immigration authorities. Non-refundable fares or reservations must not be purchased until all visas have been obtained.",
+    termsPreview7Content: "FlyVietnam.Help is NOT a government agency and is NOT affiliated with the Vietnam Immigration Department. We are an independent commercial service. You may apply directly through the official government website (evisa.xuatnhapcanh.gov.vn) for $25 USD with 3 business day processing. Visa approval is at the sole discretion of Vietnamese immigration authorities. Non-refundable fares or reservations must not be purchased until all visas have been obtained.",
     termsPreview8Title: "8. Limitation of Liability",
     termsPreview8Content: "We are not responsible for: visa refusals or delays by the Vietnam Immigration Department, entry denial at Vietnamese borders, travel disruptions or missed flights, changes in Vietnamese visa policies, consequences of incorrect information provided by you, incomplete documentation, or technical issues beyond our control. Our total liability shall not exceed the amount you paid for our services.",
     termsPreview9Title: "9. Privacy and Data Protection",
     termsPreview9Content: "Your personal information is collected only for visa application processing purposes, stored securely, shared only with the Vietnam Immigration Department as required, and never sold to third parties. Your data is deleted 30 days after services are completed.",
     termsPreview10Title: "10. Contact Information",
-    termsPreview10Content: "Email: info@vietnamtravel.help | WhatsApp: +84 70 5549868 | Address: Park 7 Building, Floor 38, Vinhomes Central Park, 720A, Binh Thanh District, Ho Chi Minh City, Vietnam",
+    termsPreview10Content: "Email: info@flyvietnam.help | WhatsApp: +84 70 5549868 | Address: Park 7 Building, Floor 38, Vinhomes Central Park, 720A, Binh Thanh District, Ho Chi Minh City, Vietnam",
     // Selfie tips
     autoProcessText: "When uploading an image, our system will automatically change the photo background to white and generate it in the appropriate size and format.",
     selfieTipsTitle: "How to take the best selfie for E-Visa?",
@@ -578,7 +578,7 @@ export const translations = {
 
   // Apply Page - Header
   applyHeader: {
-    siteName: "VietnamTravel.help",
+    siteName: "FlyVietnam.Help",
     tagline: "30 Min Approval Letter",
     support: "24/7 Support",
   },
@@ -887,7 +887,7 @@ export const translations = {
     allRightsReserved: "All rights reserved.",
     footerDescription: "Fast, reliable Vietnam visa assistance service. Express processing available.",
     importantDisclaimer: "Important Disclaimer",
-    disclaimerBannerText: "VietnamTravel.help is a private travel consultancy and concierge service operated by BestPrice Travel (License No: 01-1794/2022/SDL-GPLHND). We are not affiliated with the Vietnamese Government or the Immigration Department. We provide B2B and B2C travel planning, airport fast-track, and entry document guidance. Travelers may choose to arrange their own entry requirements directly through official Vietnam government portals.",
+    disclaimerBannerText: "FlyVietnam.Help is a private travel consultancy and concierge service operated by BestPrice Travel (License No: 01-1794/2022/SDL-GPLHND). We are not affiliated with the Vietnamese Government or the Immigration Department. We provide B2B and B2C travel planning, airport fast-track, and entry document guidance. Travelers may choose to arrange their own entry requirements directly through official Vietnam government portals.",
 
     // Top Disclaimer Banner (the red banner at top)
     topDisclaimerText: "is not affiliated with the Vietnamese Government or the Immigration Department. As part of our services, processing fees are applicable, separate from government-regulated charges. You can also visit the",
@@ -936,7 +936,7 @@ export const translations = {
     termsTitle: "Terms of Use",
     termsIntro: "By using this website, you agree to these Terms.",
     whatWeDo: "What We Do",
-    whatWeDoText: "VietnamTravel.help provides visa assistance and administrative support services for travelers to Vietnam. We are not a government agency, embassy, or consulate. We do not issue visas. All visa decisions are made by Vietnamese authorities.",
+    whatWeDoText: "FlyVietnam.Help provides visa assistance and administrative support services for travelers to Vietnam. We are not a government agency, embassy, or consulate. We do not issue visas. All visa decisions are made by Vietnamese authorities.",
     whoCanUse: "Who Can Use This Website",
     whoCanUseText: "You must be at least 18 years old and legally able to enter into contracts.",
     yourResponsibilities: "Your Responsibilities",
@@ -952,7 +952,7 @@ export const translations = {
     processingTimes: "Processing Times",
     processingTimesText: "Processing times are estimates only. Delays may occur due to government processing, holidays, or additional checks.",
     intellectualProperty: "Intellectual Property",
-    intellectualPropertyText: "All content on this website belongs to VietnamTravel.help and may not be copied or reused without permission.",
+    intellectualPropertyText: "All content on this website belongs to FlyVietnam.Help and may not be copied or reused without permission.",
     prohibitedUse: "Prohibited Use",
     youMayNot: "You may not:",
     prohibited1: "Use the website for fraud or illegal activity",
@@ -998,13 +998,13 @@ export const translations = {
     neverSell: "We never sell your data.",
     // SMS/Mobile Communications (A2P 10DLC Required)
     smsTitle: "SMS/Mobile Communications",
-    smsIntro: "When you provide your mobile phone number and opt-in to receive SMS messages from VietnamTravel.help:",
+    smsIntro: "When you provide your mobile phone number and opt-in to receive SMS messages from FlyVietnam.Help:",
     sms1: "We use your mobile number solely to send visa application updates, status notifications, and important travel alerts",
     sms2: "Your mobile phone number and SMS consent will never be shared with or sold to third parties for marketing purposes",
     sms3: "We do not share your mobile information with lead generators or data brokers",
     sms4: "Message frequency varies based on your application status",
     sms5: "Message and data rates may apply",
-    smsOptOut: "To opt out of SMS messages, reply STOP to any message. For help, reply HELP or contact info@vietnamtravel.help.",
+    smsOptOut: "To opt out of SMS messages, reply STOP to any message. For help, reply HELP or contact info@flyvietnam.help.",
     internationalTransfers: "International Transfers",
     internationalTransfersText: "Your data may be processed outside your country. We use safeguards compliant with GDPR where applicable.",
     dataRetention: "Data Retention",
@@ -1064,7 +1064,7 @@ export const translations = {
     // Disclaimer
     disclaimerTitle: "Disclaimer",
     notGovernment: "Not a Government Agency",
-    notGovernmentText: "VietnamTravel.help is a private visa assistance service. We are NOT affiliated with any government body, embassy, or consulate. We do not make visa approval decisions.",
+    notGovernmentText: "FlyVietnam.Help is a private visa assistance service. We are NOT affiliated with any government body, embassy, or consulate. We do not make visa approval decisions.",
     noGuarantee: "No Guarantee of Visa Approval",
     noGuaranteeText: "We cannot guarantee that your visa will be approved. All decisions rest with Vietnamese immigration authorities.",
     infoAccuracy: "Information Accuracy",
@@ -1079,15 +1079,15 @@ export const translations = {
     externalLinksText: "Our website may contain links to external sites. We are not responsible for their content or policies.",
 
     // Payment Consent
-    consentCheckboxText: "I confirm that all information provided is accurate, and I agree to the Terms of Use, Privacy Policy, and Refund Policy. I understand that VietnamTravel.help is not a government agency and does not guarantee visa approval.",
+    consentCheckboxText: "I confirm that all information provided is accurate, and I agree to the Terms of Use, Privacy Policy, and Refund Policy. I understand that FlyVietnam.Help is not a government agency and does not guarantee visa approval.",
 
     // Fees Page
     feesPageTitle: "Service Fee Breakdown",
-    feesPageSubtitle: "VietnamTravel.help | Last updated: March 4, 2026",
+    feesPageSubtitle: "FlyVietnam.Help | Last updated: March 4, 2026",
     importantNotice: "Important Notice",
-    importantNoticeText: "VietnamTravel.help is a private, third-party travel consultancy and concierge service. We are NOT affiliated with the Vietnamese Government, the Vietnam Immigration Department, or any governmental body. We do not issue visas - all visa decisions are made solely by Vietnamese immigration authorities.",
+    importantNoticeText: "FlyVietnam.Help is a private, third-party travel consultancy and concierge service. We are NOT affiliated with the Vietnamese Government, the Vietnam Immigration Department, or any governmental body. We do not issue visas - all visa decisions are made solely by Vietnamese immigration authorities.",
     understandingPrice: "Understanding Your Total Price",
-    understandingPriceText: "At VietnamTravel.help, we believe in 100% pricing transparency. Your total payment consists of two distinct parts: the official government regulatory fee and our professional concierge service fee.",
+    understandingPriceText: "At FlyVietnam.Help, we believe in 100% pricing transparency. Your total payment consists of two distinct parts: the official government regulatory fee and our professional concierge service fee.",
     governmentFee: "Government Regulatory Fee",
     governmentFeeCost: "Cost:",
     governmentFeeCostText: "$25 USD for single-entry e-Visas or $50 USD for multiple-entry e-Visas",

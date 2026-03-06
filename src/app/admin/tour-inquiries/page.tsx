@@ -139,7 +139,7 @@ export default function TourInquiriesPage() {
     <div>
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-gray-900">Tour Inquiries</h1>
-        <p className="text-gray-600 mt-1">Manage tour booking inquiries from vietnamtravel.help</p>
+        <p className="text-gray-600 mt-1">Manage tour booking inquiries from flyvietnam.help</p>
       </div>
 
       {/* Filters */}

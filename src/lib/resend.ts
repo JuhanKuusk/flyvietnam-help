@@ -6,8 +6,8 @@ import { SiteConfig } from "./site-config";
 const resendApiKey = process.env.RESEND_API_KEY;
 
 // Default email sender config (fallback)
-const DEFAULT_SENDER_NAME = "VietnamTravel.help";
-const DEFAULT_SENDER_EMAIL = "support@vietnamtravel.help";
+const DEFAULT_SENDER_NAME = "FlyVietnam.Help";
+const DEFAULT_SENDER_EMAIL = "support@flyvietnam.help";
 
 // Get email sender string from site config or use defaults
 function getEmailSender(siteConfig?: SiteConfig): string {
@@ -22,7 +22,7 @@ function getSiteUrl(siteConfig?: SiteConfig): string {
   if (siteConfig) {
     return `https://${siteConfig.content.domain}`;
   }
-  return "https://vietnamtravel.help";
+  return "https://flyvietnam.help";
 }
 
 // Get WhatsApp number from site config or use default

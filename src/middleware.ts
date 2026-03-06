@@ -11,10 +11,10 @@ export function middleware(request: NextRequest) {
   // Create response
   let response = NextResponse.next();
 
-  // Tours routes should only be accessible on vietnamtravel.help and flyvietnam.help
+  // Tours routes should only be accessible on flyvietnam.help and flyvietnam.help
   if (pathname.startsWith("/tours") || pathname.startsWith("/cruise")) {
-    // Allow on vietnamtravel.help, flyvietnam.help, or localhost (for development)
-    const isVietnamTravelHelp = hostname.includes("vietnamtravel.help");
+    // Allow on flyvietnam.help, flyvietnam.help, or localhost (for development)
+    const isVietnamTravelHelp = hostname.includes("flyvietnam.help");
     const isFlyVietnamHelp = hostname.includes("flyvietnam.help");
     const isLocalhost = hostname.includes("localhost") || hostname.includes("127.0.0.1");
 

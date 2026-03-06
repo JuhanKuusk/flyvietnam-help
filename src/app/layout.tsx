@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 // Dynamic metadata based on hostname
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers();
-  const host = headersList.get("host") || "vietnamtravel.help";
+  const host = headersList.get("host") || "flyvietnam.help";
   const hostname = host.split(":")[0]; // Remove port if present
 
   const siteConfig = getSiteConfig(hostname);

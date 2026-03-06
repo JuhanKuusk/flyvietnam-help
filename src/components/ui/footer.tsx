@@ -9,7 +9,7 @@ export function Footer() {
   const { t } = useLanguage();
   const { content, layout, isIndiaSite, isChinaSite, theme, siteName } = useSite();
 
-  // Replace VietnamTravel.help with actual siteName in disclaimer text
+  // Replace FlyVietnam.Help with actual siteName in disclaimer text
   const disclaimerText = (t.legal.disclaimerBannerText || "").replace(/VietnamTravel\.help/g, siteName);
 
   return (

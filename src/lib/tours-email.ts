@@ -20,8 +20,8 @@ function getResend(): Resend {
   return resendInstance;
 }
 
-const FROM_EMAIL = "help@vietnamtravel.help";
-const ADMIN_EMAIL = process.env.TOUR_ADMIN_EMAIL || "bookings@vietnamtravel.help";
+const FROM_EMAIL = "help@flyvietnam.help";
+const ADMIN_EMAIL = process.env.TOUR_ADMIN_EMAIL || "bookings@flyvietnam.help";
 
 // =====================================================
 // Email Sending Functions
@@ -145,12 +145,12 @@ function generateAdminEmailHTML(inquiry: TourInquiry): string {
               <div class="value">${new Date(inquiry.createdAt!).toLocaleString()}</div>
 
               <div class="label">Source:</div>
-              <div class="value">${inquiry.sourceDomain || "vietnamtravel.help"}</div>
+              <div class="value">${inquiry.sourceDomain || "flyvietnam.help"}</div>
             </div>
           </div>
 
           <div class="footer">
-            <p>Tour Inquiry Notification from VietnamTravel.help</p>
+            <p>Tour Inquiry Notification from FlyVietnam.Help</p>
             <p>Please respond to the customer within 24 hours.</p>
           </div>
         </div>
@@ -224,17 +224,17 @@ function generateCustomerEmailHTML(inquiry: TourInquiry): string {
             <div class="info-box">
               <h2 style="color: #0891b2; margin-top: 0;">💬 Need Help?</h2>
               <p>If you have any questions, feel free to contact us:</p>
-              <p>📧 Email: <a href="mailto:help@vietnamtravel.help" style="color: #0891b2;">help@vietnamtravel.help</a></p>
+              <p>📧 Email: <a href="mailto:help@flyvietnam.help" style="color: #0891b2;">help@flyvietnam.help</a></p>
               ${inquiry.whatsapp ? `<p>📱 WhatsApp: <a href="https://wa.me/${inquiry.whatsapp.replace(/[^0-9]/g, "")}" style="color: #0891b2;">${inquiry.whatsapp}</a></p>` : ""}
               <p>📞 Phone: +84 70 5549868</p>
             </div>
           </div>
 
           <div class="footer">
-            <p>Thank you for choosing VietnamTravel.help</p>
+            <p>Thank you for choosing FlyVietnam.Help</p>
             <p>We look forward to helping you create unforgettable memories in Vietnam!</p>
             <p style="font-size: 12px; margin-top: 20px;">
-              This email was sent because you submitted a tour inquiry at vietnamtravel.help
+              This email was sent because you submitted a tour inquiry at flyvietnam.help
             </p>
           </div>
         </div>

@@ -22,8 +22,8 @@ export async function POST() {
         },
       ],
       mode: "payment",
-      success_url: `https://vietnamtravel.help/order-confirmed?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `https://vietnamtravel.help/test-cancel`,
+      success_url: `https://flyvietnam.help/order-confirmed?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `https://flyvietnam.help/test-cancel`,
       metadata: {
         test: "true",
         applicationId: "test-123",

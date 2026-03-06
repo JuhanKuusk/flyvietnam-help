@@ -20,7 +20,7 @@ export function GoogleAdsSafetyHeader() {
               Important Travel Notice
             </p>
             <p className="text-sm text-amber-700 dark:text-amber-400 mt-1">
-              <strong>VietnamTravel.help</strong> is a private, third-party travel consultancy and concierge service.
+              <strong>FlyVietnam.Help</strong> is a private, third-party travel consultancy and concierge service.
               We are <strong>NOT</strong> affiliated with the Vietnamese Government, the Vietnam Immigration Department,
               or any governmental body.
             </p>

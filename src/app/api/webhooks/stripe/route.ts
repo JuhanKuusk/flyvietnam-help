@@ -224,7 +224,7 @@ WhatsApp: ${application.whatsapp || "Not provided"}
 Entry: ${application.entry_date}
 Port: ${application.entry_port}
 
-👉 Process now: https://vietnamtravel.help/admin/applications/${applicationId}`,
+👉 Process now: https://flyvietnam.help/admin/applications/${applicationId}`,
     });
 
     console.log(`Admin notification sent for order ${application.reference_number}`);

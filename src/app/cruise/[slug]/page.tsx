@@ -36,7 +36,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${tour.name} | VietnamTravel.help`,
+    title: `${tour.name} | FlyVietnam.Help`,
     description: tour.description,
     openGraph: {
       title: tour.name,

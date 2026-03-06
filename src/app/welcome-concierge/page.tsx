@@ -169,7 +169,7 @@ export default function WelcomeConciergePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <div className="flex justify-between items-center">
             <Link href="/" className="hover:opacity-90 transition-opacity">
-              <Logo size="md" siteName={siteConfig?.content.siteName || "VietnamTravel.Help"} taglineText="Your Vietnam Travel Concierge" />
+              <Logo size="md" siteName={siteConfig?.content.siteName || "FlyVietnam.Help"} taglineText="Your Vietnam Travel Concierge" />
             </Link>
 
             {/* Navigation */}
@@ -668,7 +668,7 @@ export default function WelcomeConciergePage() {
                     </div>
                   </a>
                   <a
-                    href={`mailto:${siteConfig?.content.supportEmail || "support@vietnamtravel.help"}`}
+                    href={`mailto:${siteConfig?.content.supportEmail || "support@flyvietnam.help"}`}
                     className="flex items-center gap-3 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-xl hover:bg-blue-100 dark:hover:bg-blue-900/30 transition-colors"
                   >
                     <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
@@ -678,7 +678,7 @@ export default function WelcomeConciergePage() {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Email</p>
-                      <p className="text-sm text-gray-600 dark:text-gray-400">{siteConfig?.content.supportEmail || "support@vietnamtravel.help"}</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">{siteConfig?.content.supportEmail || "support@flyvietnam.help"}</p>
                     </div>
                   </a>
                 </div>

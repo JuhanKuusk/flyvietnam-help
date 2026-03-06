@@ -74,10 +74,10 @@ export default async function BlogPostPage({ params }: Props) {
     } : undefined,
     publisher: {
       '@type': 'Organization',
-      name: 'VietnamTravel.help',
+      name: 'FlyVietnam.Help',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://vietnamtravel.help/logo.png'
+        url: 'https://flyvietnam.help/logo.png'
       }
     }
   }
@@ -212,7 +212,7 @@ export default async function BlogPostPage({ params }: Props) {
             <h3 className="text-lg font-semibold text-gray-900 mb-4">Share this article</h3>
             <div className="flex gap-4">
               <a
-                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://vietnamtravel.help/blog/${post.slug}`)}`}
+                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://flyvietnam.help/blog/${post.slug}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
@@ -223,7 +223,7 @@ export default async function BlogPostPage({ params }: Props) {
                 Facebook
               </a>
               <a
-                href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(`https://vietnamtravel.help/blog/${post.slug}`)}&text=${encodeURIComponent(post.title)}`}
+                href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(`https://flyvietnam.help/blog/${post.slug}`)}&text=${encodeURIComponent(post.title)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors"
@@ -234,7 +234,7 @@ export default async function BlogPostPage({ params }: Props) {
                 Twitter
               </a>
               <a
-                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://vietnamtravel.help/blog/${post.slug}`)}`}
+                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://flyvietnam.help/blog/${post.slug}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition-colors"

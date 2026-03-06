@@ -194,10 +194,10 @@ function TestSuccessContent() {
         <p className="mt-6 text-center text-sm text-gray-500">
           Questions? Contact us at{" "}
           <a
-            href="mailto:support@vietnamtravel.help"
+            href="mailto:support@flyvietnam.help"
             className="text-blue-600 hover:underline"
           >
-            support@vietnamtravel.help
+            support@flyvietnam.help
           </a>
         </p>
       </div>
