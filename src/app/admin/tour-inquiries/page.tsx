@@ -22,6 +22,8 @@ interface TourInquiry {
   referred_to_affiliate: boolean;
   created_at: string;
   contacted_at: string | null;
+  affiliate_url: string | null;
+  organizer: string;
 }
 
 interface Pagination {
@@ -42,6 +44,13 @@ const categoryColors: Record<string, string> = {
   cruise: "bg-cyan-100 text-cyan-800",
   "day-trip": "bg-purple-100 text-purple-800",
   "multi-day": "bg-orange-100 text-orange-800",
+};
+
+const organizerColors: Record<string, string> = {
+  BestPriceTravel: "bg-emerald-100 text-emerald-800",
+  AsiaTourAdvisor: "bg-indigo-100 text-indigo-800",
+  Internal: "bg-gray-100 text-gray-800",
+  Partner: "bg-amber-100 text-amber-800",
 };
 
 export default function TourInquiriesPage() {
@@ -194,6 +203,7 @@ export default function TourInquiriesPage() {
                   <tr>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Inquiry #</th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tour</th>
+                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Organizer</th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Customer</th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Contact</th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Travelers</th>
@@ -206,7 +216,7 @@ export default function TourInquiriesPage() {
                 <tbody className="divide-y divide-gray-200">
                   {inquiries.length === 0 ? (
                     <tr>
-                      <td colSpan={9} className="px-6 py-12 text-center text-gray-500">
+                      <td colSpan={10} className="px-6 py-12 text-center text-gray-500">
                         No tour inquiries found
                       </td>
                     </tr>
@@ -224,6 +234,28 @@ export default function TourInquiriesPage() {
                             <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium mt-1 ${categoryColors[inquiry.tour_category] || "bg-gray-100 text-gray-800"}`}>
                               {inquiry.tour_category}
                             </span>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4">
+                          <div className="text-sm">
+                            <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${organizerColors[inquiry.organizer] || "bg-gray-100 text-gray-800"}`}>
+                              {inquiry.organizer}
+                            </span>
+                            {inquiry.affiliate_url && (
+                              <a
+                                href={inquiry.affiliate_url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block text-cyan-600 hover:underline text-xs mt-1"
+                              >
+                                Partner page →
+                              </a>
+                            )}
+                            {inquiry.referred_to_affiliate && (
+                              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800 mt-1">
+                                ✓ Referred
+                              </span>
+                            )}
                           </div>
                         </td>
                         <td className="px-6 py-4">

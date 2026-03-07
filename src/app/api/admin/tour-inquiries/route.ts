@@ -1,10 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
+import { getTourById } from "@/lib/tours-utils";
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
   process.env.SUPABASE_SERVICE_ROLE_KEY!
 );
+
+// Helper to extract organizer from affiliate URL
+function getOrganizerFromAffiliateUrl(affiliateUrl?: string): string {
+  if (!affiliateUrl) return "Internal";
+  if (affiliateUrl.includes("bestprice")) return "BestPriceTravel";
+  if (affiliateUrl.includes("asiatouradvisor")) return "AsiaTourAdvisor";
+  return "Partner";
+}
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
@@ -42,8 +51,18 @@ export async function GET(request: NextRequest) {
       );
     }
 
+    // Enrich inquiries with tour affiliate info
+    const enrichedInquiries = (data || []).map((inquiry) => {
+      const tour = getTourById(inquiry.tour_id);
+      return {
+        ...inquiry,
+        affiliate_url: tour?.affiliateUrl || null,
+        organizer: getOrganizerFromAffiliateUrl(tour?.affiliateUrl),
+      };
+    });
+
     return NextResponse.json({
-      inquiries: data,
+      inquiries: enrichedInquiries,
       pagination: {
         page,
         limit,
