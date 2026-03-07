@@ -1512,8 +1512,8 @@ function ApplyForm() {
   };
 
   // Scan passport and auto-fill form fields (server-side processing with Google Cloud Vision)
-  const scanPassport = async () => {
-    const passportFile = passportPhotos[currentApplicant];
+  const scanPassport = async (fileOverride?: File | null) => {
+    const passportFile = fileOverride || passportPhotos[currentApplicant];
     if (!passportFile) return;
 
     setIsScanning(true);
@@ -2481,10 +2481,8 @@ function ApplyForm() {
                     setScanError(null);
                     // Auto-scan passport when file is uploaded
                     if (file) {
-                      // Use setTimeout to ensure state is updated before scanning
-                      setTimeout(() => {
-                        scanPassport();
-                      }, 100);
+                      // Pass file directly to avoid state timing issues
+                      scanPassport(file);
                     }
                   }}
                   uploadedText={t.applyForm.uploaded}
