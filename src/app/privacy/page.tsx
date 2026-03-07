@@ -61,8 +61,10 @@ export default function PrivacyPage() {
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
               <li>{isChinaSite ? "在购买产品时为客户提供支持" : "Support customers when buying products"}</li>
               <li>{isChinaSite ? "回答客户咨询" : "Answer customer inquiries"}</li>
-              <li>{isChinaSite ? "处理预订和签证申请" : "Process bookings and visa applications"}</li>
-              <li>{isChinaSite ? "协调服务交付" : "Coordinate service delivery"}</li>
+              <li>{isChinaSite ? "处理旅游预订和旅行安排" : "Process tour bookings and travel arrangements"}</li>
+              <li>{isChinaSite ? "与当地旅行社和导游协调" : "Coordinate with local tour operators and guides"}</li>
+              <li>{isChinaSite ? "安排机场服务和接送" : "Arrange airport services and transfers"}</li>
+              <li>{isChinaSite ? "发送预订确认和旅行提醒" : "Send booking confirmations and travel reminders"}</li>
             </ul>
             <p className="text-gray-700 dark:text-gray-300 mt-4">
               {isChinaSite
@@ -81,7 +83,10 @@ export default function PrivacyPage() {
             </p>
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
               <li>{isChinaSite ? "客户服务和支持" : "Customer service and support"}</li>
-              <li>{isChinaSite ? "交付协调" : "Delivery coordination"}</li>
+              <li>{isChinaSite ? "旅游和服务交付协调" : "Tour and service delivery coordination"}</li>
+              <li>{isChinaSite ? "与旅行社合作以提供服务" : "Sharing with tour operators for service delivery"}</li>
+              <li>{isChinaSite ? "与交通服务商合作安排接送" : "Sharing with transport providers for transfers"}</li>
+              <li>{isChinaSite ? "与酒店合作安排住宿" : "Sharing with hotels for accommodation bookings"}</li>
               <li>{isChinaSite ? "调查和促销活动（需征得您的同意）" : "Surveys and promotional activities (with your consent)"}</li>
             </ul>
             <p className="text-gray-700 dark:text-gray-300 mt-4 font-medium">
@@ -113,7 +118,8 @@ export default function PrivacyPage() {
             </p>
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
               <li>{isChinaSite ? "网站管理人员" : "Website administration"}</li>
-              <li>{isChinaSite ? "越南当局（用于签证处理）" : "Vietnamese authorities (for visa processing)"}</li>
+              <li>{isChinaSite ? "旅行社、酒店和交通服务商" : "Tour operators, hotels, and transport providers"}</li>
+              <li>{isChinaSite ? "机场服务合作伙伴" : "Airport service partners"}</li>
               <li>{isChinaSite ? "服务交付合作伙伴" : "Service delivery partners"}</li>
               <li>{isChinaSite ? "法定要求时的主管部门" : "Competent authorities when legally required"}</li>
             </ul>
@@ -133,7 +139,7 @@ export default function PrivacyPage() {
                 : `When you provide your mobile phone number and opt-in to receive SMS messages from ${siteDisplayName}:`}
             </p>
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
-              <li>{isChinaSite ? "我们仅使用您的手机号码发送签证申请更新、状态通知和重要旅行提醒" : "We use your mobile number solely to send visa application updates, status notifications, and important travel alerts"}</li>
+              <li>{isChinaSite ? "我们仅使用您的手机号码发送预订确认、接机提醒和重要旅行提醒" : "We use your mobile number solely to send booking confirmations, pickup reminders, and important travel alerts"}</li>
               <li className="font-semibold">{isChinaSite ? "您的手机号码和短信同意绝不会与第三方共享或出售用于营销目的" : "Your mobile phone number and SMS consent will never be shared with or sold to third parties for marketing purposes"}</li>
               <li className="font-semibold">{isChinaSite ? "我们不会与潜在客户生成器或数据经纪人共享您的移动信息" : "We do not share your mobile information with lead generators or data brokers"}</li>
               <li>{isChinaSite ? "消息频率根据您的申请状态而变化" : "Message frequency varies based on your application status"}</li>

@@ -1336,7 +1336,7 @@ function ApplyForm() {
     dateOfBirth: "",
     passportExpiry: "",
     gender: "",
-    religion: "",
+    religion: "none",
     placeOfBirth: "",
     passportType: "ordinary",
     issuingAuthority: "",
@@ -1365,7 +1365,7 @@ function ApplyForm() {
           dateOfBirth: "",
           passportExpiry: "",
           gender: "",
-          religion: "",
+          religion: "none",
           placeOfBirth: "",
           passportType: "ordinary",
           issuingAuthority: "",
@@ -1638,12 +1638,27 @@ function ApplyForm() {
         const effectiveContactAddress = applicant.contactAddressSameAsPermanent
           ? applicant.permanentAddress
           : applicant.contactAddress;
-        if (!applicant.fullName || !applicant.nationality || !applicant.passportNumber ||
-            !applicant.dateOfBirth || !applicant.gender || !applicant.religion ||
-            !applicant.placeOfBirth || !applicant.passportType || !applicant.permanentAddress ||
-            !effectiveContactAddress || !applicant.telephoneNumber || !applicant.emergencyFullName ||
-            !applicant.emergencyAddress || !applicant.emergencyPhone || !applicant.emergencyRelationship) {
-          setSubmitError(`Please complete all required fields for applicant ${i + 1}`);
+
+        // Check each field and collect missing ones
+        const missingFields: string[] = [];
+        if (!applicant.fullName) missingFields.push(t.applyForm.fullName || "Full Name");
+        if (!applicant.nationality) missingFields.push(t.applyForm.nationality || "Nationality");
+        if (!applicant.passportNumber) missingFields.push(t.applyForm.passportNumber || "Passport Number");
+        if (!applicant.dateOfBirth) missingFields.push(t.applyForm.dateOfBirth || "Date of Birth");
+        if (!applicant.gender) missingFields.push(t.applyForm.gender || "Gender");
+        if (!applicant.religion) missingFields.push(t.applyForm.religion || "Religion");
+        if (!applicant.placeOfBirth) missingFields.push(t.applyForm.placeOfBirth || "Place of Birth");
+        if (!applicant.passportType) missingFields.push(t.applyForm.passportType || "Passport Type");
+        if (!applicant.permanentAddress) missingFields.push(t.applyForm.permanentAddress || "Permanent Address");
+        if (!effectiveContactAddress) missingFields.push(t.applyForm.contactAddress || "Contact Address");
+        if (!applicant.telephoneNumber) missingFields.push(t.applyForm.telephoneNumber || "Telephone Number");
+        if (!applicant.emergencyFullName) missingFields.push(t.applyForm.emergencyFullName || "Emergency Contact Name");
+        if (!applicant.emergencyAddress) missingFields.push(t.applyForm.emergencyAddress || "Emergency Contact Address");
+        if (!applicant.emergencyPhone) missingFields.push(t.applyForm.emergencyPhone || "Emergency Contact Phone");
+        if (!applicant.emergencyRelationship) missingFields.push(t.applyForm.emergencyRelationship || "Emergency Contact Relationship");
+
+        if (missingFields.length > 0) {
+          setSubmitError(`Applicant ${i + 1}: Please complete: ${missingFields.join(", ")}`);
           setCurrentApplicant(i);
           setIsSubmitting(false);
           return;

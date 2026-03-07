@@ -38,7 +38,7 @@ export default function TermsPage() {
             {isChinaSite ? "条款和条件" : "Terms and Conditions"}
           </h1>
           <p className="text-gray-500 dark:text-gray-400 mb-6">
-            {siteDisplayName} | {isChinaSite ? "最后更新：2026年3月1日" : "Last updated: March 1, 2026"}
+            {siteDisplayName} | {isChinaSite ? "最后更新：2026年3月8日" : "Last updated: March 8, 2026"}
           </p>
 
           <p className="text-gray-700 dark:text-gray-300 mb-6">
@@ -53,28 +53,43 @@ export default function TermsPage() {
               {isChinaSite ? "目录" : "Contents"}
             </h2>
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1 text-sm">
+              <li>{isChinaSite ? "定义" : "Definitions"}</li>
               <li>{isChinaSite ? "协议与接受" : "Agreement & Acceptance"}</li>
-              <li>{isChinaSite ? "预订流程" : "Booking Process"}</li>
+              <li>{isChinaSite ? "我们的服务" : "Our Services"}</li>
+              <li>{isChinaSite ? "旅游预订条款" : "Tour Booking Terms"}</li>
+              <li>{isChinaSite ? "机场快速通道服务条款" : "Airport Fast Track Service Terms"}</li>
               <li>{isChinaSite ? "付款条款" : "Payment Terms"}</li>
               <li>{isChinaSite ? "取消政策" : "Cancellation Policies"}</li>
               <li>{isChinaSite ? "责任" : "Liability"}</li>
               <li>{isChinaSite ? "儿童价格" : "Children Rates"}</li>
               <li>{isChinaSite ? "价格保证" : "Price Guarantee"}</li>
               <li>{isChinaSite ? "质量与退款保证" : "Quality & Money-Back Guarantees"}</li>
-              <li>{isChinaSite ? "签证服务条款" : "Visa Service Terms"}</li>
               <li>{isChinaSite ? "一般条款" : "General"}</li>
+              <li>{isChinaSite ? "联系信息" : "Contact Information"}</li>
             </ul>
           </div>
+
+          {/* Definitions */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+              {isChinaSite ? "1. 定义" : "1. Definitions"}
+            </h2>
+            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
+              <li><strong>{isChinaSite ? "「服务提供商」" : '"Provider"'}</strong> - {isChinaSite ? `${siteDisplayName}，由百思价旅行社运营（许可证号：01-1794/2022/SDL-GPLHND）` : `${siteDisplayName}, operated by BestPrice Travel (License No: 01-1794/2022/SDL-GPLHND)`}</li>
+              <li><strong>{isChinaSite ? "「客户」" : '"Client"'}</strong> - {isChinaSite ? "进行预订并支付款项的个人或公司" : "Individual or company making a booking and conducting payment"}</li>
+              <li><strong>{isChinaSite ? "「服务」" : '"Services"'}</strong> - {isChinaSite ? "越南旅游、机场快速通道、礼宾服务及旅行协助" : "Vietnam Tours, Airport Fast Track, Concierge Services, and Travel Assistance"}</li>
+            </ul>
+          </section>
 
           {/* Agreement & Acceptance */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "协议与接受" : "Agreement & Acceptance"}
+              {isChinaSite ? "2. 协议与接受" : "2. Agreement & Acceptance"}
             </h2>
             <p className="text-gray-700 dark:text-gray-300 mb-3">
               {isChinaSite
-                ? `${siteDisplayName} 由百思价旅行社运营（许可证号：01-1794/2022/SDL-GPLHND）。访问、浏览或使用我们的网站和/或完成预订，即表示您已阅读、理解并同意这些条款。`
-                : `${siteDisplayName} is operated by BestPrice Travel (License No: 01-1794/2022/SDL-GPLHND). By accessing, browsing, or using our website and/or completing a reservation, you acknowledge that you have read, understood, and agreed to these Terms.`}
+                ? `${siteDisplayName} 由百思价旅行社运营，是一家持牌旅行社和旅游礼宾服务公司。访问、浏览或使用我们的网站和/或完成预订，即表示您已阅读、理解并同意这些条款。`
+                : `${siteDisplayName} is operated by BestPrice Travel, a licensed tour operator and travel concierge service company. By accessing, browsing, or using our website and/or completing a reservation, you acknowledge that you have read, understood, and agreed to these Terms.`}
             </p>
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
               <li>{isChinaSite ? "您同意不将网站用于非法目的，并将遵守所有适用的法律法规。" : "You agree that you shall not use the Website for illegal purposes, and will respect all applicable laws and regulations."}</li>
@@ -82,10 +97,86 @@ export default function TermsPage() {
             </ul>
           </section>
 
+          {/* Our Services */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+              {isChinaSite ? "3. 我们的服务" : "3. Our Services"}
+            </h2>
+
+            {/* Vietnam Tours */}
+            <div className="mb-6 p-4 bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800 rounded-lg">
+              <h3 className="text-lg font-medium text-emerald-800 dark:text-emerald-200 mb-3">
+                {isChinaSite ? "A. 越南旅游和旅行套餐" : "A. Vietnam Tours & Travel Packages"}
+              </h3>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
+                <li>{isChinaSite ? "一日游、多日游、下龙湾游船、湄公河三角洲游" : "Day trips, multi-day tours, Halong Bay cruises, Mekong Delta tours"}</li>
+                <li>{isChinaSite ? "定制行程规划" : "Custom itinerary planning"}</li>
+                <li>{isChinaSite ? "英语导游、交通、指定餐食" : "English-speaking guides, transportation, meals as specified"}</li>
+                <li>{isChinaSite ? "酒店住宿安排" : "Hotel accommodation arrangements"}</li>
+              </ul>
+            </div>
+
+            {/* Airport Fast Track */}
+            <div className="mb-6 p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg">
+              <h3 className="text-lg font-medium text-blue-800 dark:text-blue-200 mb-3">
+                {isChinaSite ? "B. 机场快速通道和VIP服务" : "B. Airport Fast Track & VIP Services"}
+              </h3>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
+                <li>{isChinaSite ? "VIP移民快速通道（免排队）" : "VIP immigration fast track (skip queues)"}</li>
+                <li>{isChinaSite ? "迎宾服务" : "Meet & greet services"}</li>
+                <li>{isChinaSite ? "私人机场接送" : "Private airport transfers"}</li>
+                <li>{isChinaSite ? "贵宾休息室安排" : "Lounge access arrangements"}</li>
+              </ul>
+            </div>
+
+            {/* Travel Concierge */}
+            <div className="p-4 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-lg">
+              <h3 className="text-lg font-medium text-amber-800 dark:text-amber-200 mb-3">
+                {isChinaSite ? "C. 旅行礼宾服务" : "C. Travel Concierge Services"}
+              </h3>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
+                <li>{isChinaSite ? "酒店预订" : "Hotel bookings"}</li>
+                <li>{isChinaSite ? "餐厅预订" : "Restaurant reservations"}</li>
+                <li>{isChinaSite ? "活动安排" : "Activity arrangements"}</li>
+                <li>{isChinaSite ? "24/7全天候旅行支持" : "24/7 travel support"}</li>
+              </ul>
+            </div>
+          </section>
+
+          {/* Tour Booking Terms */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+              {isChinaSite ? "4. 旅游预订条款" : "4. Tour Booking Terms"}
+            </h2>
+            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
+              <li>{isChinaSite ? "预订在支付定金后确认" : "Reservations confirmed upon deposit payment"}</li>
+              <li>{isChinaSite ? "出发前需支付全款" : "Full payment required before departure"}</li>
+              <li>{isChinaSite ? "行程可能因天气/当地情况而调整" : "Itineraries subject to change due to weather/local conditions"}</li>
+              <li>{isChinaSite ? "可能有最低团队人数要求" : "Minimum group sizes may apply"}</li>
+              <li>{isChinaSite ? "确认邮件中将提供集合时间和地点的详细信息" : "Meeting times and locations will be provided in confirmation emails"}</li>
+              <li>{isChinaSite ? "客户必须携带有效身份证件参加所有旅游活动" : "Clients must bring valid identification for all tour activities"}</li>
+            </ul>
+          </section>
+
+          {/* Airport Fast Track Service Terms */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+              {isChinaSite ? "5. 机场快速通道服务条款" : "5. Airport Fast Track Service Terms"}
+            </h2>
+            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
+              <li>{isChinaSite ? "服务确认将在抵达前24小时发送" : "Service confirmation sent 24 hours before arrival"}</li>
+              <li>{isChinaSite ? "客户必须提供准确的航班详情" : "Client must provide accurate flight details"}</li>
+              <li>{isChinaSite ? "未出现政策：错过服务不退款" : "No-show policy: No refund for missed services"}</li>
+              <li>{isChinaSite ? "服务可在河内、胡志明市、岘港机场使用" : "Service available at Hanoi, Ho Chi Minh City, Da Nang airports"}</li>
+              <li>{isChinaSite ? "航班延误或取消时请立即通知我们" : "Please notify us immediately in case of flight delays or cancellations"}</li>
+              <li>{isChinaSite ? "我们的代表将在出口处举牌等候您" : "Our representative will meet you at the arrival gate with a name sign"}</li>
+            </ul>
+          </section>
+
           {/* Booking Process */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "预订流程" : "Booking Process"}
+              {isChinaSite ? "6. 预订流程" : "6. Booking Process"}
             </h2>
             <p className="text-gray-700 dark:text-gray-300 mb-3">
               {isChinaSite
@@ -97,17 +188,12 @@ export default function TermsPage() {
               <li>{isChinaSite ? "电子邮件：info@flyvietnam.help" : "Email: info@flyvietnam.help"}</li>
               <li>{isChinaSite ? "WhatsApp/微信：+84 70 5549868" : "WhatsApp: +84 70 5549868"}</li>
             </ul>
-            <div className="bg-gray-50 dark:bg-gray-700/50 rounded-lg p-4">
-              <p className="text-sm text-gray-700 dark:text-gray-300 font-medium mb-2">{isChinaSite ? "办公地址：" : "Office Locations:"}</p>
-              <p className="text-sm text-gray-600 dark:text-gray-400">{isChinaSite ? "河内：越南河内市白梅区白梅街459C号维纳建设钻石大厦11层" : "Hanoi: 11th Floor, Vinaconex Diamond Tower, 459C Bach Mai Street, Hanoi, Vietnam"}</p>
-              <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">{isChinaSite ? "胡志明市：越南胡志明市平盛区720A号威霖中央公园7号楼38层" : "HCMC: Park 7 Building, Floor 38, Vinhomes Central Park, 720A, Binh Thanh District, Ho Chi Minh City"}</p>
-            </div>
           </section>
 
           {/* Payment Terms */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "付款条款" : "Payment Terms"}
+              {isChinaSite ? "7. 付款条款" : "7. Payment Terms"}
             </h2>
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
               <li><strong>{isChinaSite ? "定金：" : "Deposit:"}</strong> {isChinaSite ? "需支付30%定金以确认预订" : "30% deposit required to confirm bookings"}</li>
@@ -125,7 +211,7 @@ export default function TermsPage() {
           {/* Cancellation Policies */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "取消政策" : "Cancellation Policies"}
+              {isChinaSite ? "8. 取消政策" : "8. Cancellation Policies"}
             </h2>
 
             {/* Tour Packages */}
@@ -236,12 +322,38 @@ export default function TermsPage() {
                 </table>
               </div>
             </div>
+
+            {/* Airport Fast Track Cancellations */}
+            <div className="mb-6">
+              <h3 className="text-lg font-medium text-gray-900 dark:text-white mb-3">
+                {isChinaSite ? "机场快速通道服务取消" : "Airport Fast Track Service Cancellations"}
+              </h3>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
+                <li><strong>{isChinaSite ? "24小时以上：" : "24+ hours before:"}</strong> {isChinaSite ? "全额退款" : "Full refund"}</li>
+                <li><strong>{isChinaSite ? "24小时以内：" : "Under 24 hours:"}</strong> {isChinaSite ? "不退款" : "No refund"}</li>
+                <li><strong>{isChinaSite ? "未出现：" : "No-show:"}</strong> {isChinaSite ? "不退款" : "No refund"}</li>
+                <li><strong>{isChinaSite ? "航班取消/延误：" : "Flight cancelled/delayed:"}</strong> {isChinaSite ? "凭证明全额退款" : "Full refund with proof"}</li>
+              </ul>
+            </div>
+
+            {/* Day Trip Cancellations */}
+            <div className="mb-6">
+              <h3 className="text-lg font-medium text-gray-900 dark:text-white mb-3">
+                {isChinaSite ? "一日游取消" : "Day Trip Cancellations"}
+              </h3>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
+                <li><strong>{isChinaSite ? "48小时以上：" : "48+ hours before:"}</strong> {isChinaSite ? "全额退款" : "Full refund"}</li>
+                <li><strong>{isChinaSite ? "24-48小时：" : "24-48 hours:"}</strong> {isChinaSite ? "50%退款" : "50% refund"}</li>
+                <li><strong>{isChinaSite ? "24小时以内/未出现：" : "Under 24 hours/no-show:"}</strong> {isChinaSite ? "不退款" : "No refund"}</li>
+                <li><strong>{isChinaSite ? "运营商因天气取消：" : "Weather cancellation by operator:"}</strong> {isChinaSite ? "全额退款或改期" : "Full refund or reschedule"}</li>
+              </ul>
+            </div>
           </section>
 
           {/* Liability */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "责任" : "Liability"}
+              {isChinaSite ? "9. 责任" : "9. Liability"}
             </h2>
             <p className="text-gray-700 dark:text-gray-300 mb-3">
               {isChinaSite
@@ -253,6 +365,8 @@ export default function TermsPage() {
               <li>{isChinaSite ? "自然灾害" : "Natural disasters"}</li>
               <li>{isChinaSite ? "政治事件" : "Political events"}</li>
               <li>{isChinaSite ? "不可抗力情况" : "Force majeure situations"}</li>
+              <li>{isChinaSite ? "航班取消或延误" : "Flight cancellations or delays"}</li>
+              <li>{isChinaSite ? "客户提供的信息不正确" : "Incorrect information provided by client"}</li>
             </ul>
             <div className="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-lg p-4">
               <p className="text-amber-800 dark:text-amber-200 font-medium">
@@ -266,7 +380,7 @@ export default function TermsPage() {
           {/* Children Rates */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "儿童价格" : "Children Rates"}
+              {isChinaSite ? "10. 儿童价格" : "10. Children Rates"}
             </h2>
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
               <li><strong>{isChinaSite ? "4岁以下：" : "Under 4 years:"}</strong> {isChinaSite ? "免费（机票除外）" : "Free (except flights)"}</li>
@@ -278,7 +392,7 @@ export default function TermsPage() {
           {/* Price Guarantee */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "价格保证" : "Price Guarantee"}
+              {isChinaSite ? "11. 价格保证" : "11. Price Guarantee"}
             </h2>
             <p className="text-gray-700 dark:text-gray-300">
               {isChinaSite
@@ -290,7 +404,7 @@ export default function TermsPage() {
           {/* Quality & Money-Back Guarantees */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "质量与退款保证" : "Quality & Money-Back Guarantees"}
+              {isChinaSite ? "12. 质量与退款保证" : "12. Quality & Money-Back Guarantees"}
             </h2>
             <p className="text-gray-700 dark:text-gray-300 mb-3">
               {isChinaSite
@@ -304,39 +418,10 @@ export default function TermsPage() {
             </p>
           </section>
 
-          {/* Visa Service Terms */}
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "签证服务条款" : "Visa Service Terms"}
-            </h2>
-            <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4 mb-4">
-              <p className="text-blue-800 dark:text-blue-200 font-medium mb-2">{isChinaSite ? "重要通知：" : "Important Notice:"}</p>
-              <p className="text-blue-700 dark:text-blue-300 text-sm">
-                {siteDisplayName} {isChinaSite
-                  ? "不是政府机构，也不隶属于越南移民局。我们是一家独立的商业服务机构，收取签证申请协助费用。"
-                  : "is NOT a government agency and is NOT affiliated with the Vietnam Immigration Department. We are an independent commercial service that charges fees for visa application assistance."}
-              </p>
-            </div>
-            <p className="text-gray-700 dark:text-gray-300 mb-3">
-              {isChinaSite
-                ? "我们的签证服务包括两种类型的费用："
-                : "Our visa service fees include two types:"}
-            </p>
-            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4 mb-4">
-              <li><strong>{isChinaSite ? "服务费：" : "Service Fee:"}</strong> {isChinaSite ? "我们的申请协助费用（如签证被拒可退还）" : "Our application assistance fee (refundable if visa is refused)"}</li>
-              <li><strong>{isChinaSite ? "政府费用：" : "Government Fee:"}</strong> {isChinaSite ? "单次入境25美元，多次入境50美元（不可退款）" : "$25 USD single-entry, $50 USD multiple-entry (non-refundable)"}</li>
-            </ul>
-            <p className="text-gray-700 dark:text-gray-300">
-              {isChinaSite
-                ? "签证的签发完全取决于签发机构，每个国家的移民官员有最终决定权允许入境。在获得所有旅行证件之前，不应购买不可退款的机票或预订。"
-                : "The issue of a visa depends exclusively on the issuing authority. Immigration officials in each country have the final decision to admit entry. Non-refundable fares or reservations should not be purchased until all travel documents have been obtained."}
-            </p>
-          </section>
-
           {/* General */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "一般条款" : "General"}
+              {isChinaSite ? "13. 一般条款" : "13. General"}
             </h2>
             <p className="text-gray-700 dark:text-gray-300 mb-3">
               {isChinaSite
@@ -356,25 +441,78 @@ export default function TermsPage() {
           </section>
 
           {/* Contact Information */}
-          <section>
+          <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "联系信息" : "Contact Information"}
+              {isChinaSite ? "14. 联系信息" : "14. Contact Information"}
             </h2>
             <p className="text-gray-700 dark:text-gray-300 mb-3">
               {isChinaSite
                 ? "如果您对这些条款和条件有任何疑问，请联系我们："
                 : "If you have any questions about these Terms and Conditions, please contact us:"}
             </p>
-            <ul className="list-none text-gray-700 dark:text-gray-300 space-y-2">
+            <ul className="list-none text-gray-700 dark:text-gray-300 space-y-2 mb-6">
               <li><strong>{isChinaSite ? "电子邮件：" : "Email:"}</strong> <a href="mailto:info@flyvietnam.help" className="text-blue-600 dark:text-blue-400 hover:underline">info@flyvietnam.help</a></li>
               <li><strong>{isChinaSite ? "微信/WhatsApp：" : "WhatsApp:"}</strong> <a href="https://wa.me/84705549868" className="text-blue-600 dark:text-blue-400 hover:underline">+84 70 5549868</a></li>
               <li><strong>{isChinaSite ? "网站：" : "Website:"}</strong> <a href={isChinaSite ? "https://越签.com" : "https://flyvietnam.help"} className="text-blue-600 dark:text-blue-400 hover:underline">{isChinaSite ? "www.越签.com" : "www.flyvietnam.help"}</a></li>
-              <li className="pt-2"><strong>{isChinaSite ? "地址：" : "Address:"}</strong> {isChinaSite ? "越南胡志明市平盛郡720A Vinhomes Central Park Park 7大厦38楼" : "Park 7 Building, Floor 38, Vinhomes Central Park, 720A, Binh Thanh District, Ho Chi Minh City, Vietnam"}</li>
             </ul>
+
+            {/* Office Locations */}
+            <div className="grid md:grid-cols-2 gap-4">
+              {/* Hanoi Office */}
+              <div className="p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
+                <p className="font-semibold text-gray-900 dark:text-white mb-2">
+                  {isChinaSite ? "河内办公室" : "Hanoi Office"}
+                </p>
+                <p className="text-sm text-gray-600 dark:text-gray-400">
+                  {isChinaSite
+                    ? "越南河内市白梅区白梅街459C号维纳建设钻石大厦11层"
+                    : "11th Floor, Vinaconex Diamond Tower, 459C Bach Mai Street, Bach Mai Ward, Hanoi, Vietnam"}
+                </p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                  {isChinaSite ? "电话：" : "Tel:"} <a href="tel:+84904699428" className="text-blue-600 dark:text-blue-400 hover:underline">+84 904 699 428</a>
+                </p>
+              </div>
+
+              {/* Ho Chi Minh City Office */}
+              <div className="p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
+                <p className="font-semibold text-gray-900 dark:text-white mb-2">
+                  {isChinaSite ? "胡志明市办公室" : "Ho Chi Minh City Office"}
+                </p>
+                <p className="text-sm text-gray-600 dark:text-gray-400">
+                  {isChinaSite
+                    ? "越南胡志明市平盛区720A号威霖中央公园7号楼38层"
+                    : "Park 7 Building, Floor 38, Vinhomes Central Park, 720A, Binh Thanh District, Ho Chi Minh City, Vietnam"}
+                </p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                  WhatsApp: <a href="https://wa.me/84705549868" className="text-blue-600 dark:text-blue-400 hover:underline">+84 705 549 868</a>
+                </p>
+              </div>
+            </div>
+
             <p className="text-gray-700 dark:text-gray-300 mt-4">
               {isChinaSite
                 ? "我们的客户支持团队全天候24/7为您解答任何疑问。"
                 : "Our customer support team is available 24/7 to assist you with any inquiries."}
+            </p>
+          </section>
+
+          {/* Official Partner */}
+          <section className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+              {isChinaSite ? "官方合作伙伴" : "Official Partner"}
+            </h2>
+            <p className="text-amber-600 dark:text-amber-400 font-semibold mb-1">
+              CÔNG TY CỔ PHẦN CÔNG NGHỆ DU LỊCH BESTPRICE
+            </p>
+            <p className="text-gray-600 dark:text-gray-400 text-sm">
+              {isChinaSite
+                ? "营业执照号：0104679428 - 签发日期：2010年5月26日 - 河内投资规划局"
+                : "Business License: 0104679428 - Issued: May 26, 2010 - Hanoi DPI"}
+            </p>
+            <p className="text-gray-600 dark:text-gray-400 text-sm">
+              {isChinaSite
+                ? "旅行社许可证号：01-1794/2022/SDL-GPLHND"
+                : "Tour Operator License: 01-1794/2022/SDL-GPLHND"}
             </p>
           </section>
         </div>

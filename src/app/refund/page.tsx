@@ -41,170 +41,200 @@ export default function RefundPage() {
             {isChinaSite ? "退款与取消政策" : "Refund & Cancellation Policy"}
           </h1>
           <p className="text-gray-500 dark:text-gray-400 mb-8">
-            {siteDisplayName} | {isChinaSite ? "最后更新：2026年2月18日" : "Last updated: February 18, 2026"}
+            {siteDisplayName} | {isChinaSite ? "最后更新：2026年3月8日" : "Last updated: March 8, 2026"}
           </p>
 
           <p className="text-gray-700 dark:text-gray-300 mb-8">
             {isChinaSite
-              ? `在${siteDisplayName}，我们致力于提供优质的服务和客户满意度。本政策概述了我们越南电子签证协助服务的退款和取消条款。`
-              : `At ${siteDisplayName}, we strive to provide excellent service and customer satisfaction. This policy outlines our refund and cancellation terms for our Vietnam e-Visa assistance services.`}
+              ? `在${siteDisplayName}，我们致力于提供优质的服务和客户满意度。本政策概述了我们旅游套餐和机场服务的退款和取消条款。`
+              : `At ${siteDisplayName}, we strive to provide excellent service and customer satisfaction. This policy outlines our refund and cancellation terms for our tour packages and airport services.`}
           </p>
 
-          {/* Understanding Our Fees */}
+          {/* Tour Package Cancellations */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "了解我们的费用" : "Understanding Our Fees"}
+              {isChinaSite ? "1. 旅游套餐取消（3天以上）" : "1. Tour Package Cancellations (3+ Days)"}
             </h2>
-            <p className="text-gray-700 dark:text-gray-300 mb-3">
-              {isChinaSite ? "我们的总价由两部分组成：" : "Our total price consists of two components:"}
-            </p>
+            <div className="overflow-x-auto">
+              <table className="min-w-full border border-gray-300 dark:border-gray-600 rounded-lg overflow-hidden">
+                <thead className="bg-gray-100 dark:bg-gray-700">
+                  <tr>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 dark:text-white border-b border-gray-300 dark:border-gray-600">{isChinaSite ? "出发前时间" : "Time Before Departure"}</th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 dark:text-white border-b border-gray-300 dark:border-gray-600">{isChinaSite ? "罚款" : "Penalty"}</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-300 dark:divide-gray-600">
+                  <tr className="bg-white dark:bg-gray-800">
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "60天以上" : "60+ days"}</td>
+                    <td className="px-4 py-3 text-sm text-green-600 dark:text-green-400 font-medium">{isChinaSite ? "无费用" : "No charge"}</td>
+                  </tr>
+                  <tr className="bg-gray-50 dark:bg-gray-700/50">
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "30-59天" : "30-59 days"}</td>
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "30%罚款" : "30% penalty"}</td>
+                  </tr>
+                  <tr className="bg-white dark:bg-gray-800">
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "15-29天" : "15-29 days"}</td>
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "50%罚款" : "50% penalty"}</td>
+                  </tr>
+                  <tr className="bg-gray-50 dark:bg-gray-700/50">
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "7-14天" : "7-14 days"}</td>
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "70%罚款" : "70% penalty"}</td>
+                  </tr>
+                  <tr className="bg-white dark:bg-gray-800">
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "7天以内/未出现" : "Under 7 days / No-show"}</td>
+                    <td className="px-4 py-3 text-sm text-red-600 dark:text-red-400 font-medium">{isChinaSite ? "100%罚款" : "100% penalty"}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          {/* Halong Bay Cruise Cancellations */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+              {isChinaSite ? "2. 下龙湾游船取消" : "2. Halong Bay Cruise Cancellations"}
+            </h2>
+            <div className="overflow-x-auto">
+              <table className="min-w-full border border-gray-300 dark:border-gray-600 rounded-lg overflow-hidden">
+                <thead className="bg-gray-100 dark:bg-gray-700">
+                  <tr>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 dark:text-white border-b border-gray-300 dark:border-gray-600">{isChinaSite ? "出发前时间" : "Time Before Departure"}</th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 dark:text-white border-b border-gray-300 dark:border-gray-600">{isChinaSite ? "罚款" : "Penalty"}</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-300 dark:divide-gray-600">
+                  <tr className="bg-white dark:bg-gray-800">
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "30天以上" : "30+ days"}</td>
+                    <td className="px-4 py-3 text-sm text-green-600 dark:text-green-400 font-medium">{isChinaSite ? "无费用" : "No charge"}</td>
+                  </tr>
+                  <tr className="bg-gray-50 dark:bg-gray-700/50">
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "11-30天" : "11-30 days"}</td>
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "30%罚款" : "30% penalty"}</td>
+                  </tr>
+                  <tr className="bg-white dark:bg-gray-800">
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "7-10天" : "7-10 days"}</td>
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "50%罚款" : "50% penalty"}</td>
+                  </tr>
+                  <tr className="bg-gray-50 dark:bg-gray-700/50">
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "7天以内/未出现" : "Under 7 days / No-show"}</td>
+                    <td className="px-4 py-3 text-sm text-red-600 dark:text-red-400 font-medium">{isChinaSite ? "100%罚款" : "100% penalty"}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          {/* Mekong River Cruise Cancellations */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+              {isChinaSite ? "3. 湄公河游船取消" : "3. Mekong River Cruise Cancellations"}
+            </h2>
+            <div className="overflow-x-auto">
+              <table className="min-w-full border border-gray-300 dark:border-gray-600 rounded-lg overflow-hidden">
+                <thead className="bg-gray-100 dark:bg-gray-700">
+                  <tr>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 dark:text-white border-b border-gray-300 dark:border-gray-600">{isChinaSite ? "出发前时间" : "Time Before Departure"}</th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 dark:text-white border-b border-gray-300 dark:border-gray-600">{isChinaSite ? "收费" : "Charge"}</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-300 dark:divide-gray-600">
+                  <tr className="bg-white dark:bg-gray-800">
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "90天以上" : "90+ days"}</td>
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "游船价格的30%" : "30% of cruise price"}</td>
+                  </tr>
+                  <tr className="bg-gray-50 dark:bg-gray-700/50">
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "60-89天" : "60-89 days"}</td>
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "50%收费" : "50% charge"}</td>
+                  </tr>
+                  <tr className="bg-white dark:bg-gray-800">
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "30-59天" : "30-59 days"}</td>
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "75%收费" : "75% charge"}</td>
+                  </tr>
+                  <tr className="bg-gray-50 dark:bg-gray-700/50">
+                    <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">{isChinaSite ? "30天以内" : "Under 30 days"}</td>
+                    <td className="px-4 py-3 text-sm text-red-600 dark:text-red-400 font-medium">{isChinaSite ? "100%收费" : "100% charge"}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          {/* Day Trip & Activity Cancellations */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+              {isChinaSite ? "4. 一日游和活动取消" : "4. Day Trip & Activity Cancellations"}
+            </h2>
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
-              <li>
-                <strong>{isChinaSite ? "政府费用（25美元）：" : "Government Fee ($25 USD):"}</strong>{" "}
-                {isChinaSite
-                  ? "越南移民局收取的官方费用。一旦提交给政府，此费用不可退还。"
-                  : "The official fee charged by the Vietnam Immigration Department. This fee is non-refundable once submitted to the government."}
-              </li>
-              <li>
-                <strong>{isChinaSite ? "服务费：" : "Service Fee:"}</strong>{" "}
-                {isChinaSite
-                  ? "我们的处理和协助费用，根据处理速度而异（从24美元到224美元不等，取决于紧急程度）。"
-                  : "Our processing and assistance fee, which varies by processing speed (from $24 to $224 depending on urgency)."}
-              </li>
+              <li><strong>{isChinaSite ? "48小时以上：" : "48+ hours before:"}</strong> {isChinaSite ? "全额退款" : "Full refund"}</li>
+              <li><strong>{isChinaSite ? "24-48小时：" : "24-48 hours:"}</strong> {isChinaSite ? "50%退款" : "50% refund"}</li>
+              <li><strong>{isChinaSite ? "24小时以内/未出现：" : "Under 24 hours / No-show:"}</strong> {isChinaSite ? "不退款" : "No refund"}</li>
+              <li><strong>{isChinaSite ? "运营商因天气取消：" : "Weather cancellation by operator:"}</strong> {isChinaSite ? "全额退款或改期" : "Full refund or reschedule"}</li>
             </ul>
           </section>
 
-          {/* Full Refund Scenarios */}
+          {/* Airport Fast Track Service Cancellations */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "可全额退款的情况" : "Full Refund Available"}
+              {isChinaSite ? "5. 机场快速通道服务取消" : "5. Airport Fast Track Service Cancellations"}
             </h2>
-            <p className="text-gray-700 dark:text-gray-300 mb-3">
-              {isChinaSite
-                ? "在以下情况下，您有资格获得全额退款（包括服务费）："
-                : "You are eligible for a full refund (including service fee) in the following cases:"}
-            </p>
-            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
-              <li>
-                <strong>{isChinaSite ? "提交前取消：" : "Cancellation before submission:"}</strong>{" "}
-                {isChinaSite
-                  ? "如果您在我们将您的申请提交给越南移民局之前取消订单。"
-                  : "If you cancel your order before we submit your application to the Vietnam Immigration Department."}
-              </li>
-              <li>
-                <strong>{isChinaSite ? "我方错误：" : "Our error:"}</strong>{" "}
-                {isChinaSite
-                  ? "如果您的签证因我方错误（如数据输入错误、提交错误）而被拒绝。"
-                  : "If your visa is denied due to an error on our part (e.g., incorrect data entry, wrong submission)."}
-              </li>
-              <li>
-                <strong>{isChinaSite ? "重复付款：" : "Duplicate payment:"}</strong>{" "}
-                {isChinaSite
-                  ? "如果您因同一订单被意外收取两次费用。"
-                  : "If you were accidentally charged twice for the same order."}
-              </li>
-            </ul>
+            <div className="p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg mb-4">
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
+                <li><strong>{isChinaSite ? "24小时以上取消：" : "24+ hours before arrival:"}</strong> {isChinaSite ? "全额退款" : "Full refund"}</li>
+                <li><strong>{isChinaSite ? "24小时以内取消：" : "Under 24 hours:"}</strong> {isChinaSite ? "不退款" : "No refund"}</li>
+                <li><strong>{isChinaSite ? "未出现在机场：" : "No-show at airport:"}</strong> {isChinaSite ? "不退款" : "No refund"}</li>
+                <li><strong>{isChinaSite ? "航班取消/延误：" : "Flight cancelled/delayed:"}</strong> {isChinaSite ? "凭证明全额退款" : "Full refund with proof"}</li>
+              </ul>
+            </div>
           </section>
 
-          {/* Partial Refund Scenarios */}
+          {/* Private Transfer Cancellations */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "部分退款（仅限服务费）" : "Partial Refund (Service Fee Only)"}
+              {isChinaSite ? "6. 私人接送取消" : "6. Private Transfer Cancellations"}
             </h2>
-            <p className="text-gray-700 dark:text-gray-300 mb-3">
-              {isChinaSite
-                ? "在以下情况下，您可能会收到服务费退款（政府费用不可退还）："
-                : "You may receive a service fee refund (government fee non-refundable) when:"}
-            </p>
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
-              <li>
-                {isChinaSite
-                  ? "您在提交后但批准前取消，且政府费用已支付。"
-                  : "You cancel after submission but before approval, and the government fee has already been paid."}
-              </li>
-              <li>
-                {isChinaSite
-                  ? "由于我方原因，处理时间大大超过承诺的时间范围。"
-                  : "Processing time significantly exceeds the promised timeframe due to issues within our control."}
-              </li>
+              <li><strong>{isChinaSite ? "24小时以上：" : "24+ hours before:"}</strong> {isChinaSite ? "全额退款" : "Full refund"}</li>
+              <li><strong>{isChinaSite ? "12-24小时：" : "12-24 hours:"}</strong> {isChinaSite ? "50%退款" : "50% refund"}</li>
+              <li><strong>{isChinaSite ? "12小时以内/未出现：" : "Under 12 hours / No-show:"}</strong> {isChinaSite ? "不退款" : "No refund"}</li>
             </ul>
           </section>
 
           {/* No Refund Scenarios */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "不予退款的情况" : "No Refund Available"}
+              {isChinaSite ? "7. 不予退款的情况" : "7. No Refund Scenarios"}
             </h2>
-            <p className="text-gray-700 dark:text-gray-300 mb-3">
-              {isChinaSite ? (
-                <>在以下情况下<strong>不予退款</strong>：</>
-              ) : (
-                <>Refunds are <strong>not available</strong> in the following situations:</>
-              )}
-            </p>
-            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
-              <li>
-                <strong>{isChinaSite ? "因申请人原因被拒签：" : "Visa denial due to applicant:"}</strong>{" "}
-                {isChinaSite
-                  ? "您提供的信息不正确、不符合资格、有犯罪记录、曾有移民违规行为或文件不完整。"
-                  : "Incorrect information provided by you, ineligibility, criminal history, previous immigration violations, or incomplete documentation."}
-              </li>
-              <li>
-                <strong>{isChinaSite ? "旅行计划变更：" : "Change of travel plans:"}</strong>{" "}
-                {isChinaSite
-                  ? "如果您的签证已批准后决定不前往越南。"
-                  : "If you decide not to travel to Vietnam after your visa is approved."}
-              </li>
-              <li>
-                <strong>{isChinaSite ? "当局延误：" : "Delays by authorities:"}</strong>{" "}
-                {isChinaSite
-                  ? "由越南移民局或其他政府机构造成的处理延误。"
-                  : "Processing delays caused by the Vietnam Immigration Department or other government agencies."}
-              </li>
-              <li>
-                <strong>{isChinaSite ? "边境入境被拒：" : "Entry denial at border:"}</strong>{" "}
-                {isChinaSite
-                  ? "尽管持有有效电子签证，但在边境被拒绝入境越南（移民官员有最终裁量权）。"
-                  : "Being denied entry into Vietnam despite having a valid e-Visa (immigration officers have final discretion)."}
-              </li>
-              <li>
-                <strong>{isChinaSite ? "签证已批准：" : "Approved visa:"}</strong>{" "}
-                {isChinaSite
-                  ? "一旦您的电子签证已批准并送达，将不予退款。"
-                  : "Once your e-Visa has been approved and delivered, no refunds are available."}
-              </li>
-            </ul>
+            <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4">
+              <p className="text-gray-700 dark:text-gray-300 mb-3 font-medium">
+                {isChinaSite ? "在以下情况下不予退款：" : "Refunds are NOT available when:"}
+              </p>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
+                <li>{isChinaSite ? "您未出现在预订的服务" : "You fail to show up for a booked service"}</li>
+                <li>{isChinaSite ? "您在服务确认后更改旅行计划" : "You change travel plans after services are confirmed"}</li>
+                <li>{isChinaSite ? "您提供了错误的信息（错误的日期、时间、地点）" : "You provide incorrect information (wrong dates, times, locations)"}</li>
+                <li>{isChinaSite ? "服务已按预订成功交付" : "Services were successfully delivered as booked"}</li>
+                <li>{isChinaSite ? "由于您的原因造成的延误（迟到集合点、遗忘证件等）" : "Delays caused by you (late to meeting point, forgotten documents, etc.)"}</li>
+              </ul>
+            </div>
           </section>
 
-          {/* Processing Times Note */}
+          {/* How to Request a Refund */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "关于处理时间的重要说明" : "Important Note on Processing Times"}
-            </h2>
-            <p className="text-gray-700 dark:text-gray-300">
-              {isChinaSite
-                ? "处理时间（15分钟至3个工作日）是基于正常情况的估计。实际处理取决于越南移民局。虽然我们尽一切努力满足规定的时间框架，但我们无法保证具体的交付时间，因为签证批准由越南当局决定。重大延误可能会根据具体情况获得部分退款。"
-                : "Processing times (15 minutes to 3 business days) are estimates based on normal conditions. Actual processing depends on the Vietnam Immigration Department. While we make every effort to meet stated timeframes, we cannot guarantee specific delivery times as visa approval is at the discretion of Vietnamese authorities. Significant delays may qualify for partial refunds on a case-by-case basis."}
-            </p>
-          </section>
-
-          {/* How to Request */}
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "如何申请退款" : "How to Request a Refund"}
+              {isChinaSite ? "8. 如何申请退款" : "8. How to Request a Refund"}
             </h2>
             <ol className="list-decimal list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
               <li>
                 {isChinaSite ? (
-                  <>通过电子邮件 <a href={`mailto:${contactEmail}`} className="text-blue-600 dark:text-blue-400 hover:underline">{contactEmail}</a> 或微信联系我们。</>
+                  <>通过电子邮件 <a href={`mailto:${contactEmail}`} className="text-blue-600 dark:text-blue-400 hover:underline">{contactEmail}</a> 或WhatsApp联系我们。</>
                 ) : (
                   <>Contact us via email at <a href={`mailto:${contactEmail}`} className="text-blue-600 dark:text-blue-400 hover:underline">{contactEmail}</a> or WhatsApp.</>
                 )}
               </li>
               <li>
                 {isChinaSite
-                  ? "提供您的订单号/确认邮件和退款原因。"
-                  : "Include your order number/confirmation email and reason for refund request."}
+                  ? "提供您的预订确认号和取消原因。"
+                  : "Provide your booking confirmation number and reason for cancellation."}
               </li>
               <li>
                 {isChinaSite
@@ -222,7 +252,7 @@ export default function RefundPage() {
           {/* Contact */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              {isChinaSite ? "联系我们" : "Contact Us"}
+              {isChinaSite ? "9. 联系我们" : "9. Contact Us"}
             </h2>
             <p className="text-gray-700 dark:text-gray-300 mb-3">
               {isChinaSite
@@ -257,8 +287,8 @@ export default function RefundPage() {
             </p>
             <p className="text-gray-600 dark:text-gray-400 text-sm mb-4">
               {isChinaSite
-                ? "营业执照号：0104679428 - 签发日期：2010年5月26日 - 河内投资规划局 | 旅行社许可证号：01-1794/2022/SDL-GPLHNDY"
-                : "Business License: 0104679428 - Issued: May 26, 2010 - Hanoi DPI | Tour Operator License: 01-1794/2022/SDL-GPLHNDY"}
+                ? "营业执照号：0104679428 - 签发日期：2010年5月26日 - 河内投资规划局 | 旅行社许可证号：01-1794/2022/SDL-GPLHND"
+                : "Business License: 0104679428 - Issued: May 26, 2010 - Hanoi DPI | Tour Operator License: 01-1794/2022/SDL-GPLHND"}
             </p>
 
             {/* Two Office Locations */}
