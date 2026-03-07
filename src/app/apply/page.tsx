@@ -2540,7 +2540,7 @@ function ApplyForm() {
                     </p>
                     <button
                       type="button"
-                      onClick={scanPassport}
+                      onClick={() => scanPassport()}
                       className="mt-2 text-sm text-red-600 dark:text-red-400 hover:text-red-800 dark:hover:text-red-300 underline"
                     >
                       {t.applyForm.scanRetry}
@@ -2552,7 +2552,7 @@ function ApplyForm() {
                 {passportPhotos[currentApplicant] && !isScanning && !scanSuccess && !scanError && (
                   <button
                     type="button"
-                    onClick={scanPassport}
+                    onClick={() => scanPassport()}
                     className="mt-3 w-full flex items-center justify-center gap-2 px-4 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors"
                   >
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
