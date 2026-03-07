@@ -8665,58 +8665,6 @@ export const FEATURED_TOURS: Tour[] = [
     destinations: ["Cai Be", "Tan Phong Island"],
     activities: ["cultural", "boat-tour", "food-tour"],
   },
-  {
-    id: "insight-mekong-day",
-    slug: "insight-mekong-delta-day-trip",
-    name: "Insight Mekong Delta Day Trip",
-    category: "day-trip",
-    location: "Mekong Delta",
-    duration: "1 day",
-    price: 62,
-    description: "Discover the rustic daily life of friendly Ben Tre people with coconut farms, fruit fields, and river excursions.",
-    fullDescription: `
-      <h3>Ben Tre Mekong Experience</h3>
-      <p>Fall in love with the captivating yet rustic daily life of the Mekong Delta people in Ben Tre province.</p>
-    `,
-    highlights: ["Ben Tre", "Coconut Farm", "River Excursion", "Local Fruits", "Traditional Crafts"],
-    itinerary: [
-      {
-        day: 1,
-        title: "Ben Tre Mekong Discovery",
-        description: "Authentic delta life experience",
-        activities: [
-          "7:30 AM - Hotel pickup in Saigon",
-          "9:30 AM - Arrive Ben Tre province",
-          "10:00 AM - Board boat on Ham Luong River",
-          "Cruise through coconut-lined waterways",
-          "10:30 AM - Visit coconut processing factory",
-          "See coconut products being made",
-          "11:15 AM - Sampan ride through narrow canals",
-          "Pass through traditional villages",
-          "12:00 PM - Lunch at riverside restaurant",
-          "Try local specialties and coconut dishes",
-          "1:30 PM - Visit family fruit orchard",
-          "Taste seasonal tropical fruits",
-          "2:30 PM - Explore traditional mat weaving",
-          "3:00 PM - Horse cart ride through village",
-          "3:30 PM - Visit brick-making kiln",
-          "4:00 PM - Depart for Ho Chi Minh City",
-          "6:30 PM - Hotel drop-off"
-        ],
-        meals: ["Lunch"]
-      }
-    ],
-    included: ["Boat", "Lunch", "Guide", "Transfers"],
-    excluded: ["Tips", "Personal expenses"],
-    imageUrl: "/tours/insight-mekong-day.jpg",
-    rating: 8.9,
-    reviewCount: 312,
-    affiliateUrl: "https://www.bestpricetravel.com/mekong-delta-tours/insight-mekong-delta-full-day.html",
-    durationHours: 9,
-    startCity: "Ho Chi Minh City",
-    destinations: ["Ben Tre", "Mekong Delta"],
-    activities: ["boat-tour", "cultural", "nature"],
-  },
 
   // NORTHERN VIETNAM TOURS
   {
@@ -10405,48 +10353,6 @@ export const FEATURED_TOURS: Tour[] = [
 
   // VIETNAM & CAMBODIA COMBINED
   {
-    id: "vietnam-cambodia-best-15d",
-    slug: "best-vietnam-cambodia-15-days",
-    name: "Best of Vietnam and Cambodia",
-    category: "multi-day",
-    location: "Vietnam & Cambodia",
-    duration: "15 days, 14 nights",
-    price: 1589,
-    description: "Complete journey through Vietnam and Cambodia visiting Angkor Wat, Halong Bay, and the Mekong Delta.",
-    fullDescription: `
-      <h3>Indochina Adventure</h3>
-      <p>Experience the best of both countries with ancient temples, beautiful bays, and vibrant cities.</p>
-    `,
-    highlights: ["Angkor Wat", "Halong Bay", "Hoi An", "Phnom Penh", "Mekong Delta"],
-    itinerary: [
-      { day: 1, title: "Hanoi", description: "Vietnam welcome", activities: ["Airport pickup", "Old Quarter walk"], meals: [] },
-      { day: 2, title: "Hanoi City", description: "Capital exploration", activities: ["Ho Chi Minh Mausoleum", "Temple of Literature", "Water puppets"], meals: ["Breakfast"] },
-      { day: 3, title: "Halong Bay", description: "Cruise", activities: ["Transfer", "Board cruise", "Kayaking", "Cave visit"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 4, title: "Halong - Hue", description: "Flight south", activities: ["Morning cruise", "Fly to Hue", "Citadel visit"], meals: ["Breakfast", "Brunch"] },
-      { day: 5, title: "Hue - Hoi An", description: "Scenic drive", activities: ["Royal tombs", "Hai Van Pass", "Hoi An arrival"], meals: ["Breakfast"] },
-      { day: 6, title: "Hoi An", description: "Ancient town", activities: ["Walking tour", "Cooking class", "Lantern night"], meals: ["Breakfast", "Lunch"] },
-      { day: 7, title: "Hoi An - Saigon", description: "Flight", activities: ["Morning free", "Fly to Saigon", "City walk"], meals: ["Breakfast"] },
-      { day: 8, title: "Saigon", description: "City tour", activities: ["War Museum", "Reunification Palace", "Cu Chi Tunnels"], meals: ["Breakfast"] },
-      { day: 9, title: "Mekong Delta", description: "River life", activities: ["Mekong boat trip", "Floating market", "Local villages"], meals: ["Breakfast", "Lunch"] },
-      { day: 10, title: "Saigon - Phnom Penh", description: "To Cambodia", activities: ["Fly to Phnom Penh", "Hotel check-in", "Night market"], meals: ["Breakfast"] },
-      { day: 11, title: "Phnom Penh", description: "Capital city", activities: ["Royal Palace", "Silver Pagoda", "Killing Fields"], meals: ["Breakfast"] },
-      { day: 12, title: "Phnom Penh - Siem Reap", description: "To Angkor", activities: ["Fly to Siem Reap", "Angkor National Museum", "Pub Street"], meals: ["Breakfast"] },
-      { day: 13, title: "Angkor Wat", description: "Temple wonder", activities: ["Sunrise Angkor Wat", "Angkor Thom", "Bayon", "Ta Prohm"], meals: ["Breakfast"] },
-      { day: 14, title: "Angkor Temples", description: "More temples", activities: ["Outer temples", "Floating village", "Farewell dinner"], meals: ["Breakfast"] },
-      { day: 15, title: "Departure", description: "Farewell", activities: ["Airport transfer"], meals: ["Breakfast"] }
-    ],
-    included: ["14 nights hotels", "All flights", "Cruise", "Tours", "Guide", "Breakfast daily"],
-    excluded: ["Visa fees", "Tips", "Optional activities"],
-    imageUrl: "/tours/vietnam-cambodia-best-15d.jpg",
-    rating: 9.3,
-    reviewCount: 156,
-    affiliateUrl: "https://www.bestpricetravel.com/indochina-tours/best-of-vietnam-and-cambodia-15-days.html",
-    durationHours: 360,
-    startCity: "Hanoi",
-    destinations: ["Hanoi", "Halong Bay", "Hue", "Hoi An", "Ho Chi Minh City", "Mekong Delta", "Cambodia", "Siem Reap"],
-    activities: ["cultural", "cruise", "historical", "sightseeing"],
-  },
-  {
     id: "luxury-vietnam-cambodia-15d",
     slug: "incredible-luxury-vietnam-cambodia-15-days",
     name: "Incredible Luxury Vietnam & Cambodia",
@@ -11460,34 +11366,6 @@ export const FEATURED_TOURS: Tour[] = [
     activities: ["boat-tour", "homestay", "cultural", "market-visit", "cooking-class"],
   },
   {
-    id: "cu-chi-mekong-combo",
-    slug: "cu-chi-tunnels-mekong-delta-day-tour",
-    name: "Cu Chi Tunnels & Mekong Delta Combo",
-    category: "day-trip",
-    location: "Ho Chi Minh City",
-    duration: "1 day",
-    price: 79,
-    description: "Full day combining wartime tunnels with peaceful Mekong waterways.",
-    fullDescription: `
-      <h3>History & Nature</h3>
-      <p>Experience Vietnam's wartime history in the morning and peaceful delta life in the afternoon.</p>
-    `,
-    highlights: ["Cu Chi Tunnels", "War History", "Mekong Boat Ride", "Local Industries", "Fruit Tasting"],
-    itinerary: [
-      { day: 1, title: "Combo Tour", description: "Full day", activities: ["Hotel pickup", "Cu Chi Tunnels visit", "Tunnel exploration", "Lunch", "Transfer to Mekong", "Boat ride", "Coconut island", "Return to Saigon"], meals: ["Lunch"] }
-    ],
-    included: ["Transportation", "Entrance fees", "Lunch", "Boat trip", "Guide"],
-    excluded: ["Tips", "Drinks", "Personal expenses"],
-    imageUrl: "/tours/cu-chi-mekong-combo.jpg",
-    rating: 9.3,
-    reviewCount: 445,
-    affiliateUrl: "https://www.bestpricetravel.com/mekong-delta-tours/cu-chi-tunnels-mekong-delta-day-trip.html",
-    durationHours: 10,
-    startCity: "Ho Chi Minh City",
-    destinations: ["Cu Chi", "Mekong Delta"],
-    activities: ["historical", "boat-tour", "cultural", "educational"],
-  },
-  {
     id: "phu-quoc-island-escape-4d",
     slug: "phu-quoc-island-escape-4-days",
     name: "Phu Quoc Island Escape",
@@ -12134,40 +12012,6 @@ export const FEATURED_TOURS: Tour[] = [
     activities: ["beach", "cultural", "cooking-class", "cycling", "boat-tour"],
   },
   {
-    id: "saigon-mui-ne-beach-7d",
-    slug: "south-vietnam-saigon-mui-ne-beach-7-days",
-    name: "South Vietnam: Saigon & Mui Ne Beach Relaxation",
-    category: "multi-day",
-    location: "Southern Vietnam",
-    duration: "7 days, 6 nights",
-    price: 439,
-    description: "Southern exploration with Cu Chi, Mekong Delta, and Mui Ne beach escape.",
-    fullDescription: `
-      <h3>Southern Beach</h3>
-      <p>Explore southern Vietnam's highlights before relaxing on Mui Ne's stunning beaches.</p>
-    `,
-    highlights: ["Cu Chi Tunnels", "Mekong Delta", "Mui Ne Dunes", "Beach Resort", "Water Sports"],
-    itinerary: [
-      { day: 1, title: "Saigon Arrival", description: "Welcome", activities: ["Airport pickup", "Hotel check-in", "City tour", "Dinner cruise"], meals: ["Dinner"] },
-      { day: 2, title: "Cu Chi", description: "War history", activities: ["Cu Chi Tunnels", "War Museum", "Shopping", "Night market"], meals: ["Breakfast", "Lunch"] },
-      { day: 3, title: "Mekong Delta", description: "Delta day", activities: ["Full day Mekong", "Ben Tre", "Coconut village", "Fruit tasting"], meals: ["Breakfast", "Lunch"] },
-      { day: 4, title: "Mui Ne", description: "Beach arrival", activities: ["Transfer to Mui Ne", "Beach resort", "Red dunes sunset", "Seafood dinner"], meals: ["Breakfast", "Dinner"] },
-      { day: 5, title: "Mui Ne Beach", description: "Relaxation", activities: ["White dunes sunrise", "Beach day", "Kite surfing optional", "Spa"], meals: ["Breakfast"] },
-      { day: 6, title: "Mui Ne Free", description: "Leisure", activities: ["Fairy Stream", "Fishing village", "Beach", "Farewell dinner"], meals: ["Breakfast", "Dinner"] },
-      { day: 7, title: "Departure", description: "Farewell", activities: ["Transfer to Saigon", "Airport"], meals: ["Breakfast"] }
-    ],
-    included: ["6 nights hotels", "All tours listed", "Meals listed", "Transfers"],
-    excluded: ["Flights", "Tips", "Water sports"],
-    imageUrl: "/tours/saigon-mui-ne-beach-7d.jpg",
-    rating: 9.5,
-    reviewCount: 2,
-    affiliateUrl: "https://www.bestpricetravel.com/vietnam-tours/saigon-and-mui-ne-relaxation-7-days.html",
-    durationHours: 168,
-    startCity: "Ho Chi Minh City",
-    destinations: ["Ho Chi Minh City", "Cu Chi", "Mekong Delta", "Ben Tre"],
-    activities: ["beach", "historical", "boat-tour", "cultural"],
-  },
-  {
     id: "nha-trang-discovery-beach-6d",
     slug: "nha-trang-discovery-beach-break-6-days",
     name: "Nha Trang Discovery & Beach Break",
@@ -12202,47 +12046,6 @@ export const FEATURED_TOURS: Tour[] = [
     startCity: "Nha Trang",
     destinations: ["Nha Trang"],
     activities: ["beach", "snorkeling", "spa", "cultural", "boat-tour"],
-  },
-  {
-    id: "luxury-beach-wellness-14d",
-    slug: "luxury-vietnam-beach-wellness-spa-14-days",
-    name: "Luxury Vietnam Beach Wellness & Spa",
-    category: "multi-day",
-    location: "Vietnam",
-    duration: "14 days, 13 nights",
-    price: 4279,
-    description: "Ultimate luxury journey combining wellness, beaches, and Vietnam's highlights.",
-    fullDescription: `
-      <h3>Luxury Wellness</h3>
-      <p>Experience Vietnam's finest resorts, spas, and beaches on this premium wellness journey.</p>
-    `,
-    highlights: ["5-Star Resorts", "Daily Spa", "Halong Cruise", "Nha Trang Beach", "Gourmet Dining"],
-    itinerary: [
-      { day: 1, title: "Hanoi", description: "Luxury arrival", activities: ["VIP airport pickup", "5-star hotel", "Welcome spa", "Gourmet dinner"], meals: ["Dinner"] },
-      { day: 2, title: "Hanoi Wellness", description: "Spa day", activities: ["Morning yoga", "City tour", "Spa treatment", "Fine dining"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 3, title: "Halong Bay", description: "Luxury cruise", activities: ["5-star cruise", "Onboard spa", "Kayaking", "Gourmet dinner"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 4, title: "Halong Bay", description: "Continued", activities: ["Sunrise yoga", "Cave visit", "Return to Hanoi", "Evening spa"], meals: ["Breakfast", "Brunch", "Dinner"] },
-      { day: 5, title: "Da Nang", description: "Beach arrival", activities: ["Fly to Da Nang", "Luxury resort", "Beach spa", "Seafood dinner"], meals: ["Breakfast", "Dinner"] },
-      { day: 6, title: "Da Nang Wellness", description: "Full spa day", activities: ["Morning yoga beach", "Full day spa package", "Healthy cuisine"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 7, title: "Hoi An", description: "Ancient town", activities: ["Hoi An visit", "Cooking class", "Spa afternoon", "Lantern dinner"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 8, title: "Nha Trang", description: "Coastal luxury", activities: ["Fly to Nha Trang", "Beach resort", "Sunset spa"], meals: ["Breakfast", "Dinner"] },
-      { day: 9, title: "Nha Trang", description: "Island day", activities: ["Private boat", "Snorkeling", "Beach massage", "Seafood feast"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 10, title: "Nha Trang", description: "Wellness", activities: ["Mud baths VIP", "Hot springs", "Spa treatments", "Rest day"], meals: ["Breakfast", "Dinner"] },
-      { day: 11, title: "Saigon", description: "City arrival", activities: ["Fly to Saigon", "Premium hotel", "City tour", "Rooftop dinner"], meals: ["Breakfast", "Dinner"] },
-      { day: 12, title: "Saigon Spa", description: "Urban wellness", activities: ["Morning spa", "Shopping", "Afternoon tea", "Dinner cruise"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 13, title: "Mekong", description: "Delta day", activities: ["Private Mekong cruise", "Gourmet lunch", "Return", "Farewell gala"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 14, title: "Departure", description: "VIP farewell", activities: ["Final spa treatment", "VIP airport transfer"], meals: ["Breakfast"] }
-    ],
-    included: ["13 nights 5-star resorts", "Luxury cruise", "All spa treatments", "Domestic flights", "All meals", "Private guides"],
-    excluded: ["International flights", "Tips"],
-    imageUrl: "/tours/luxury-beach-wellness-14d.jpg",
-    rating: 9.6,
-    reviewCount: 10,
-    affiliateUrl: "https://www.bestpricetravel.com/vietnam-tours/luxury-vietnam-beach-wellness-spa-14-days.html",
-    durationHours: 336,
-    startCity: "Hanoi",
-    destinations: ["Hanoi", "Halong Bay", "Da Nang", "Hoi An", "Nha Trang", "Ho Chi Minh City", "Mekong Delta"],
-    activities: ["spa", "luxury", "cruise", "beach", "cooking-class"],
   },
 
   // SENIOR-FRIENDLY TOURS (4 tours)
@@ -12290,45 +12093,6 @@ export const FEATURED_TOURS: Tour[] = [
     destinations: ["Hanoi", "Mai Chau", "Ninh Binh", "Halong Bay", "Hue", "Hoi An", "Ho Chi Minh City", "Mekong Delta"],
     activities: ["cultural", "cruise", "boat-tour", "cooking-class", "sightseeing"],
   },
-  {
-    id: "vietnam-highlights-north-south-12d",
-    slug: "highlights-vietnam-north-south-12-days",
-    name: "Highlights of Vietnam from North to South",
-    category: "multi-day",
-    location: "Vietnam",
-    duration: "12 days, 11 nights",
-    price: 1029,
-    description: "Perfect first-time visitor journey with moderate pace suitable for all ages.",
-    fullDescription: `
-      <h3>Vietnam Highlights</h3>
-      <p>Experience the best of Vietnam at a comfortable pace ideal for first-time visitors and seniors.</p>
-    `,
-    highlights: ["Hanoi Old Quarter", "Halong Cruise", "Hue & Hoi An", "Cu Chi Tunnels", "Mekong Delta"],
-    itinerary: [
-      { day: 1, title: "Hanoi", description: "Arrival", activities: ["Airport pickup", "Hotel check-in", "Evening Old Quarter walk"], meals: ["Dinner"] },
-      { day: 2, title: "Hanoi", description: "Full day", activities: ["Ho Chi Minh Mausoleum", "One Pillar Pagoda", "Temple of Literature", "Hoan Kiem Lake", "Water puppets"], meals: ["Breakfast", "Lunch"] },
-      { day: 3, title: "Halong Bay", description: "Cruise", activities: ["Transfer to Halong", "Cruise boarding", "Lunch on board", "Kayaking optional", "Sunset dinner"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 4, title: "Halong - Hanoi", description: "Return", activities: ["Sunrise tai chi", "Cave visit", "Brunch", "Return to Hanoi", "Evening rest"], meals: ["Breakfast", "Brunch"] },
-      { day: 5, title: "Hue", description: "Imperial city", activities: ["Fly to Hue", "Citadel tour", "Thien Mu Pagoda", "Royal dinner"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 6, title: "Hue - Hoi An", description: "Scenic drive", activities: ["Royal tombs", "Hai Van Pass", "Lang Co Beach", "Marble Mountains", "Hoi An arrival"], meals: ["Breakfast", "Lunch"] },
-      { day: 7, title: "Hoi An", description: "Ancient town", activities: ["Walking tour", "Japanese Bridge", "Assembly halls", "Cooking class", "Lantern night"], meals: ["Breakfast", "Lunch"] },
-      { day: 8, title: "Hoi An Free", description: "Leisure", activities: ["Beach or tailor", "Optional My Son", "Massage", "Free evening"], meals: ["Breakfast"] },
-      { day: 9, title: "Saigon", description: "South arrival", activities: ["Fly to Saigon", "City tour", "Ben Thanh Market", "Dinner"], meals: ["Breakfast", "Dinner"] },
-      { day: 10, title: "Cu Chi", description: "History day", activities: ["Cu Chi Tunnels", "War Remnants Museum", "Chinatown", "Evening cruise"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 11, title: "Mekong Delta", description: "Delta day", activities: ["Cai Be floating market", "Sampan ride", "Local villages", "Fruit tasting", "Farewell dinner"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 12, title: "Departure", description: "Farewell", activities: ["Morning rest", "Airport transfer"], meals: ["Breakfast"] }
-    ],
-    included: ["11 nights hotels", "Halong cruise", "Domestic flights", "Meals listed", "Guides", "Entrance fees"],
-    excluded: ["International flights", "Tips"],
-    imageUrl: "/tours/vietnam-highlights-north-south-12d.jpg",
-    rating: 9.4,
-    reviewCount: 171,
-    affiliateUrl: "https://www.bestpricetravel.com/vietnam-tours/highlights-of-vietnam-12-days.html",
-    durationHours: 288,
-    startCity: "Hanoi",
-    destinations: ["Hanoi", "Halong Bay", "Hue", "Hoi An", "Ho Chi Minh City", "Cu Chi", "Mekong Delta"],
-    activities: ["cultural", "cruise", "historical", "cooking-class", "boat-tour"],
-  },
   // Duplicate removed - see real-taste-vietnam-13d in main tour listing above
   {
     id: "vietnam-gentle-pace-10d",
@@ -12369,45 +12133,6 @@ export const FEATURED_TOURS: Tour[] = [
   },
 
   // CLASSIC ESSENTIAL TOURS (5 tours)
-  {
-    id: "vietnam-essential-10d",
-    slug: "vietnam-essential-10-days",
-    name: "Vietnam Essential",
-    category: "multi-day",
-    location: "Vietnam",
-    duration: "10 days, 9 nights",
-    price: 899,
-    originalPrice: 999,
-    discount: 10,
-    description: "Best-selling Vietnam tour covering all major highlights from North to South.",
-    fullDescription: `
-      <h3>Vietnam's Best</h3>
-      <p>Our most popular tour covering everything essential in Vietnam at an excellent value.</p>
-    `,
-    highlights: ["Hanoi City", "Halong Bay Cruise", "Hue & Hoi An", "Saigon", "Mekong Delta"],
-    itinerary: [
-      { day: 1, title: "Hanoi", description: "Arrival", activities: ["Airport pickup", "Hotel check-in", "Old Quarter evening walk", "Welcome dinner"], meals: ["Dinner"] },
-      { day: 2, title: "Hanoi", description: "Full day", activities: ["Ho Chi Minh Mausoleum", "One Pillar Pagoda", "Temple of Literature", "Ethnology Museum", "Water puppets"], meals: ["Breakfast", "Lunch"] },
-      { day: 3, title: "Halong Bay", description: "Cruise", activities: ["Transfer to Halong", "Cruise boarding", "Lunch on board", "Kayaking", "Cooking class", "Overnight on bay"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 4, title: "Halong - Hanoi - Hue", description: "Journey south", activities: ["Sunrise tai chi", "Cave visit", "Return to Hanoi", "Fly to Hue"], meals: ["Breakfast", "Brunch", "Dinner"] },
-      { day: 5, title: "Hue", description: "Imperial city", activities: ["Imperial Citadel", "Thien Mu Pagoda", "Royal tombs", "Perfume River cruise"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 6, title: "Hue - Hoi An", description: "Scenic route", activities: ["Hai Van Pass", "Lang Co Beach", "Marble Mountains", "Hoi An arrival", "Ancient town evening"], meals: ["Breakfast", "Lunch"] },
-      { day: 7, title: "Hoi An", description: "Ancient town", activities: ["Walking tour", "Japanese Bridge", "Cooking class", "Lantern night"], meals: ["Breakfast", "Lunch"] },
-      { day: 8, title: "Hoi An - Saigon", description: "South arrival", activities: ["Morning free", "Fly to Saigon", "City orientation", "Ben Thanh Market"], meals: ["Breakfast", "Dinner"] },
-      { day: 9, title: "Saigon & Mekong", description: "Full day", activities: ["Cu Chi Tunnels", "Lunch", "Mekong Delta", "Sampan ride", "Fruit tasting", "Farewell dinner"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 10, title: "Departure", description: "Farewell", activities: ["Morning free", "Airport transfer"], meals: ["Breakfast"] }
-    ],
-    included: ["9 nights hotels", "Halong overnight cruise", "Domestic flights", "Meals listed", "Guides", "Entrance fees"],
-    excluded: ["International flights", "Tips", "Personal expenses"],
-    imageUrl: "/tours/vietnam-essential-10d.jpg",
-    rating: 9.6,
-    reviewCount: 112,
-    affiliateUrl: "https://www.bestpricetravel.com/vietnam-tours/vietnam-essential-10-days-small-group-tour.html",
-    durationHours: 240,
-    startCity: "Hanoi",
-    destinations: ["Hanoi", "Halong Bay", "Hue", "Hoi An", "Ho Chi Minh City", "Cu Chi", "Mekong Delta"],
-    activities: ["cruise", "cultural", "historical", "cooking-class", "boat-tour"],
-  },
   {
     id: "vietnam-classic-8d",
     slug: "vietnam-classic-tour-8-days",
@@ -12568,34 +12293,6 @@ export const FEATURED_TOURS: Tour[] = [
 
   // DAY TRIPS & SHORT TOURS (6 tours)
   {
-    id: "hanoi-food-walking-tour",
-    slug: "hanoi-street-food-walking-tour",
-    name: "Hanoi Street Food Walking Tour",
-    category: "day-trip",
-    location: "Hanoi",
-    duration: "4 hours",
-    price: 35,
-    description: "Evening street food adventure through Hanoi's Old Quarter with local guide.",
-    fullDescription: `
-      <h3>Hanoi Flavors</h3>
-      <p>Taste authentic Hanoi street food in the atmospheric Old Quarter with a knowledgeable local guide.</p>
-    `,
-    highlights: ["Pho Tasting", "Banh Mi", "Egg Coffee", "Bun Cha", "Local Markets"],
-    itinerary: [
-      { day: 1, title: "Food Tour", description: "Evening adventure", activities: ["Hotel pickup", "Pho shop", "Banh mi street", "Bun cha dinner", "Egg coffee", "Night market walk", "Bia hoi corner", "Return"], meals: ["All food included"] }
-    ],
-    included: ["All food tastings", "Drinks", "Local guide", "Hotel pickup/dropoff"],
-    excluded: ["Tips", "Additional food"],
-    imageUrl: "/tours/hanoi-food-walking-tour.jpg",
-    rating: 9.6,
-    reviewCount: 234,
-    affiliateUrl: "https://www.bestpricetravel.com/hanoi-tours/hanoi-street-food-tour.html",
-    durationHours: 4,
-    startCity: "Hanoi",
-    destinations: ["Hanoi"],
-    activities: ["food-tour", "walking-tour", "cultural"],
-  },
-  {
     id: "mekong-delta-day-trip",
     slug: "mekong-delta-day-trip-from-saigon",
     name: "Mekong Delta Day Trip",
@@ -12744,88 +12441,6 @@ export const FEATURED_TOURS: Tour[] = [
   // ============================================
 
   // ADVENTURE TOURS (6 tours)
-  {
-    id: "vietnam-adventure-biking-trekking-12d",
-    slug: "vietnam-adventure-biking-trekking-snorkeling-12-days",
-    name: "Vietnam Adventure: Biking, Trekking & Snorkeling",
-    category: "multi-day",
-    location: "Vietnam",
-    duration: "12 days, 11 nights",
-    price: 1189,
-    description: "Active adventure combining mountain treks, coral reef snorkeling, and Mekong cycling.",
-    fullDescription: `
-      <h3>Ultimate Adventure</h3>
-      <p>Experience Vietnam's diverse landscapes through trekking, cycling, and water activities.</p>
-    `,
-    highlights: ["Sapa Trekking", "Nha Trang Snorkeling", "Mekong Cycling", "Village Homestays", "Beach Time"],
-    itinerary: [
-      { day: 1, title: "Hanoi", description: "Arrival", activities: ["Airport pickup", "Hotel check-in", "Old Quarter walk", "Welcome dinner"], meals: ["Dinner"] },
-      { day: 2, title: "Hanoi - Sapa", description: "Mountain journey", activities: ["Train to Sapa", "Arrive Sapa", "Town exploration"], meals: ["Breakfast", "Dinner"] },
-      { day: 3, title: "Sapa Trekking", description: "Mountain trek", activities: ["Trek to Cat Cat", "Rice terraces", "Hmong villages", "Homestay"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 4, title: "Sapa Trekking", description: "Continued", activities: ["Trek to Ta Van", "Valley views", "Bamboo forest", "Return Sapa"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 5, title: "Sapa - Hanoi", description: "Return", activities: ["Morning views", "Train to Hanoi", "Evening free"], meals: ["Breakfast", "Lunch"] },
-      { day: 6, title: "Fly to Nha Trang", description: "Beach arrival", activities: ["Flight to Nha Trang", "Beach resort", "Evening free"], meals: ["Breakfast", "Dinner"] },
-      { day: 7, title: "Nha Trang Snorkeling", description: "Sea adventure", activities: ["Island boat trip", "Snorkeling 3 spots", "Beach BBQ", "More snorkeling"], meals: ["Breakfast", "Lunch"] },
-      { day: 8, title: "Nha Trang Free", description: "Beach day", activities: ["Beach relaxation", "Optional diving", "Mud baths", "Seafood dinner"], meals: ["Breakfast", "Dinner"] },
-      { day: 9, title: "Fly to Saigon", description: "South arrival", activities: ["Flight to Saigon", "City tour", "Night market"], meals: ["Breakfast", "Dinner"] },
-      { day: 10, title: "Mekong Cycling", description: "Delta adventure", activities: ["Transfer to Mekong", "Cycling villages", "Boat rides", "Homestay"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 11, title: "Mekong Cycling", description: "Continued", activities: ["Floating market", "More cycling", "Local industries", "Return Saigon"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 12, title: "Departure", description: "Farewell", activities: ["Morning free", "Airport transfer"], meals: ["Breakfast"] }
-    ],
-    included: ["11 nights hotels/homestays", "Domestic flights", "Train tickets", "Bicycle", "Snorkeling gear", "Meals listed"],
-    excluded: ["International flights", "Tips", "Diving"],
-    imageUrl: "/tours/vietnam-adventure-biking-trekking-12d.jpg",
-    rating: 9.6,
-    reviewCount: 7,
-    affiliateUrl: "https://www.bestpricetravel.com/vietnam-tours/vietnam-biking-trekking-snorkeling-12-days.html",
-    durationHours: 288,
-    startCity: "Hanoi",
-    destinations: ["Hanoi", "Sapa", "Nha Trang", "Ho Chi Minh City", "Mekong Delta"],
-    activities: ["trekking", "cycling", "snorkeling", "homestay", "adventure"],
-  },
-  {
-    id: "vietnam-bike-north-south-16d",
-    slug: "vietnam-adventure-bike-north-south-16-days",
-    name: "Vietnam Adventure on Bike: North to South",
-    category: "multi-day",
-    location: "Vietnam",
-    duration: "16 days, 15 nights",
-    price: 1899,
-    description: "Epic cycling journey through Vietnam from Hanoi to Ho Chi Minh City.",
-    fullDescription: `
-      <h3>Cycling Vietnam</h3>
-      <p>Pedal through Vietnam's most scenic routes from north to south on this ultimate cycling adventure.</p>
-    `,
-    highlights: ["Sapa Cycling", "Halong Bay", "Hai Van Pass", "Mekong Delta", "Vespa Tours"],
-    itinerary: [
-      { day: 1, title: "Hanoi", description: "Arrival", activities: ["Airport pickup", "Bike fitting", "Welcome dinner"], meals: ["Dinner"] },
-      { day: 2, title: "Hanoi Cycling", description: "City ride", activities: ["Hanoi bike tour", "Old Quarter", "West Lake", "Night cycling"], meals: ["Breakfast", "Lunch"] },
-      { day: 3, title: "Sapa", description: "Mountain journey", activities: ["Train to Sapa", "Afternoon cycling", "Village visit"], meals: ["Breakfast", "Dinner"] },
-      { day: 4, title: "Sapa Cycling", description: "Mountain ride", activities: ["Downhill cycling", "Rice terraces", "Hmong villages", "Homestay"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 5, title: "Sapa - Hanoi", description: "Return", activities: ["Morning cycling", "Train to Hanoi"], meals: ["Breakfast", "Lunch"] },
-      { day: 6, title: "Halong Bay", description: "Cruise", activities: ["Transfer to Halong", "Cruise & kayaking", "Sunset views"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 7, title: "Halong - Hanoi", description: "Return", activities: ["Morning bay", "Return Hanoi", "Fly to Hue"], meals: ["Breakfast", "Brunch", "Dinner"] },
-      { day: 8, title: "Hue Cycling", description: "Imperial ride", activities: ["Citadel cycling", "Countryside paths", "Tombs visit"], meals: ["Breakfast", "Lunch"] },
-      { day: 9, title: "Hai Van Pass", description: "Epic ride", activities: ["Cycle Hai Van Pass", "Panoramic views", "Arrive Hoi An"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 10, title: "Hoi An Cycling", description: "Countryside", activities: ["Tra Que village", "Rice paddies", "Beach cycling"], meals: ["Breakfast", "Lunch"] },
-      { day: 11, title: "Hoi An Free", description: "Rest day", activities: ["Beach time", "Ancient town", "Lantern night"], meals: ["Breakfast"] },
-      { day: 12, title: "Fly to Saigon", description: "South arrival", activities: ["Flight", "Vespa night tour", "Street food"], meals: ["Breakfast", "Dinner"] },
-      { day: 13, title: "Cu Chi Cycling", description: "History ride", activities: ["Cycle to Cu Chi", "Tunnel visit", "Return Saigon"], meals: ["Breakfast", "Lunch"] },
-      { day: 14, title: "Mekong Cycling", description: "Delta ride", activities: ["Transfer to Mekong", "Island cycling", "Village visits", "Homestay"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 15, title: "Mekong Cycling", description: "Final ride", activities: ["Floating market", "Cycling back roads", "Farewell dinner"], meals: ["Breakfast", "Lunch", "Dinner"] },
-      { day: 16, title: "Departure", description: "Farewell", activities: ["Transfer to Saigon", "Airport"], meals: ["Breakfast"] }
-    ],
-    included: ["15 nights hotels/homestays/cruise", "Quality bicycle", "Support vehicle", "Domestic flights", "Train", "Meals listed"],
-    excluded: ["International flights", "Tips"],
-    imageUrl: "/tours/vietnam-bike-north-south-16d.jpg",
-    rating: 9.4,
-    reviewCount: 11,
-    affiliateUrl: "https://www.bestpricetravel.com/vietnam-tours/vietnam-on-wheels-16-days.html",
-    durationHours: 384,
-    startCity: "Hanoi",
-    destinations: ["Hanoi", "Sapa", "Halong Bay", "Hue", "Hoi An", "Ho Chi Minh City", "Cu Chi", "Mekong Delta"],
-    activities: ["cycling", "cruise", "trekking", "vespa-tour", "adventure"],
-  },
   {
     id: "vietnam-land-rail-water-12d",
     slug: "ultimate-vietnam-journey-land-rail-water-12-days",
