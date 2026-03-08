@@ -3198,10 +3198,10 @@ function ApplyForm() {
                   <div className="flex-1 flex flex-col gap-4">
                     {/* Flight Risk Warning - shown for high-risk countries before payment */}
                     <FlightRiskBlock
-                      countryCode={departingCountry || applicants[0]?.nationality || ""}
+                      countryCode={initialDepartingCountry || applicants[0]?.nationality || ""}
                       visaSpeed={selectedVisaSpeed}
                       language={language}
-                      airportCode={departingAirport || undefined}
+                      airportCode={initialDepartingAirport || undefined}
                     />
 
                     {/* Scrollable Terms & Conditions Preview Box - ~5cm height with right scrollbar */}
