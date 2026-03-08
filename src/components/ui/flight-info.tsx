@@ -11,12 +11,14 @@ interface FlightData {
     terminal?: string;
     gate?: string;
     actualTime?: string;
+    timeZone?: string;
   };
   arrival: {
     airport: string;
     scheduledTime: string;
     terminal?: string;
     gate?: string;
+    timeZone?: string;
   };
   status: string;
   checkInOpeningTime: string;
@@ -396,10 +398,10 @@ export function FlightInfo({ flightNumber, date, origin, onCheckInUrgent, onFlig
               <div className="font-semibold text-sm">{getCheckInMessage()}</div>
               <div className="text-xs opacity-75 mt-1">
                 <div className="flex items-center gap-1">
-                  <span className="text-green-600">{isZH ? "开放:" : "Opens:"}</span> {formatTime(flightData.checkInOpeningTime)} ({formatDate(flightData.checkInOpeningTime)})
+                  <span className="text-green-600">{isZH ? "开放:" : "Opens:"}</span> {formatTime(flightData.checkInOpeningTime)} ({formatDate(flightData.checkInOpeningTime)}){flightData.departure.timeZone && ` ${flightData.departure.timeZone}`}
                 </div>
                 <div className="flex items-center gap-1">
-                  <span className="text-red-600">{isZH ? "关闭:" : "Closes:"}</span> {formatTime(flightData.checkInClosingTime)} ({formatDate(flightData.checkInClosingTime)})
+                  <span className="text-red-600">{isZH ? "关闭:" : "Closes:"}</span> {formatTime(flightData.checkInClosingTime)} ({formatDate(flightData.checkInClosingTime)}){flightData.departure.timeZone && ` ${flightData.departure.timeZone}`}
                 </div>
               </div>
             </div>

@@ -268,7 +268,7 @@ export const SITES: Record<string, SiteConfig> = {
 
   // ---------------------------------------------------------------------------
   // FLY VIETNAM SITE: flyvietnam.help
-  // Main site with FlyVietnam branding
+  // Tours & Travel Concierge focused site
   // Hosted on Namecheap with separate IP address
   // ---------------------------------------------------------------------------
   "flyvietnam.help": {
@@ -279,8 +279,8 @@ export const SITES: Record<string, SiteConfig> = {
       secondaryColor: "#059669",         // Green - trust, nature
       accentColor: "#f59e0b",            // Amber - warm, inviting
       urgencyColor: "#6366f1",           // Indigo - calm, not aggressive
-      heroGradient: "from-cyan-700 via-teal-600 to-emerald-600",
-      buttonGradient: "from-teal-500 to-cyan-500",
+      heroGradient: "from-emerald-800 via-teal-700 to-cyan-800",
+      buttonGradient: "from-emerald-500 to-teal-500",
       borderRadius: "rounded",
     },
     layout: {
@@ -291,7 +291,7 @@ export const SITES: Record<string, SiteConfig> = {
       defaultVisaSpeed: "2-day",         // Default to slower, cheaper option
       trustBadgeVariant: "travel",       // Travel-focused badges
       testimonialSet: "travel",          // Softer testimonials
-      showTours: true,                   // Show tours section - affiliate content
+      showTours: true,                   // Show tours section - primary content
       useGoogleAdsCompliant: true,       // Use Google Ads safe language
       showIndianPaymentMethods: false,
       showISTTimezone: false,
@@ -300,14 +300,14 @@ export const SITES: Record<string, SiteConfig> = {
       siteName: "FlyVietnam.Help",
       siteNameShort: "FlyVietnam.Help",
       domain: "flyvietnam.help",
-      tagline: "Your Travel Concierge",
-      metaTitle: "FlyVietnam.Help - Vietnam Tour And Premium Travel Concierge",
-      metaDescription: "Professional assistance for Vietnam e-visa applications. FlyVietnam.Help guides you through the official visa process with clear guidance, document support, and application tracking.",
-      heroTitle: "Planning Your Vietnam Trip?",
-      heroSubtitle: "We provide professional assistance with e-visa applications. Our team helps you prepare documents and submit your application correctly.",
-      heroBadge: "Trusted Travel Assistance Service",
-      ctaButtonText: "Get Started",
-      trustHeadline: "Helping travelers since 2019",
+      tagline: "Your Vietnam Travel Concierge",
+      metaTitle: "Vietnam Tours & VIP Airport Services | FlyVietnam.Help",
+      metaDescription: "Explore Vietnam with curated tours, VIP airport fast-track services, and premium travel concierge. From Halong Bay cruises to Mekong Delta day trips.",
+      heroTitle: "Discover Vietnam Your Way",
+      heroSubtitle: "From breathtaking Halong Bay cruises to vibrant Mekong Delta adventures. Plus VIP airport fast-track to start your journey stress-free.",
+      heroBadge: "Your Vietnam Travel Concierge",
+      ctaButtonText: "Explore Tours",
+      trustHeadline: "Trusted by travelers worldwide",
       supportEmail: "info@flyvietnam.help",
       whatsappNumber: "+84705549868",
       whatsappDisplay: "+84 70 5549868",

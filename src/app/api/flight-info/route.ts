@@ -12,12 +12,14 @@ interface FlightData {
     terminal?: string;
     gate?: string;
     actualTime?: string;
+    timeZone?: string;
   };
   arrival: {
     airport: string;
     scheduledTime: string;
     terminal?: string;
     gate?: string;
+    timeZone?: string;
   };
   status: string;
   checkInOpeningTime: string;
@@ -343,6 +345,26 @@ export async function GET(request: NextRequest) {
       return name;
     };
 
+    // Extract timezone from departure airport
+    const departureTimeZone = flight.departure?.airport?.timeZone || "";
+    const arrivalTimeZone = flight.arrival?.airport?.timeZone || "";
+
+    // Helper to format timezone offset (e.g., "Asia/Qatar" -> "GMT+3")
+    const formatTimezoneOffset = (tz: string, dateTime: Date): string => {
+      if (!tz) return "";
+      try {
+        const formatter = new Intl.DateTimeFormat('en-US', {
+          timeZone: tz,
+          timeZoneName: 'shortOffset'
+        });
+        const parts = formatter.formatToParts(dateTime);
+        const tzPart = parts.find(p => p.type === 'timeZoneName');
+        return tzPart?.value || "";
+      } catch {
+        return "";
+      }
+    };
+
     const flightData: FlightData = {
       flightNumber: `${airlineCode}${flightNum}`.toUpperCase(),
       airline: flight.airline?.name || airlineCode,
@@ -352,12 +374,14 @@ export async function GET(request: NextRequest) {
         terminal: flight.departure?.terminal,
         gate: flight.departure?.gate,
         actualTime: flight.departure?.actualTime ? extractTimeString(flight.departure.actualTime) : undefined,
+        timeZone: formatTimezoneOffset(departureTimeZone, departureTime),
       },
       arrival: {
         airport: formatAirportWithCode(flight.arrival?.airport),
         scheduledTime: displayArrivalTime,
         terminal: flight.arrival?.terminal,
         gate: flight.arrival?.gate,
+        timeZone: formatTimezoneOffset(arrivalTimeZone, arrivalTime),
       },
       status: flight.status || "Scheduled",
       checkInOpeningTime: checkInOpeningTime.toISOString(),
