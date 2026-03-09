@@ -8,6 +8,14 @@ export function middleware(request: NextRequest) {
   // Extract clean domain (without port)
   const domain = hostname.split(":")[0].replace(/^www\./, "").toLowerCase();
 
+  // Homepage rewrite for flyvietnam.help - show Tours & Fast Track content
+  // This keeps URL as "/" but serves /welcome-concierge content
+  if (pathname === "/" && hostname.includes("flyvietnam.help")) {
+    const url = request.nextUrl.clone();
+    url.pathname = "/welcome-concierge";
+    return NextResponse.rewrite(url);
+  }
+
   // Create response
   let response = NextResponse.next();
 
