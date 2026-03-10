@@ -28,7 +28,7 @@ export function GoogleAdsSafetyHeader() {
             {/* Expandable Section */}
             <div className={`mt-3 space-y-3 ${isExpanded ? 'block' : 'hidden sm:block'}`}>
               {/* Official Government Alternative */}
-              <div className="p-3 bg-white dark:bg-gray-800 rounded-lg border-2 border-black dark:border-white">
+              <div className="p-3 !bg-white dark:!bg-gray-800 rounded-lg !border-2 !border-black dark:!border-white">
                 <p className="text-sm font-medium text-gray-800 dark:text-gray-200 mb-1">
                   Official Government Alternative:
                 </p>
@@ -51,7 +51,7 @@ export function GoogleAdsSafetyHeader() {
               </div>
 
               {/* Our Service */}
-              <div className="p-3 bg-white dark:bg-gray-800 rounded-lg border-2 border-black dark:border-white">
+              <div className="p-3 !bg-white dark:!bg-gray-800 rounded-lg !border-2 !border-black dark:!border-white">
                 <p className="text-sm font-medium text-emerald-800 dark:text-emerald-300 mb-1">
                   Our Concierge Service:
                 </p>
