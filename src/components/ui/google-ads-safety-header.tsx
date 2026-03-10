@@ -6,20 +6,20 @@ export function GoogleAdsSafetyHeader() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div className="bg-amber-50 dark:bg-amber-900/30 border-b-2 border-amber-300 dark:border-amber-700">
+    <div className="bg-[#ecfef5] dark:bg-emerald-900/30 border-b-2 border-emerald-300 dark:border-emerald-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         {/* Main Notice - Always Visible */}
         <div className="flex items-start gap-3">
           <div className="flex-shrink-0 mt-0.5">
-            <svg className="w-5 h-5 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-5 h-5 text-emerald-600 dark:text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
           <div className="flex-1">
-            <p className="text-sm font-semibold text-amber-800 dark:text-amber-300">
+            <p className="text-sm font-semibold text-emerald-800 dark:text-emerald-300">
               Important Travel Notice
             </p>
-            <p className="text-sm text-amber-700 dark:text-amber-400 mt-1">
+            <p className="text-sm text-emerald-700 dark:text-emerald-400 mt-1">
               <strong>FlyVietnam.Help</strong> is a private, third-party travel consultancy and concierge service.
               We are <strong>NOT</strong> affiliated with the Vietnamese Government, the Vietnam Immigration Department,
               or any governmental body.
@@ -28,7 +28,7 @@ export function GoogleAdsSafetyHeader() {
             {/* Expandable Section */}
             <div className={`mt-3 space-y-3 ${isExpanded ? 'block' : 'hidden sm:block'}`}>
               {/* Official Government Alternative */}
-              <div className="p-3 bg-white dark:bg-gray-800 rounded-lg border border-amber-200 dark:border-amber-700">
+              <div className="p-3 bg-white dark:bg-gray-800 rounded-lg border-2 border-black dark:border-white">
                 <p className="text-sm font-medium text-gray-800 dark:text-gray-200 mb-1">
                   Official Government Alternative:
                 </p>
@@ -51,7 +51,7 @@ export function GoogleAdsSafetyHeader() {
               </div>
 
               {/* Our Service */}
-              <div className="p-3 bg-emerald-50 dark:bg-emerald-900/20 rounded-lg border border-emerald-200 dark:border-emerald-700">
+              <div className="p-3 bg-white dark:bg-gray-800 rounded-lg border-2 border-black dark:border-white">
                 <p className="text-sm font-medium text-emerald-800 dark:text-emerald-300 mb-1">
                   Our Concierge Service:
                 </p>
@@ -66,7 +66,7 @@ export function GoogleAdsSafetyHeader() {
             {/* Mobile Toggle */}
             <button
               onClick={() => setIsExpanded(!isExpanded)}
-              className="sm:hidden mt-2 text-sm font-medium text-amber-600 dark:text-amber-400 hover:underline flex items-center gap-1"
+              className="sm:hidden mt-2 text-sm font-medium text-emerald-600 dark:text-emerald-400 hover:underline flex items-center gap-1"
             >
               {isExpanded ? (
                 <>
