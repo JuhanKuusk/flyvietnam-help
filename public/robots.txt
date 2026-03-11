@@ -1,0 +1,47 @@
+# robots.txt for flyvietnam.help
+# Block search engines from indexing visa-related pages
+# These pages remain fully functional when accessed directly
+
+User-agent: *
+
+# Block visa application pages from indexing
+Disallow: /apply
+Disallow: /apply/
+Disallow: /payment
+Disallow: /payment/
+Disallow: /confirmation
+Disallow: /confirmation/
+Disallow: /order-confirmed
+Disallow: /order-confirmed/
+Disallow: /track
+Disallow: /track/
+
+# Block test pages
+Disallow: /test-payment
+Disallow: /test-cancel
+Disallow: /test-success
+Disallow: /test-china-form
+
+# Block admin pages
+Disallow: /admin
+Disallow: /admin/
+
+# Allow all other pages (tours, fast-track, welcome-concierge, etc.)
+Allow: /
+Allow: /tours
+Allow: /tours/
+Allow: /cruise
+Allow: /cruise/
+Allow: /welcome-concierge
+Allow: /about
+Allow: /blog
+Allow: /blog/
+Allow: /terms
+Allow: /privacy
+Allow: /refund
+Allow: /fees
+Allow: /disclaimer
+Allow: /cookies
+
+# Sitemap
+Sitemap: https://flyvietnam.help/sitemap.xml
