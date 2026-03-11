@@ -6,7 +6,7 @@ export function GoogleAdsSafetyHeader() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div className="bg-[#ecfef5] dark:bg-emerald-900/30 border-b-2 border-emerald-300 dark:border-emerald-700">
+    <div style={{ backgroundColor: '#ecfef5' }} className="dark:bg-emerald-900/30 border-b-2 border-emerald-300 dark:border-emerald-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         {/* Main Notice - Always Visible */}
         <div className="flex items-start gap-3">
@@ -28,7 +28,7 @@ export function GoogleAdsSafetyHeader() {
             {/* Expandable Section */}
             <div className={`mt-3 space-y-3 ${isExpanded ? 'block' : 'hidden sm:block'}`}>
               {/* Official Government Alternative */}
-              <div className="p-3 !bg-white dark:!bg-gray-800 rounded-lg !border-2 !border-black dark:!border-white">
+              <div style={{ backgroundColor: '#ffffff', border: '2px solid #000000' }} className="p-3 rounded-lg dark:bg-gray-800 dark:border-white">
                 <p className="text-sm font-medium text-gray-800 dark:text-gray-200 mb-1">
                   Official Government Alternative:
                 </p>
@@ -51,7 +51,7 @@ export function GoogleAdsSafetyHeader() {
               </div>
 
               {/* Our Service */}
-              <div className="p-3 !bg-white dark:!bg-gray-800 rounded-lg !border-2 !border-black dark:!border-white">
+              <div style={{ backgroundColor: '#ffffff', border: '2px solid #000000' }} className="p-3 rounded-lg dark:bg-gray-800 dark:border-white">
                 <p className="text-sm font-medium text-emerald-800 dark:text-emerald-300 mb-1">
                   Our Concierge Service:
                 </p>
