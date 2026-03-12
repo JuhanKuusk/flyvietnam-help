@@ -284,6 +284,22 @@ export default function WelcomeConciergePage() {
         </div>
       </section>
 
+      {/* Our Concierge Service - Moved from header */}
+      <section className="py-6 bg-emerald-50 dark:bg-emerald-900/20">
+        <div className="max-w-4xl mx-auto px-4">
+          <div style={{ backgroundColor: '#ffffff', border: '2px solid #000000' }} className="p-4 rounded-lg dark:bg-gray-800 dark:border-white">
+            <p className="text-sm font-medium text-emerald-800 dark:text-emerald-300 mb-1">
+              Our Concierge Service:
+            </p>
+            <p className="text-sm text-gray-600 dark:text-gray-400">
+              When using our platform, you are paying for professional assistance services, including{" "}
+              <strong>24/7 WhatsApp support</strong>, <strong>document review</strong>, and{" "}
+              <strong>expedited processing coordination</strong>.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* What is Vietnam Airport Fast Track Section */}
       <section className="py-16 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-4xl mx-auto px-4">

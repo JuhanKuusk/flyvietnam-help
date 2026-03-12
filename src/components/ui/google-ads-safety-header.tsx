@@ -25,8 +25,8 @@ export function GoogleAdsSafetyHeader() {
               or any governmental body.
             </p>
 
-            {/* Expandable Section */}
-            <div className={`mt-3 space-y-3 ${isExpanded ? 'block' : 'hidden sm:block'}`}>
+            {/* Expandable Section - Only Government Alternative */}
+            <div className={`mt-3 ${isExpanded ? 'block' : 'hidden sm:block'}`}>
               {/* Official Government Alternative */}
               <div style={{ backgroundColor: '#ffffff', border: '2px solid #000000' }} className="p-3 rounded-lg dark:bg-gray-800 dark:border-white">
                 <p className="text-sm font-medium text-gray-800 dark:text-gray-200 mb-1">
@@ -47,18 +47,6 @@ export function GoogleAdsSafetyHeader() {
                   >
                     evisa.xuatnhapcanh.gov.vn
                   </a>
-                </p>
-              </div>
-
-              {/* Our Service */}
-              <div style={{ backgroundColor: '#ffffff', border: '2px solid #000000' }} className="p-3 rounded-lg dark:bg-gray-800 dark:border-white">
-                <p className="text-sm font-medium text-emerald-800 dark:text-emerald-300 mb-1">
-                  Our Concierge Service:
-                </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  When using our platform, you are paying for professional assistance services, including{" "}
-                  <strong>24/7 WhatsApp support</strong>, <strong>document review</strong>, and{" "}
-                  <strong>expedited processing coordination</strong>.
                 </p>
               </div>
             </div>
