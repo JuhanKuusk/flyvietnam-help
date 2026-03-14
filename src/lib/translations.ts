@@ -919,7 +919,7 @@ export const translations = {
 
     // About Us page
     aboutTitle: "About Us",
-    aboutIntro: "FlyVietnam.Help is a professional third-party visa support service specializing in Vietnam e-Visa applications and related travel documentation. We are not affiliated with the Vietnam Government or the Immigration Department.",
+    aboutIntro: "FlyVietnam.Help is your trusted Vietnam travel concierge, helping travelers with tour bookings, VIP airport services, and travel documentation assistance. We are an independent service provider, not affiliated with the Vietnam Government or the Immigration Department.",
     expressProcessing: "Express Processing",
     expressProcessingText: "We are particularly known for our urgent visa processing services, offering expedited options with processing times as fast as one hour, as well as standard processing for travelers who plan ahead. Our services cover a wide range of Vietnam visa options, including tourist e-Visas, business e-Visas, single-entry and multiple-entry visas, and other Vietnam entry permits depending on travel purpose and nationality.",
     comprehensiveSupport: "Comprehensive Support",

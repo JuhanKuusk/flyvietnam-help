@@ -75,8 +75,11 @@ function getDomainFromCookie(): string {
   // Fallback to window.location
   if (typeof window !== "undefined") {
     const hostname = window.location.hostname.replace(/^www\./, "").toLowerCase();
-    // Handle localhost
+    // Handle localhost - check env var for local dev override
     if (hostname === "localhost" || hostname.includes("127.0.0.1")) {
+      // Allow override via env var for local testing
+      const envSite = process.env.NEXT_PUBLIC_DEV_SITE;
+      if (envSite) return envSite;
       return "flyvietnam.help"; // Default for local dev
     }
     return hostname;
