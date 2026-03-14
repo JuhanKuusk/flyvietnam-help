@@ -11,11 +11,11 @@ import { DisclaimerBanner } from "@/components/ui/disclaimer-banner";
 
 export default function CookiesPage() {
   const { t } = useLanguage();
-  const { isChinaSite, content } = useSite();
+  const { isChinaSite, content, siteName } = useSite();
 
-  // Dynamic site display name
-  const siteDisplayName = isChinaSite ? "越签.com" : "FlyVietnam.Help";
-  const contactEmail = isChinaSite ? "info@越签.com" : "info@flyvietnam.help";
+  // Dynamic site display name - use siteName from config
+  const siteDisplayName = siteName;
+  const contactEmail = content.supportEmail;
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
@@ -23,7 +23,7 @@ export default function CookiesPage() {
       <header className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 shadow-sm">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <Link href="/" className="hover:opacity-90 transition-opacity">
-            <Logo size="md" siteName={isChinaSite ? "越签.com" : undefined} />
+            <Logo size="md" siteName={siteName} />
           </Link>
           <div className="flex items-center gap-3">
             <ThemeToggle />

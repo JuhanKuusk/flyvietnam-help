@@ -10,10 +10,10 @@ import { Logo } from "@/components/ui/logo";
 
 export default function DisclaimerPage() {
   const { t } = useLanguage();
-  const { isChinaSite } = useSite();
+  const { isChinaSite, siteName } = useSite();
 
-  // Dynamic site display name
-  const siteDisplayName = isChinaSite ? "越签.com" : "FlyVietnam.Help";
+  // Dynamic site display name - use siteName from config
+  const siteDisplayName = siteName;
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
@@ -21,7 +21,7 @@ export default function DisclaimerPage() {
       <header className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 shadow-sm">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <Link href="/" className="hover:opacity-90 transition-opacity">
-            <Logo size="md" siteName={isChinaSite ? "越签.com" : undefined} />
+            <Logo size="md" siteName={siteName} />
           </Link>
           <div className="flex items-center gap-3">
             <ThemeToggle />
