@@ -16,6 +16,8 @@ import { getFeaturedTours } from "@/lib/tours-data";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useSite } from "@/contexts/SiteContext";
 import ChinaVisaForm from "@/components/china/ChinaVisaForm";
+import ContactModal from "@/components/ui/ContactModal";
+import LiveSupportModal from "@/components/ui/LiveSupportModal";
 
 // Visa Info Modal Component
 function VisaInfoModal({ isOpen, onClose, t, primaryColor }: { isOpen: boolean; onClose: () => void; t: ReturnType<typeof useLanguage>["t"]; primaryColor: string }) {
@@ -322,6 +324,8 @@ export default function Home() {
     purpose: "tourist",
   });
   const [showVisaInfo, setShowVisaInfo] = useState(false);
+  const [showContactModal, setShowContactModal] = useState(false);
+  const [showLiveSupportModal, setShowLiveSupportModal] = useState(false);
   const [nationalitySearch, setNationalitySearch] = useState("");
   const [showNationalityDropdown, setShowNationalityDropdown] = useState(false);
   const [flightArrivalData, setFlightArrivalData] = useState<{
@@ -424,14 +428,6 @@ export default function Home() {
               >
                 {t.header.aboutUs}
               </Link>
-              {/* Added Fees Button - Amber/Orange */}
-              <Link
-                href="/fees"
-                className="hidden sm:flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-white rounded-lg transition-all hover:opacity-90"
-                style={{ backgroundColor: '#f59e0b' }}
-              >
-                {t.header?.addedFees || "Added Fees"}
-              </Link>
               {/* Vietnam Tours Button - Teal/Green */}
               {layout.showTours && (
                 <Link
@@ -445,6 +441,29 @@ export default function Home() {
                   Vietnam Tours
                 </Link>
               )}
+              {/* Contact Button - Cyan */}
+              <button
+                onClick={() => setShowContactModal(true)}
+                className="hidden sm:flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-white rounded-lg transition-all hover:opacity-90"
+                style={{ backgroundColor: '#0891b2' }}
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                Contact
+              </button>
+              {/* Live Support Button - Green with pulse */}
+              <button
+                onClick={() => setShowLiveSupportModal(true)}
+                className="hidden sm:flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-white rounded-lg transition-all hover:opacity-90 relative"
+                style={{ backgroundColor: '#10b981' }}
+              >
+                <span className="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full animate-pulse" />
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                </svg>
+                Live Support
+              </button>
               {/* WhatsApp Button - Green */}
               <a
                 href={`https://wa.me/${content.whatsappNumber.replace(/[^0-9]/g, '')}`}
@@ -469,19 +488,31 @@ export default function Home() {
       <section className="bg-gray-100 dark:bg-slate-800 text-white py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            {/* Main Headline */}
+            {/* Main Headline - Site-specific content */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
-              <span style={{ color: theme.primaryColor }}>{t.hero.headline1}</span>
-              {t.hero.headline2 && (
+              {layout.useGoogleAdsCompliant ? (
                 <>
+                  <span style={{ color: theme.primaryColor }}>Discover Vietnam</span>
                   <br />
-                  <span style={{ color: theme.secondaryColor }}>{t.hero.headline2}</span>
+                  <span style={{ color: theme.secondaryColor }}>Tours & Travel Services</span>
+                </>
+              ) : (
+                <>
+                  <span style={{ color: theme.primaryColor }}>{t.hero.headline1}</span>
+                  {t.hero.headline2 && (
+                    <>
+                      <br />
+                      <span style={{ color: theme.secondaryColor }}>{t.hero.headline2}</span>
+                    </>
+                  )}
                 </>
               )}
             </h1>
 
             <p className="text-xl text-black dark:text-gray-300 mb-6 max-w-2xl mx-auto">
-              {t.hero.subtitle}
+              {layout.useGoogleAdsCompliant
+                ? "Your premium travel concierge for unforgettable Vietnam experiences. Halong Bay cruises, Mekong Delta tours, and VIP airport services."
+                : t.hero.subtitle}
             </p>
 
             {/* Call to Action Slogans */}
@@ -492,7 +523,8 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Timeline Cards */}
+            {/* Timeline Cards - Hidden for Google Ads compliant sites (contains visa processing info) */}
+            {!layout.useGoogleAdsCompliant && (
             <div className="max-w-2xl mx-auto mb-8">
               <div className="grid grid-cols-2 gap-4 items-stretch">
                 <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur border border-gray-200 dark:border-gray-700 rounded-xl p-4 md:p-5 shadow-lg flex flex-col justify-center h-full">
@@ -532,9 +564,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            )}
 
-            {/* Price - Only show after nationality is selected */}
-            {formData.nationality && (
+            {/* Price - Only show after nationality is selected - Hidden for Google Ads compliant sites */}
+            {!layout.useGoogleAdsCompliant && formData.nationality && (
               <div className="text-center mb-6">
                 <div className="flex items-center justify-center gap-3">
                   <span className="text-5xl font-bold" style={{ color: theme.primaryColor }}>{formatSitePrice(pricePerPerson)}</span>
@@ -550,7 +583,9 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-[38px]">
               {/* WhatsApp CTA Button */}
               <a
-                href="https://wa.me/84705549868?text=Hi, I need help with Vietnam visa!"
+                href={layout.useGoogleAdsCompliant
+                  ? "https://wa.me/84705549868?text=Hi, I need help with Vietnam travel!"
+                  : "https://wa.me/84705549868?text=Hi, I need help with Vietnam visa!"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full text-white font-bold text-lg shadow-xl hover:shadow-2xl transition-all transform hover:scale-105 h-14"
@@ -562,14 +597,16 @@ export default function Home() {
                 {t.hero.chatWithUs}
               </a>
 
-              {/* Info Button */}
-              <button
-                onClick={() => setShowVisaInfo(true)}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-white/90 dark:bg-gray-800/90 border border-gray-300 dark:border-gray-600 text-gray-800 dark:text-gray-200 hover:bg-white dark:hover:bg-gray-700 transition-all text-lg font-bold shadow-xl h-14"
-              >
-                <span>📋</span>
-                {t.hero.learnAboutVisa}
-              </button>
+              {/* Info Button - Hidden for Google Ads compliant sites */}
+              {!layout.useGoogleAdsCompliant && (
+                <button
+                  onClick={() => setShowVisaInfo(true)}
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-white/90 dark:bg-gray-800/90 border border-gray-300 dark:border-gray-600 text-gray-800 dark:text-gray-200 hover:bg-white dark:hover:bg-gray-700 transition-all text-lg font-bold shadow-xl h-14"
+                >
+                  <span>📋</span>
+                  {t.hero.learnAboutVisa}
+                </button>
+              )}
             </div>
 
             {/* Featured Tours Preview - 4 curated tours */}
@@ -605,18 +642,21 @@ export default function Home() {
                   ))}
                 </div>
 
-                {/* Two Action Buttons */}
+                {/* Action Buttons */}
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                  <Link
-                    href="/apply"
-                    className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-white font-bold text-lg shadow-xl hover:shadow-2xl transition-all transform hover:scale-105"
-                    style={{ backgroundColor: theme.primaryColor }}
-                  >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                    </svg>
-                    Urgent Visa Processing
-                  </Link>
+                  {/* Urgent Visa Processing - Hidden for Google Ads compliant sites */}
+                  {!layout.useGoogleAdsCompliant && (
+                    <Link
+                      href="/apply"
+                      className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-white font-bold text-lg shadow-xl hover:shadow-2xl transition-all transform hover:scale-105"
+                      style={{ backgroundColor: theme.primaryColor }}
+                    >
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                      </svg>
+                      Urgent Visa Processing
+                    </Link>
+                  )}
                   <Link
                     href="/tours"
                     className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-white font-bold text-lg shadow-xl hover:shadow-2xl transition-all transform hover:scale-105"
@@ -740,19 +780,22 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Citizenship Checker Section */}
-      <section className="bg-gray-50 dark:bg-slate-800 py-8 border-b border-gray-200 dark:border-gray-700">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <CitizenshipChecker
-            onCountrySelect={handleCitizenshipCountrySelect}
-            onPurposeChange={handleCitizenshipPurposeChange}
-            onDepartingCountryChange={handleCitizenshipDepartingCountryChange}
-            onDepartingAirportChange={handleCitizenshipDepartingAirportChange}
-          />
-        </div>
-      </section>
+      {/* Citizenship Checker Section - Hidden for Google Ads compliant sites */}
+      {!layout.useGoogleAdsCompliant && (
+        <section className="bg-gray-50 dark:bg-slate-800 py-8 border-b border-gray-200 dark:border-gray-700">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <CitizenshipChecker
+              onCountrySelect={handleCitizenshipCountrySelect}
+              onPurposeChange={handleCitizenshipPurposeChange}
+              onDepartingCountryChange={handleCitizenshipDepartingCountryChange}
+              onDepartingAirportChange={handleCitizenshipDepartingAirportChange}
+            />
+          </div>
+        </section>
+      )}
 
-      {/* Main Content */}
+      {/* Main Content - Application Form - Hidden for Google Ads compliant sites */}
+      {!layout.useGoogleAdsCompliant && (
       <main className="max-w-6xl mx-auto px-2 sm:px-6 lg:px-8 py-8 sm:py-12 overflow-hidden w-full">
         <div className="grid lg:grid-cols-3 gap-4 sm:gap-8">
           {/* Application Form */}
@@ -855,8 +898,10 @@ export default function Home() {
           </div>
         </div>
       </main>
+      )}
 
-      {/* Non-Urgent Visa Options Section */}
+      {/* Non-Urgent Visa Options Section - Hidden for Google Ads compliant sites */}
+      {!layout.useGoogleAdsCompliant && (
       <section className="py-12 sm:py-16 bg-gray-50 dark:bg-gray-800/50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
@@ -1160,8 +1205,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+      )}
 
-      {/* FAQ Section */}
+      {/* FAQ Section - Hidden for Google Ads compliant sites (contains visa references) */}
+      {!layout.useGoogleAdsCompliant && (
       <section id="faq" className="py-10 sm:py-16 bg-gray-100 dark:bg-slate-800">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12">
@@ -1219,6 +1266,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      )}
 
       {/* Tours Section - Only shown on flyvietnam.help */}
       {layout.showTours && (
@@ -1244,8 +1292,16 @@ export default function Home() {
         </svg>
       </a>
 
-      {/* Visa Info Modal */}
-      <VisaInfoModal isOpen={showVisaInfo} onClose={() => setShowVisaInfo(false)} t={t} primaryColor={theme.primaryColor} />
+      {/* Visa Info Modal - Hidden for Google Ads compliant sites */}
+      {!layout.useGoogleAdsCompliant && (
+        <VisaInfoModal isOpen={showVisaInfo} onClose={() => setShowVisaInfo(false)} t={t} primaryColor={theme.primaryColor} />
+      )}
+
+      {/* Contact Modal */}
+      <ContactModal isOpen={showContactModal} onClose={() => setShowContactModal(false)} />
+
+      {/* Live Support Modal */}
+      <LiveSupportModal isOpen={showLiveSupportModal} onClose={() => setShowLiveSupportModal(false)} />
     </div>
   );
 }

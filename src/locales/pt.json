@@ -1025,5 +1025,32 @@
     "searchCountry": "Digite para pesquisar países...",
     "searchAirport": "Pesquisar aeroportos...",
     "searchCitizenship": "Digite para pesquisar..."
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "name": "Seu Nome",
+    "namePlaceholder": "Digite seu nome",
+    "email": "Endereço de E-mail",
+    "emailPlaceholder": "seu@email.com",
+    "message": "Mensagem",
+    "messagePlaceholder": "Como podemos ajudá-lo?",
+    "send": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "success": "Mensagem enviada com sucesso! Entraremos em contato em breve.",
+    "error": "Falha ao enviar. Por favor, tente novamente.",
+    "required": "Obrigatório"
+  },
+  "liveSupport": {
+    "title": "Chat ao Vivo",
+    "subtitle": "Conecte-se com nossa equipe de suporte",
+    "phone": "Número de Telefone",
+    "phonePlaceholder": "+55 11 98765 4321",
+    "phoneHint": "Inclua código do país",
+    "email": "Endereço de E-mail",
+    "emailPlaceholder": "seu@email.com",
+    "startChat": "Iniciar Chat",
+    "required": "Campo obrigatório",
+    "invalidEmail": "Por favor, insira um e-mail válido",
+    "invalidPhone": "Por favor, insira um telefone válido"
   }
 }

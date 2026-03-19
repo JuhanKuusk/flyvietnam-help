@@ -1153,6 +1153,37 @@ export const translations = {
     hcmAddress: "Park 7 Building, Floor 38, Vinhomes Central Park, 720A, Binh Thanh District, Ho Chi Minh City, Vietnam",
     allRights: "All rights reserved",
   },
+
+  // Contact Modal
+  contact: {
+    title: "Contact Us",
+    name: "Your Name",
+    namePlaceholder: "Enter your name",
+    email: "Email Address",
+    emailPlaceholder: "your@email.com",
+    message: "Message",
+    messagePlaceholder: "How can we help you?",
+    send: "Send Message",
+    sending: "Sending...",
+    success: "Message sent successfully! We'll get back to you soon.",
+    error: "Failed to send message. Please try again.",
+    required: "Required",
+  },
+
+  // Live Support Modal
+  liveSupport: {
+    title: "Start Live Chat",
+    subtitle: "Connect with our support team",
+    phone: "Phone Number",
+    phonePlaceholder: "+1 234 567 8900",
+    phoneHint: "Include country code",
+    email: "Email Address",
+    emailPlaceholder: "your@email.com",
+    startChat: "Start Chat",
+    required: "Required field",
+    invalidEmail: "Please enter a valid email",
+    invalidPhone: "Please enter a valid phone number",
+  },
 };
 
 // Helper function to get all translation keys as a flat array for API translation

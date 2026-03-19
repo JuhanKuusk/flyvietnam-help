@@ -1025,5 +1025,32 @@
     "searchCountry": "Tapez pour rechercher des pays...",
     "searchAirport": "Rechercher des aéroports...",
     "searchCitizenship": "Tapez pour rechercher..."
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "name": "Votre Nom",
+    "namePlaceholder": "Entrez votre nom",
+    "email": "Adresse E-mail",
+    "emailPlaceholder": "votre@email.com",
+    "message": "Message",
+    "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+    "send": "Envoyer le Message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès ! Nous vous répondrons bientôt.",
+    "error": "Échec de l'envoi. Veuillez réessayer.",
+    "required": "Obligatoire"
+  },
+  "liveSupport": {
+    "title": "Chat en Direct",
+    "subtitle": "Connectez-vous avec notre équipe de support",
+    "phone": "Numéro de Téléphone",
+    "phonePlaceholder": "+33 6 12 34 56 78",
+    "phoneHint": "Incluez l'indicatif du pays",
+    "email": "Adresse E-mail",
+    "emailPlaceholder": "votre@email.com",
+    "startChat": "Démarrer le Chat",
+    "required": "Champ obligatoire",
+    "invalidEmail": "Veuillez entrer un e-mail valide",
+    "invalidPhone": "Veuillez entrer un numéro valide"
   }
 }

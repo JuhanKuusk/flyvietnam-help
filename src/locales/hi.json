@@ -1025,5 +1025,32 @@
     "searchCountry": "देश खोजने के लिए टाइप करें...",
     "searchAirport": "हवाई अड्डे खोजें...",
     "searchCitizenship": "खोजने के लिए टाइप करें..."
+  },
+  "contact": {
+    "title": "संपर्क करें",
+    "name": "आपका नाम",
+    "namePlaceholder": "अपना नाम दर्ज करें",
+    "email": "ईमेल पता",
+    "emailPlaceholder": "your@email.com",
+    "message": "संदेश",
+    "messagePlaceholder": "हम आपकी कैसे मदद कर सकते हैं?",
+    "send": "संदेश भेजें",
+    "sending": "भेजा जा रहा है...",
+    "success": "संदेश सफलतापूर्वक भेजा गया! हम जल्द ही आपसे संपर्क करेंगे।",
+    "error": "भेजने में विफल। कृपया पुनः प्रयास करें।",
+    "required": "आवश्यक"
+  },
+  "liveSupport": {
+    "title": "लाइव चैट",
+    "subtitle": "हमारी सहायता टीम से जुड़ें",
+    "phone": "फ़ोन नंबर",
+    "phonePlaceholder": "+91 98765 43210",
+    "phoneHint": "देश कोड शामिल करें",
+    "email": "ईमेल पता",
+    "emailPlaceholder": "your@email.com",
+    "startChat": "चैट शुरू करें",
+    "required": "आवश्यक फ़ील्ड",
+    "invalidEmail": "कृपया वैध ईमेल दर्ज करें",
+    "invalidPhone": "कृपया वैध फ़ोन नंबर दर्ज करें"
   }
 }

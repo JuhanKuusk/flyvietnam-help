@@ -1287,6 +1287,33 @@
     "searchAirport": "搜索机场...",
     "searchCitizenship": "输入搜索..."
   },
+  "contact": {
+    "title": "联系我们",
+    "name": "您的姓名",
+    "namePlaceholder": "请输入您的姓名",
+    "email": "电子邮箱",
+    "emailPlaceholder": "your@email.com",
+    "message": "留言内容",
+    "messagePlaceholder": "请问有什么可以帮到您？",
+    "send": "发送信息",
+    "sending": "发送中...",
+    "success": "信息发送成功！我们会尽快与您联系。",
+    "error": "发送失败，请重试。",
+    "required": "必填"
+  },
+  "liveSupport": {
+    "title": "在线客服",
+    "subtitle": "与我们的客服团队沟通",
+    "phone": "手机号码",
+    "phonePlaceholder": "+86 138 0000 0000",
+    "phoneHint": "请填写国际区号",
+    "email": "电子邮箱",
+    "emailPlaceholder": "your@email.com",
+    "startChat": "开始对话",
+    "required": "必填项",
+    "invalidEmail": "请输入有效的电子邮箱",
+    "invalidPhone": "请输入有效的手机号码"
+  },
   "tours": {
     "halong-day-trip": {
       "name": "下龙湾一日游（惊奇洞-天堂岛）",

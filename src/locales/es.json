@@ -1025,5 +1025,32 @@
     "searchCountry": "Escriba para buscar países...",
     "searchAirport": "Buscar aeropuertos...",
     "searchCitizenship": "Escriba para buscar..."
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "name": "Su Nombre",
+    "namePlaceholder": "Ingrese su nombre",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "su@email.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "¿Cómo podemos ayudarle?",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado con éxito! Nos pondremos en contacto pronto.",
+    "error": "Error al enviar. Por favor intente de nuevo.",
+    "required": "Requerido"
+  },
+  "liveSupport": {
+    "title": "Chat en Vivo",
+    "subtitle": "Conecte con nuestro equipo de soporte",
+    "phone": "Número de Teléfono",
+    "phonePlaceholder": "+34 612 345 678",
+    "phoneHint": "Incluya código de país",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "su@email.com",
+    "startChat": "Iniciar Chat",
+    "required": "Campo requerido",
+    "invalidEmail": "Por favor ingrese un correo válido",
+    "invalidPhone": "Por favor ingrese un teléfono válido"
   }
 }
